@@ -1,0 +1,25 @@
+Field=Comment~String~Comment~169|Field=Description~String~Description~78|Field=Footprint~String~Footprint~54|Field=Designator~String~Designator~42|Field=LibRef~String~LibRef~191|Field=Quantity~Integer~Quantity~75|Field=Supplier 1~String~Supplier 1~83|Field=Supplier Part Number 1~String~Supplier Part Number 1~136|Field=Manufacturer Part Number 1~String~Manufacturer Part Number 1~156|Field=Manufacturer 1~String~Manufacturer 1~39|Field=Supplier Unit Price 1~Float~Supplier Unit Price 1~41|Field=Supplier Order Qty 1~Integer~Supplier Order Qty 1~30|Field=Supplier Subtotal 1~Float~Supplier Subtotal 1~56|Field=Supplier Currency 1~String~Supplier Currency 1~30|Field=Supplier Stock 1~Integer~Supplier Stock 1~106|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~H2H Power Supply.PrjPCB|ReportField=ProjectFullPath~C:\Users\slopez\workspace\github\tiic-2015\boards\2.0\H2H Power Supply\H2H Power Supply.PrjPCB|ReportField=Title~Bill of Materials For Project [H2H Power Supply.PrjPCB] (No PCB Document Selected)|ReportField=TotalQuantity~30|ReportField=ReportTime~19:14:19|ReportField=ReportDate~15/04/2016|ReportField=ReportDateTime~15/04/2016 19:14:19|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~Samuel López|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=ConfigurationParameters~|ReportField=ConfiguratorName~|ReportField=CurrentDate~|ReportField=CurrentTime~|ReportField=Date~2016/02/23|ReportField=DocumentFullPathAndName~|ReportField=DocumentName~|ReportField=DocumentNumber~1|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=IsUserConfigurable~|ReportField=ModifiedDate~|ReportField=Organization~|ReportField=Project~H2H Power Supply|ReportField=ProjectName~|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~1|ReportField=SheetTotal~1|ReportField=Time~|ReportField=Title~Power Supply|ReportField=VersionControl_RevNumber~|ReportField=DataSourceFileName~H2H Power Supply.PrjPCB|ReportField=DataSourceFullPath~C:\Users\slopez\workspace\github\tiic-2015\boards\2.0\H2H Power Supply\H2H Power Supply.PrjPCB
+0.1u|Capacitor|C1206|C4, C8|Capacitor|2|||||||||
+100k|Resistor|R1206|R4, R7|Resistor|2|||||||||
+100p|Capacitor|C1206|C3|Capacitor|1|||||||||
+15k|Resistor|R1206|R10|Resistor|1|||||||||
+180|Resistor|R1206|R9|Resistor|1|||||||||
+2.2n|Capacitor|C1206|C6|Capacitor|1|||||||||
+2k|Resistor|R1206|R3, R5|Resistor|2|||||||||
+31.6k|Resistor|R1206|R8|Resistor|1|||||||||
+33|Resistor|R1206|R6|Resistor|1|||||||||
+6.8k|Resistor|R1206|R1, R2|Resistor|2|||||||||
+JST PH 2 Pin|Conn - Battery, Male, 2 Pin, PCB, Right Angle|S2B-PH-K-S|J2|S2B-PH-K-S|1|Digi-Key|455-1719-ND|S2B-PH-K-S(LF)(SN)|JST Sales America Inc.|0,15|1|0,15|EUR|80568
+UCC28910|IC - SMPS Flyback, 700V Flyback Switcher with Constant-Voltage/Constant-Current and Primary-Side Control|UCC28910|U1|UCC28910|1|Digi-Key|296-37829-1-ND|UCC28910DR|Texas Instruments|1,80|1|1,8|EUR|1424
+WE7508110151|Transformer - Flyback/Offline Transformer|WE7508110151|T1|WE7508110151|1|Digi-Key|1297-1122-ND|7508110151|Wurth Electronics Midcom|3,90|1|3,9|EUR|0
+1200u|Capacitor - Electrolytic Capacitor, 1200 uF, 10 V, 20%, 10 mm|EEUFM1A122|C7|EEUFM1A122|1|Farnell|1848381|EEUFM1A122|PANASONIC ELECTRONIC COMPONENTS|0,798|1||EUR|105
+1m|Inductor - Power, 1 mH, 0.5 A Sat. Current, 10%|DR0810-105L|L1, L2|DR0810-105L|2|Farnell|2457618|DR0810-105L|COILCRAFT|2,56|2||EUR|1029
+1N4148W-7-F|Diode - Standard, Switch, 1.25V, 300mA, 100V|1N4148W-7-F|D4|1N4148W-7-F|1|Farnell|1776392|1N4148W-7-F.|DIODES INC.||1||EUR|91922
+4.7|Resistor - Fusible, Non-flammable Resistor|NFR25H0004708JA500|FR1|NFR25H0004708JA500|1|Farnell|9474080|NFR25H0004708JA500|VISHAY||1||EUR|2822
+4.7u|Capacitor - Electrolytic Capacitor, SMD, 4.7 uF, 35 V, 4 mm|EXV475M035A9BAA|C5|EXV475M035A9BAA|1|Farnell|2069186|EXV475M035A9BAA|KEMET||1||EUR|6527
+6.8u|Capacitor - Electrolytic Capacitor, 6.8 uF, 450 V, 20%, 10 mm|450BXC6R8MEFC10X16|C1, C2|450BXC6R8MEFC10X16|2|Farnell|1831315|450BXC6R8MEFC10X16|RUBYCON|0,95|2||EUR|609
+B340LA-13-F|Diode - Schottky, 450mV, 3A, 40V|B340LA-13-F|D5|B340LA-13-F|1|Farnell|1843681|B340LA-13-F|DIODES INC.||1||EUR|3880
+JR-201S|Conn - 250 V AC, Inlet, IEC, Plug|JR-201S|J1|JR-201S|1|Farnell|9248161|JR-201S(PCB)|MULTICOMP|1,96|1||EUR|1502
+MB6S-E3/45|Diode - Bridge Rectifier, 600 V, 0.5 A|MB6S-E3/45|D1|MB6S-E3/45|1|Farnell|1815631|MB6S-E3/45|VISHAY|0,393|1||EUR|3457
+MRA4005T3G|Diode - Standard, 1.1V, 1A, 600V|MRA4005T3G|D3|MRA4005T3G|1|Farnell|1459136|MRA4005T3G|ON SEMICONDUCTOR||1||EUR|13128
+SM6T150A|TVS - Unidirectional, 150V, 600W|SM6T150A|D2|SM6T150A|1|Farnell|9885889|SM6T150A|STMICROELECTRONICS||1||EUR|2826

@@ -1,0 +1,47 @@
+Field=Comment~String~Comment~45|Field=Description~String~Description~45|Field=Designator~String~Designator~48|Field=LibRef~String~LibRef~44|Field=Quantity~Integer~Quantity~43|Field=Supplier 1~String~Supplier 1~52|Field=Supplier Part Number 1~String~Supplier Part Number 1~49|Field=Manufacturer Part Number 1~String~Manufacturer Part Number 1~105|Field=Manufacturer 1~String~Manufacturer 1~35|Field=Supplier Unit Price 1~Float~Supplier Unit Price 1~34|Field=Supplier Order Qty 1~Integer~Supplier Order Qty 1~28|Field=Supplier Subtotal 1~Float~Supplier Subtotal 1~47|Field=Supplier Currency 1~String~Supplier Currency 1~48|Field=Supplier Stock 1~Integer~Supplier Stock 1~43|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~ECG Main Board.PrjPcb|ReportField=ProjectFullPath~C:\Users\slopez\workspace\github\tiic-2015\ECG Main Board.PrjPcb|ReportField=Title~Bill of Materials For Project [ECG Main Board.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~103|ReportField=ReportTime~17:16:30|ReportField=ReportDate~23/07/2015|ReportField=ReportDateTime~23/07/2015 17:16:30|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~Tomás Valencia/Samuel López|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=ConfigurationParameters~|ReportField=ConfiguratorName~|ReportField=CurrentDate~23/07/2015|ReportField=CurrentTime~17:15:32|ReportField=Date~|ReportField=DocumentFullPathAndName~C:\Users\slopez\workspace\github\tiic-2015\Main Board.SchDoc|ReportField=DocumentName~Main Board.SchDoc|ReportField=DocumentNumber~1|ReportField=DrawnBy~Tomás Valencia|ReportField=Engineer~|ReportField=ImagePath~|ReportField=IsUserConfigurable~|ReportField=ModifiedDate~23/07/2015|ReportField=Organization~|ReportField=ProjectName~ECG Main Board.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~1|ReportField=SheetTotal~6|ReportField=Time~|ReportField=Title~ECG Main Board|ReportField=VersionControl_RevNumber~|ReportField=DataSourceFileName~ECG Main Board.PrjPcb|ReportField=DataSourceFullPath~C:\Users\slopez\workspace\github\tiic-2015\ECG Main Board.PrjPcb|ReportField=PCBDataSourceFileName~Main Board.PcbDoc|ReportField=PCBDataSourceFullPath~C:\Users\slopez\workspace\github\tiic-2015\Main Board.PcbDoc
+6.8n|Capacitor|C1|Capacitor|1|||||||||
+47p|Capacitor|C2, C3|Capacitor|2|||||||||
+4.7n|Capacitor|C4, C5|Capacitor|2|||||||||
+10u|Capacitor|C6, C18|Capacitor|2|||||||||
+0.1u|Capacitor|C7, C12, C13, C24, C25, C30, C33, C34, C35, C36, C37|Capacitor|11|||||||||
+1u|Capacitor|C8, C9, C10, C11, C31, C32, C40, C41, C42, C43, C44, C45, C46|Capacitor|13|||||||||
+100n|Capacitor|C14, C15, C16, C17|Capacitor|4|||||||||
+2.2n|Capacitor|C19|Capacitor|1|||||||||
+15p|Capacitor|C20, C22|Capacitor|2|||||||||
+8p|Capacitor|C21, C23|Capacitor|2|||||||||
+12p|Capacitor|C26, C27|Capacitor|2|||||||||
+0.47u|Capacitor|C28, C29, C39|Capacitor|3|||||||||
+22p|Capacitor|C38|Capacitor|1|||||||||
+LED|LED|D1, D2, D3|LED|3|Farnell|2426228|KPL-3015SGC|KINGBRIGHT|0,0862|3||EUR|394
+Touchscreen||DISP|Touchscreen|1|Digi-Key|S6106-ND|PPPC102LFBN-RC|Sullins Connector Solutions|1,48|1|1,48|EUR|8018
+RF Filter|RF Filter 2.4 GHz|F1|LFB212G45SG8A127|1|||||||||
+220 ohm 100 Mhz|INDUCTOR, 0.04OHM, 3A, 0805|FB1|Ferrita|1|||||||||
+ADS1291||IC1|ADS1291|1|Digi-Key|296-36547-5-ND|ADS1291IPBS|Texas Instruments|9,92|1|9,92|EUR|602
+MSP430FR5972IPMR||IC2|MSP430FR5972IPMR|1|||||||||
+CC2560||IC3|CC2560|1|||||||||
+FUEL GUAGE||IC4|BQ27421|1|Digi-Key|296-38880-1-ND|BQ27421YZFR-G1A|Texas Instruments|3,10|1|3,1|EUR|4062
+LP5907||IC5, IC6, IC7|LP5907|3|Digi-Key|296-38557-1-ND|LP5907MFX-3.3/NOPB|Texas Instruments|0,60|3|1,8|EUR|3019
+LMS33460||IC8|LMS33460|1|Digi-Key|LMS33460MG/NOPBCT-ND|LMS33460MG/NOPB|Texas Instruments|0,63|1|0,63|EUR|9436
+TXB0106||IC9|TXB0106|1|||||||||
+Electrodes|JST PH 3 Pin Socket|J1|JST PH 3 Pin Socket|1|Digi-Key|455-1720-ND|S3B-PH-K-S(LF)(SN)|JST Sales America Inc|0,17|1|0,17|EUR|5137
+Batt|JST PH 2 Pin Socket|J2|JST PH 2 Pin Socket|1|Digi-Key|455-1719-ND|S2B-PH-K-S(LF)(SN)|JST Sales America Inc|0,16|1|0,16|EUR|14534
+Charger|JST PH 3 Pin Socket|J3|JST PH 3 Pin Socket|1|Digi-Key|455-1720-ND|S3B-PH-K-S(LF)(SN)|JST Sales America Inc|0,17|1|0,17|EUR|5137
+JTAG|JTAG 7X2 Pin Header 90º|J4|JTAG 14 Pins|1|Digi-Key|ED10534-ND|302-R141|On Shore Technology Inc|0,47|1|0,47|EUR|263
+2N7002|Transistor, MOSFET, N-Channel, 60V, 300mA|Q1, Q2, Q3|2N7002|3|||||||||
+BSS84|Transistor, MOSFET, P-Channel, 60V, 300mA|Q4|BSS84|1|||||||||
+47K|Resistor|R1, R2|Resistor|2|||||||||
+1M|Resistor|R3|Resistor|1|||||||||
+100|Resistor|R4, R5|Resistor|2|||||||||
+1K|Resistor|R6, R12|Resistor|2|||||||||
+220|Resistor|R7|Resistor|1|||||||||
+10K|Resistor|R8, R9, R10, R11, R13, R14, R15, R16|Resistor|8|||||||||
+1.5M|Resistor|R17|Resistor|1|||||||||
+470K|Resistor|R18|Resistor|1|||||||||
+2.2K|Resistor|R19, R20, R21|Resistor|3|||||||||
+Spacer|PCB Spacer 11mm M3x0.5|SP1, SP2, SP3, SP4|Spacer 11mm M3x0.5|4|Digi-Key|952-2312-ND|R30-1001102|Harwin Inc|0,47|4|1,88|EUR|2183
+Spacer|PCB Spacer 7mm M3x0.5 Screw|SP5, SP6, SP7, SP8|Spacer 7mm M3x0.5 Screw|4|Digi-Key|952-1498-ND|R30-3000702|Harwin Inc|0,59|4|2,36|EUR|2471
+Switch SPDT||SW1|MFS201N-16-Z|1|Digi-Key|563-1558-ND|MFS201N-16-Z|Copal Electronics Inc|1,10|1|1,1|EUR|2259
+XTAL_16MHZ||X1|XTAL_16_MHz|1|||||||||
+XTAL_32768||X2|XTAL_32768|1|Digi-Key|535-9032-ND|AB26T-32.768KHZ|Abracon LLC|0,21|1|0,21|EUR|21550
+XTAL_26_MHz||X3|XTAL_26_MHz|1|||||||||
+Buzzer|Magnetic Buzzer 2.7 KHz|Z1|Buzzer|1|Farnell|2215090|KSSG74B16|KINGSTATE|1,19|1||EUR|489

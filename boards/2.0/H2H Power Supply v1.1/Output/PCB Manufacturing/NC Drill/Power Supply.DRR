@@ -1,0 +1,19 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: Power Supply.PcbDoc   04/07/2016  18:17:57
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : Power Supply-Plated.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        19.7mil (0.50038mm)      Round          4                2.46 Inch (62.51 mm)
+T2        31.5mil (0.8001mm)       Round          2                0.39 Inch (10.00 mm)
+T3        39.4mil (1.00076mm)      Round          12               5.18 Inch (131.64 mm)
+T4        47.2mil (1.19888mm)      Round          10               1.20 Inch (30.48 mm)
+T5        118.1mil (2.99974mm)     Round          2                0.43 Inch (11.00 mm)
+T6        126mil (3.2004mm)        Round          4                6.87 Inch (174.40 mm)
+---------------------------------------------------------------------------
+Totals                                            34               16.54 Inch (420.03 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

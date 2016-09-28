@@ -1,0 +1,58 @@
+Field=Designator~String~Designator~135|Field=Footprint~String~Footprint~97|Field=Comment~String~Comment~84|Field=Description~String~Description~89|Field=Quantity~Integer~Quantity~34|Field=Supplier 1~String~Supplier 1~104|Field=Supplier Part Number 1~String~Supplier Part Number 1~48|Field=Supplier Unit Price 1~Float~Supplier Unit Price 1~41|Field=Supplier Subtotal 1~Float~Supplier Subtotal 1~39|Field=Supplier Currency 1~String~Supplier Currency 1~39|Field=Supplier Stock 1~Integer~Supplier Stock 1~40|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~H2H Main Board v1.1.PrjPCB|ReportField=ProjectFullPath~C:\Users\slopez\workspace\github\tiic-2015\boards\2.0\H2H Main Board v1.1\H2H Main Board v1.1.PrjPCB|ReportField=Title~Bill of Materials For Variant [H2H Main Board (Main Flash Boot)] of Project [H2H Main Board v1.1.PrjPCB] (No PCB Document Selected)|ReportField=TotalQuantity~162|ReportField=ReportTime~18:36:52|ReportField=ReportDate~29/07/2016|ReportField=ReportDateTime~29/07/2016 18:36:52|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~H2H Main Board (Main Flash Boot)|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~Samuel López|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=ConfigurationParameters~|ReportField=ConfiguratorName~|ReportField=CurrentDate~|ReportField=CurrentTime~|ReportField=Date~2016/01/06|ReportField=DocumentFullPathAndName~|ReportField=DocumentName~|ReportField=DocumentNumber~1|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=IsUserConfigurable~|ReportField=ModifiedDate~|ReportField=Organization~|ReportField=Project~H2H Main Board|ReportField=ProjectName~|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~1|ReportField=SheetTotal~7|ReportField=Time~|ReportField=Title~Main Board|ReportField=VersionControl_RevNumber~|ReportField=DataSourceFileName~H2H Main Board v1.1.PrjPCB|ReportField=DataSourceFullPath~C:\Users\slopez\workspace\github\tiic-2015\boards\2.0\H2H Main Board v1.1\H2H Main Board v1.1.PrjPCB|ReportField=PCBDataSourceFileName~Main Board.PcbDoc|ReportField=PCBDataSourceFullPath~C:\Users\slopez\workspace\github\tiic-2015\boards\2.0\H2H Main Board v1.1\PCB\Main Board.PcbDoc
+C1, C2|C0603|1n|Capacitor|2||||||
+C3, C4, C5|C0603|47p|Capacitor|3||||||
+C6|C0603|1.5n|Capacitor|1||||||
+C7, C8|C0603|4.7n|Capacitor|2||||||
+C9, C11, C15, C16, C17, C22, C25, C27, C28, C29, C30, C32, C33, C34, C35, C36, C37, C38, C39, C66|C0603|1u|Capacitor|20||||||
+C10, C12, C14, C18, C19, C20, C23, C24, C31, C41, C42, C61, C62, C63, C64, C65, C67|C0603|0.1u|Capacitor|17||||||
+C13, C60|C0603|10u|Capacitor|2||||||
+C21|C0603|0.47u|Capacitor|1||||||
+C40|C0402|22p|Capacitor|1||||||
+C43, C44|C0402|12p|Capacitor|2||||||
+C45, C46|C0402|1u|Capacitor|2||||||
+C47, C48, C49, C50, C51, C52, C53, C54, C55, C56|C0402|0.1u|Capacitor|10||||||
+C57, C58|C0402|0.47u|Capacitor|2||||||
+C59, C72|C0603|10n|Capacitor|2||||||
+C68, C69|C0603|6p|Capacitor|2||||||
+C70, C71|C0603|10p|Capacitor|2||||||
+D1, D2|BAS70DW-04|BAS70DW-04|TVS - Dual Schottky Rail-to-rail Protection|2|Digi-Key|BAS70DW-04FDICT-ND|0,49|0,98|EUR|22210
+D3, D4, D5|PESD5V0X1BT|PESD5V0X1|TVS - Bidirectional Zener Diode|3|Digi-Key|568-4676-1-ND|0,69|2,07|EUR|4153
+D6|BAS16L|BAS16L|Diode - Switching diode, 1 V, 200 mA|1|Digi-Key|BAS16LT1GOSCT-ND|0,11|0,11|EUR|180728
+D7|OVSRRGBCC3/SIDE|OVSRRGBCC3|LED - RGB, Top/Side-emmiting|1|Digi-Key|365-1981-1-ND|0,45|0,45|EUR|12289
+F1|LFB212G45SG8A127|LFB212G45SG8A127|Filter - RF 2.4 GHz|1|Digi-Key|490-5021-1-ND|0,32|0,32|EUR|4895
+J1|S2B-PH-K-S|JST PH 2 Pin|Conn - Battery, Male, 2 Pin, PCB, Right Angle|1|Digi-Key|455-1719-ND|0,15|0,15|EUR|87990
+J2|PJ-018H-SMT|PJ-018H-SMT|Conn - DC Power Plug - 4.0 mmOD / 1.7 mmID|1|Digi-Key|CP-018HPJCT-ND|1,22|1,22|EUR|52503
+J3|ER-CON40HB-2|FFC 40 Pin|Conn - FFC/FPC, 40 Pin, 1.0mm Pitch, ZIF|1||||||
+J4|3220-10-0200-00|JTAG 10 Pin|Conn - JTAG, Header, Male, Right Angle, 10 Pin, 1.27mm Pitch, ARM Standard|1|Digi-Key|1175-1628-ND|0,58|0,58|EUR|10387
+JE1, JE2, JE3, JE4|CT3151-6|Banana Jack|Conn - 4mm Banana Female Jack, PCB mount, Right Angle|4|Digi-Key|BKCT3151SP-6-ND|1,85|7,4|EUR|50
+N1, N2, N3|2051-09-SM|GDT|TVS - Gas Discharge Tube|3|Digi-Key|2051-09-SM-RPLFCT-ND|0,69|2,07|EUR|59882
+Q1|DMP3056L|DMP3056L|Transistor - MOSFET, P-Channel, 30V, 4.3A|1|Digi-Key|DMP3056L-7DICT-ND|0,35|0,35|EUR|6519
+Q2|BSS84|BSS84|Transistor - MOSFET, P-Channel, 50V, 130mA|1|Digi-Key|BSS84CT-ND|0,21|0,21|EUR|122717
+Q3, Q4, Q5, Q6|2N7002P|2N7002P|Transistor - MOSFET, N-Channel, 60V, 300mA|4|Digi-Key|568-5818-1-ND|0,13|0,52|EUR|323086
+R1, R2, R3, R4, R5, R6|R2512|22k|Resistor|6|Digi-Key|541-22KXCT-ND|0,32|1,92|EUR|9325
+R7, R8, R9|R0603|47k|Resistor|3||||||
+R10, R25, R38, R39, R47|R0603|0|Resistor|5||||||
+R11, R21, R33, R34, R35, R36, R37|R0603|1M|Resistor|7||||||
+R12, R28, R29, R31, R40, R44, R45, R46, R49, R50|R0603|100k|Resistor|10||||||
+R13, R14, R16, R17|R0603|100|Resistor|4||||||
+R15|R1206|0.01|Resistor|1|Digi-Key|MCS1632R010FERCT-ND|0,51|0,51|EUR|106195
+R18, R19, R20, R27, R52, R54|R0603|10k|Resistor|6||||||
+R24|R0603|1.2k|Resistor|1||||||
+R26|R0603|2k|Resistor|1||||||
+R41|R0603|680|Resistor|1||||||
+R42, R43|R0603|220|Resistor|2||||||
+SW1|WS-TASU 436331045822|WS-TASU 436331045822|Switch - Tactile, Off-Mom, SPST, Side-Actuated|1|Digi-Key|732-7059-1-ND|0,49|0,49|EUR|3910
+SW2|EVQ-Q2K01W|EVQ-Q2K01W|Switch - Tactile, Off-Mom, SPST|1|Digi-Key|P12941SCT-ND|0,36|0,36|EUR|18297
+U1|ADS129x|ADS1292|IC - Analog Front End - Medical|1|Digi-Key|296-30137-5-ND|9,52|9,52|EUR|505
+U2|BQ27441DRZx-G1A|BQ27441DRZR-G1A|IC - Fuel Gauge, System-Side Impedance Track|1|Digi-Key|296-39941-1-ND|2,55|2,55|EUR|6401
+U3|BQ24090|BQ24090|IC - Battery Charger, Single Cell Li-Ion/LiPo, 1A|1|Digi-Key|296-38875-1-ND|1,10|1,1|EUR|3411
+U4, U6, U8, U9|LP5907|LP5907-3.3|Voltage Regulator - Linear|4|Digi-Key|296-38557-1-ND|0,51|2,04|EUR|51291
+U5|TPS73633|TPS73633|Voltage Regulator - Linear|1|Digi-Key|296-17884-1-ND|1,98|1,98|EUR|7300
+U7|LP5907|LP5907-1.8|Voltage Regulator - Linear|1|Digi-Key|296-41463-1-ND|0,51|0,51|EUR|15098
+U10, U11|SN74LV4T125|SN74LV4T125|IC - Voltage Level Translator|2|Digi-Key|296-40546-1-ND|1,00|2|EUR|1410
+U12|CC256x|CC2560A|IC - Bluetooth 4.0 controller (BR/EDR)|1|Farnell|2334559|5,67||EUR|2654
+U13|STM-LQFP100_N|STM32L162VDT6|ARM Cortex-M3 32-bit MCU, 384 KB Flash, 48 KB Internal RAM, 83 I/Os, 100-pin LQFP, -40 to 85 degC, Tray|1|Farnell|2333341|10,22||EUR|-8
+X1|ABM3B-16.000MHZ-10-1-U|ABM3B-16.000MHZ-10-1-U|Crystal - 16 MHz|1|Digi-Key|300-8206-1-ND|0,62|0,62|EUR|31668
+X2|ABS07-120-32.768KHZ-T|ABS07-120-32.768KHZ-T|Crystal - 32.768 kHz|1|Digi-Key|535-11937-1-ND|0,64|0,64|EUR|57945
+X3|NX2016SA|NX2016SA|Crystal - 26 MHz|1|Digi-Key|644-1220-1-ND|0,69|0,69|EUR|2192
+Z1|KSSG74B16|2.7 kHz|Transductor - Buzzer 2.7 kHz|1|Farnell|2215090|1,47||EUR|145

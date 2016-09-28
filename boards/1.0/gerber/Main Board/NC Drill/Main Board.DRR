@@ -1,0 +1,21 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: Main Board.PcbDoc   22/07/2015  20:07:36
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : Main Board-Plated.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        11.8mil (0.29972mm)      Round          251              34.06 Inch (865.22 mm)
+T2        13.8mil (0.35052mm)      Round          2                0.03 Inch (0.86 mm)
+T3        35.4mil (0.89916mm)      Round          40               5.50 Inch (139.70 mm)
+T4        39.4mil (1.00076mm)      Round          8                2.62 Inch (66.43 mm)
+T5        47.2mil (1.19888mm)      Round          14               1.30 Inch (33.02 mm)
+T6        55.1mil (1.39954mm)      Round          6                0.61 Inch (15.50 mm)
+T7        70.9mil (1.80086mm)      Round          2                0.64 Inch (16.20 mm)
+T8        118.1mil (2.99974mm)     Round          4                6.85 Inch (174.12 mm)
+---------------------------------------------------------------------------
+Totals                                            327              51.62 Inch (1311.06 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

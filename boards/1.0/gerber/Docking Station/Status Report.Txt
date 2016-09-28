@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [Docking Station.PcbDoc]
+   Generated File[Docking Station-Plated.TXT]
+   Generated File[Docking Station.LDP]
+   Generated File[Docking Station.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 13:20:40 On 18/06/2015

@@ -1,0 +1,9 @@
+DRC Rules Export File for PCB: C:\Users\slopez\workspace\github\tiic-2015\boards\2.0\H2H Main Board\PCB\Main Board.PcbDoc
+RuleKind=Clearance|RuleName=DefibProofGDT Clearance|Scope=Board|Minimum=78.74
+RuleKind=Clearance|RuleName=DefibProof Clearance|Scope=Board|Minimum=157.48
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=4.92
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=3.94
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=QFN Double Row Clearance|Scope=Board|Minimum=4.92
+RuleKind=Clearance|RuleName=Fiducial Clearance|Scope=Board|Minimum=29.53

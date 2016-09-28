@@ -1,0 +1,9 @@
+DRC Rules Export File for PCB: C:\Users\slopez\workspace\github\tiic-2015\Main Board.PcbDoc
+RuleKind=Clearance|RuleName=ClearancePads|Scope=Board|Minimum=4.92
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=9.84
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=4.92
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Clearance|RuleName=ClearanceBLE|Scope=Board|Minimum=4.92
+RuleKind=Clearance|RuleName=ClearanceTrackPolygon|Scope=Board|Minimum=4.92
+RuleKind=Clearance|RuleName=ClearanceFuelGauge|Scope=Board|Minimum=4.92

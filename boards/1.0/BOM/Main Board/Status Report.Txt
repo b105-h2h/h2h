@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 17:16:21 On 23/07/2015
+
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [ECG Main Board.PrjPcb]
+   Generated File[Bill of Materials-ECG Main Board.xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 17:16:40 On 23/07/2015

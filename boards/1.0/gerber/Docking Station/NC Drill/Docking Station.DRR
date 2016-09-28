@@ -1,0 +1,21 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: Docking Station.PcbDoc   18/06/2015  13:20:40
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : Docking Station-Plated.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        15.7mil (0.39878mm)      Round          4                0.10 Inch (2.60 mm)
+T2        20mil (0.508mm)          Round          14               2.60 Inch (66.08 mm)
+T3        23.6mil (0.59944mm)      Round          3                0.46 Inch (11.72 mm)
+T4        31.5mil (0.8001mm)       Round          2                0.39 Inch (10.00 mm)
+T5        35.4mil (0.89916mm)      Round          3                0.20 Inch (5.08 mm)
+T6        39.4mil (1.00076mm)      Round          10               4.96 Inch (125.87 mm)
+T7        47.2mil (1.19888mm)      Round          10               1.20 Inch (30.48 mm)
+T8        118.1mil (2.99974mm)     Round          6                9.28 Inch (235.80 mm)
+---------------------------------------------------------------------------
+Totals                                            52               19.20 Inch (487.63 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

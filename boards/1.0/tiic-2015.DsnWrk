@@ -1,0 +1,6 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=ECG Main Board.PrjPcb
+[Project2]
+ProjectPath=Docking Station.PrjPcb

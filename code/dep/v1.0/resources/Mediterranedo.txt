@@ -1,0 +1,44 @@
+    	buzzer_start(E3);
+    	__delay_cycles(3000000);
+    	buzzer_start(E3);
+    	__delay_cycles(3000000);
+    	buzzer_start(E4);
+    	__delay_cycles(3000000);
+    	buzzer_start(E4);
+    	__delay_cycles(3000000);
+
+    	buzzer_start(E4);
+    	__delay_cycles(3000000);
+    	buzzer_start(E4);
+    	__delay_cycles(3000000);
+    	buzzer_start(F4);
+    	__delay_cycles(3000000);
+    	buzzer_start(E4);
+    	__delay_cycles(3000000);
+
+    	buzzer_start(D4);
+    	__delay_cycles(3000000);
+    	buzzer_start(E4);
+    	__delay_cycles(3000000);
+    	buzzer_start(F4);
+    	__delay_cycles(3000000);
+    	buzzer_start(E4);
+    	__delay_cycles(3000000);
+
+    	buzzer_start(E4);
+    	__delay_cycles(3000000);
+    	buzzer_stop();
+    	__delay_cycles(3000000);
+    	__delay_cycles(3000000);
+    	__delay_cycles(3000000);
+
+    	buzzer_start(E4);
+    	__delay_cycles(3000000);
+    	buzzer_start(D4);
+    	__delay_cycles(3000000);
+    	buzzer_start(C4);
+    	__delay_cycles(3000000);
+    	buzzer_start(D4);
+    	__delay_cycles(3000000);
+
+    	buzzer_stop();

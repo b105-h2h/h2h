@@ -1,0 +1,3226 @@
+###############################################################################
+#
+# IAR ELF Linker V7.40.3.8902/W32 for ARM                 28/Sep/2016  08:18:43
+# Copyright 2007-2015 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Exe\H2H.out
+#    Map file     =  
+#        C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H/List\H2H.map
+#    Command line =  
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\afe.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\afe_hal.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\authentication.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\bluetooth_internal.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\BTPSKRNL.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\BTPSVEND.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\BTVS.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\buzzer.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\cmsis_os.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\croutine.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\dma.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\dsp.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\event_groups.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\freertos.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\fsm_client.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\fsmc.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\gauge.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\gauge_hal.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\gpio.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\HCITRANS.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\heap_4.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\i2c.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\list.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\main.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\port.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\portasm.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\queue.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\rtc.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\spi.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\startup_stm32l162xd.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\state.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\state_goodbye.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\state_h2h_auth.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\state_h2h_connected.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\state_h2h_keygen.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\state_h2h_wait.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\state_h2h_waitkey.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\state_running.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\state_welcome.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\stm32l1xx_hal.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\stm32l1xx_hal_cortex.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\stm32l1xx_hal_dma.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\stm32l1xx_hal_flash.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\stm32l1xx_hal_flash_ex.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\stm32l1xx_hal_flash_ramfunc.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\stm32l1xx_hal_gpio.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\stm32l1xx_hal_i2c.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\stm32l1xx_hal_msp.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\stm32l1xx_hal_pwr.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\stm32l1xx_hal_pwr_ex.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\stm32l1xx_hal_rcc.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\stm32l1xx_hal_rcc_ex.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\stm32l1xx_hal_rtc.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\stm32l1xx_hal_rtc_ex.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\stm32l1xx_hal_spi.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\stm32l1xx_hal_spi_ex.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\stm32l1xx_hal_sram.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\stm32l1xx_hal_tim.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\stm32l1xx_hal_tim_ex.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\stm32l1xx_hal_uart.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\stm32l1xx_it.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\stm32l1xx_ll_fsmc.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\system_stm32l1xx.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\tasks.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\tasks_bt.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\tasks_ecg.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\tasks_fsm.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\tasks_input.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\tasks_periph.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\tim.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\timers.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\trcBase.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\trcHardwarePort.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\trcKernel.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\trcKernelPortFreeRTOS.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\trcUser.o"
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Obj\usart.o" --redirect _Printf=_PrintfFull
+#        --redirect _Scanf=_ScanfFull -o
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H\Exe\H2H.out" --map
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM\H2H/List\H2H.map" --config
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM/stm32l162xd_flash.icf" --semihosting
+#        "C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H
+#        Pacemaker\EWARM/../Bluetopia/lib/ewarm/Bluetopia_16_M3.a" --entry
+#        __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor                     = *
+__Heap_Handler                = Basic
+__SystemLibrary               = DLib
+__dlib_dynamic_initialization = normal
+__iar_rtc_support             = 1
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0805ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2000bfff] { rw, block CSTACK, block HEAP };
+
+  Section                 Kind        Address     Size  Object
+  -------                 ----        -------     ----  ------
+"A1":                                            0x124
+  .intvec                 ro code  0x08000000    0x124  startup_stm32l162xd.o [1]
+                                 - 0x08000124    0x124
+
+"P1":                                          0x224fb
+  .text                   ro code  0x08000124   0x1dc8  bluetooth_internal.o [1]
+  .text                   ro code  0x08001eec    0x584  BTPSKRNL.o [1]
+  i.BSC_Initialize        ro code  0x08002470    0x378  BSC.o [3]
+  i.GAP_Set_Local_Device_Name
+                          ro code  0x080027e8     0x2e  GAP.o [3]
+  i.L2CA_Set_Link_Connection_Configuration
+                          ro code  0x08002816     0x42  L2CAP.o [3]
+  i.HCI_Command_Supported
+                          ro code  0x08002858     0x3a  HCI.o [3]
+  i.HCI_Write_Default_Link_Policy_Settings
+                          ro code  0x08002892     0x28  HCI.o [3]
+  .constdata              const    0x080028ba     0x1e  GAP.o [3]
+  .text                   ro code  0x080028d8    0x8a0  stm32l1xx_hal_gpio.o [1]
+  i.HCI_Register_Event_Callback
+                          ro code  0x08003178      0xa  HCI.o [3]
+  .text                   ro code  0x08003182      0xa  xsprout.o [5]
+  .text                   ro code  0x0800318c    0x236  HCITRANS.o [1]
+  .constdata              const    0x080033c2      0x5  SDP.o [3]
+  .constdata              const    0x080033c7      0x5  SDP.o [3]
+  .text                   ro code  0x080033cc    0x584  cmsis_os.o [1]
+  i.HCI_Reconfigure_Driver
+                          ro code  0x08003950     0x38  HCI.o [3]
+  i.BSC_Shutdown          ro code  0x08003988     0xf4  BSC.o [3]
+  i.SPP_Open_Server_Port  ro code  0x08003a7c     0xf4  SPP.o [3]
+  i.SPP_Register_Raw_SDP_Record
+                          ro code  0x08003b70    0x1c8  SPP.o [3]
+  i.SPP_Close_Server_Port
+                          ro code  0x08003d38     0x6a  SPP.o [3]
+  i.SDP_Delete_Service_Record
+                          ro code  0x08003da2     0x5a  SDP.o [3]
+  i.GAP_Set_Pairability_Mode
+                          ro code  0x08003dfc     0xd4  GAP.o [3]
+  i.GAP_Register_Remote_Authentication
+                          ro code  0x08003ed0     0x32  GAP.o [3]
+  i.GAP_Set_Connectability_Mode
+                          ro code  0x08003f02     0x54  GAP.o [3]
+  .constdata              const    0x08003f56      0x5  SDP.o [3]
+  i.GAP_Set_Discoverability_Mode
+                          ro code  0x08003f5c    0x18c  GAP.o [3]
+  i.SPP_Data_Write        ro code  0x080040e8    0x234  SPP.o [3]
+  i.HCI_Delete_Stored_Link_Key
+                          ro code  0x0800431c     0x32  HCI.o [3]
+  .text                   ro code  0x08004350    0x100  rangecheck.o [4]
+  .text                   ro code  0x08004450     0x76  ABImemcpy_unaligned.o [7]
+  i.GAP_Authentication_Response
+                          ro code  0x080044c8    0x174  GAP.o [3]
+  .text                   ro code  0x0800463c      0x6  ABImemclr4.o [7]
+  i.GAP_Query_Connection_Handle
+                          ro code  0x08004642     0x3c  GAP.o [3]
+  i.SPP_Data_Read         ro code  0x0800467e     0xfc  SPP.o [3]
+  i.SPP_Respond_Port_Information
+                          ro code  0x0800477a     0x5e  SPP.o [3]
+  i.SPP_Open_Port_Request_Response
+                          ro code  0x080047d8     0x8a  SPP.o [3]
+  .text                   ro code  0x08004864   0x12ec  tasks.o [1]
+  .text                   ro code  0x08005b50    0xa80  queue.o [1]
+  .text                   ro code  0x080065d0    0x250  heap_4.o [1]
+  .text                   ro code  0x08006820     0x78  ABImemmove_unaligned.o [7]
+  .text                   ro code  0x08006898     0x66  ABImemset.o [7]
+  .text                   ro code  0x08006900     0x62  memcmp_unaligned.o [7]
+  .text                   ro code  0x08006964     0x44  strcpy_unaligned.o [7]
+  .text                   ro code  0x080069a8     0x36  strlen.o [7]
+  .text                   ro code  0x080069e0     0x2c  vsprintf.o [5]
+  i.InitializeBSCModule   ro code  0x08006a0c     0x20  BSC.o [3]
+  i.BTPS_InitializeTimerModule
+                          ro code  0x08006a2c     0x74  BTPSTMR.o [3]
+  .text                   ro code  0x08006aa0    0x228  BTPSVEND.o [1]
+  i.HCI_OpenDriver        ro code  0x08006cc8     0xd8  HCIDrv.o [3]
+  i.BSC_AddGenericListEntry_Actual
+                          ro code  0x08006da0     0x46  BSC.o [3]
+  i.IncreaseBluetoothStackThreadCount
+                          ro code  0x08006de8     0x38  BSC.o [3]
+  i.HCI_Initialize        ro code  0x08006e20    0x258  HCI.o [3]
+  i.DecreaseBluetoothStackThreadCount
+                          ro code  0x08007078     0x74  BSC.o [3]
+  i._HCI_Read_BD_ADDR     ro code  0x080070ec     0x38  HCI.o [3]
+  i.InitializeCertificateModule
+                          ro code  0x08007124      0x4  BTPSC.o [3]
+  i.GetCertLength         ro code  0x08007128      0x4  BTPSC.o [3]
+  i.GetCertPtr            ro code  0x0800712c      0x8  BTPSC.o [3]
+  i.GetCertCurrentDate    ro code  0x08007134      0x4  BTPSC.o [3]
+  i.GetAccess             ro code  0x08007138     0x22  BTPSC.o [3]
+  i.CleanupCertificateModule
+                          ro code  0x0800715a      0x2  BTPSC.o [3]
+  i.SCO_Initialize        ro code  0x0800715c    0x224  SCO.o [3]
+  i.L2CAP_Initialize      ro code  0x08007380    0x1e8  L2CAP.o [3]
+  i.SDP_Initialize        ro code  0x08007568     0xa8  SDP.o [3]
+  i.RFCOMM_Initialize     ro code  0x08007610     0xc0  RFCOMM.o [3]
+  i.GAP_Initialize        ro code  0x080076d0     0xd4  GAP.o [3]
+  i.SPP_Initialize        ro code  0x080077a4     0x88  SPP.o [3]
+  i.GOEP_Initialize       ro code  0x0800782c     0x36  GOEP.o [3]
+  i.OTP_Initialize        ro code  0x08007862      0x4  OTP.o [3]
+  i.OTP_Cleanup           ro code  0x08007866      0x2  OTP.o [3]
+  i.GOEP_Cleanup          ro code  0x08007868     0x2a  GOEP.o [3]
+  i.SPP_Cleanup           ro code  0x08007892     0x2a  SPP.o [3]
+  i.GAP_Cleanup           ro code  0x080078bc     0x7e  GAP.o [3]
+  i.RFCOMM_Cleanup        ro code  0x0800793a     0x2c  RFCOMM.o [3]
+  i.SDP_Cleanup           ro code  0x08007966     0x44  SDP.o [3]
+  i.SCO_Cleanup           ro code  0x080079aa     0x8c  SCO.o [3]
+  i.L2CAP_Cleanup         ro code  0x08007a36     0x74  L2CAP.o [3]
+  i.HCI_Cleanup           ro code  0x08007aaa     0x8a  HCI.o [3]
+  i.HCI_Query_LE_Controller_Support
+                          ro code  0x08007b34     0x24  HCI.o [3]
+  i.HCI_CloseDriver       ro code  0x08007b58     0xbc  HCIDrv.o [3]
+  i.FreeBSCTimerEntryList
+                          ro code  0x08007c14     0x26  BSC.o [3]
+  i.BTPS_CleanupTimerModule
+                          ro code  0x08007c3c     0x4c  BTPSTMR.o [3]
+  i.AcquireGAPStackInformation
+                          ro code  0x08007c88     0x28  GAP.o [3]
+  i._HCI_Change_Local_Name
+                          ro code  0x08007cb0     0x7c  HCI.o [3]
+  i.ReleaseBluetoothStackInformation
+                          ro code  0x08007d2c     0x1c  BSC.o [3]
+  i.AcquireL2CAPStackInformation
+                          ro code  0x08007d48     0x2e  L2CAP.o [3]
+  i.AcquireBluetoothStackInformation
+                          ro code  0x08007d78     0x8c  BSC.o [3]
+  i._HCI_Write_Default_Link_Policy_Settings
+                          ro code  0x08007e04     0x2c  HCI.o [3]
+  .text                   ro code  0x08007e30    0x1d4  stm32l1xx_hal_msp.o [1]
+  i.RegisterCallback      ro code  0x08008004     0xa4  HCI.o [3]
+  .text                   ro code  0x080080a8    0x8e4  stm32l1xx_hal_uart.o [1]
+  .text                   ro code  0x0800898c    0x1a4  usart.o [1]
+  .text                   ro code  0x08008b30    0x17a  main.o [1]
+  .text                   ro code  0x08008cac    0x370  port.o [1]
+  i.HCI_ReconfigureDriver
+                          ro code  0x0800901c     0x6c  HCIDrv.o [3]
+  i.SearchBTStackEntry    ro code  0x08009088     0x14  BSC.o [3]
+  i.AcquireSPPStackInformation
+                          ro code  0x0800909c     0x28  SPP.o [3]
+  i.GetNextSerialPortID   ro code  0x080090c4     0x14  SPP.o [3]
+  i._RFCOMM_Register_Server_Channel
+                          ro code  0x080090d8     0x98  RFCOMM.o [3]
+  i.AddPortInformationEntry
+                          ro code  0x08009170     0x12  SPP.o [3]
+  i._RFCOMM_Un_Register_Server_Channel
+                          ro code  0x08009182     0x2e  RFCOMM.o [3]
+  i.AcquireSPPStackPortInformation
+                          ro code  0x080091b0     0x42  SPP.o [3]
+  i.SDP_Create_Service_Record
+                          ro code  0x080091f4    0x158  SDP.o [3]
+  i.WriteDataElementSequenceHeader
+                          ro code  0x0800934c     0x5a  SDP.o [3]
+  i.SDP_Add_Raw_Attribute
+                          ro code  0x080093a6     0xea  SDP.o [3]
+  i.DeletePortInformationEntry
+                          ro code  0x08009490     0x14  SPP.o [3]
+  i._RFCOMM_Release_Request
+                          ro code  0x080094a4     0xcc  RFCOMM.o [3]
+  i.FreePortInformationEntryMemory
+                          ro code  0x08009570     0x2a  SPP.o [3]
+  i.AcquireSDPStackInformation
+                          ro code  0x0800959a     0x28  SDP.o [3]
+  i.BSC_DeleteGenericListEntry
+                          ro code  0x080095c2     0x62  BSC.o [3]
+  i.FreeServiceAttributeList
+                          ro code  0x08009624      0x6  SDP.o [3]
+  i.BSC_FreeGenericListEntryMemory
+                          ro code  0x0800962a      0xa  BSC.o [3]
+  i.HCI_Version_Supported
+                          ro code  0x08009634     0x24  HCI.o [3]
+  i.GAP_Cancel_Bonding    ro code  0x08009658     0xb0  GAP.o [3]
+  i._HCI_Write_Simple_Pairing_Mode
+                          ro code  0x08009708     0x2c  HCI.o [3]
+  i._HCI_Read_Scan_Enable
+                          ro code  0x08009734     0x32  HCI.o [3]
+  i._HCI_Write_Scan_Enable
+                          ro code  0x08009766     0x2c  HCI.o [3]
+  i.BTPS_StopTimer        ro code  0x08009794     0x74  BTPSTMR.o [3]
+  i._HCI_Write_Current_IAC_LAP
+                          ro code  0x08009808     0x3e  HCI.o [3]
+  i.BTPS_StartTimer       ro code  0x08009848     0x94  BTPSTMR.o [3]
+  i._HCI_Read_Class_of_Device
+                          ro code  0x080098dc     0x36  HCI.o [3]
+  i._HCI_Write_Class_of_Device
+                          ro code  0x08009912     0x32  HCI.o [3]
+  i._RFCOMM_Send_Data_With_Credits
+                          ro code  0x08009944     0xfc  RFCOMM.o [3]
+  i._RFCOMM_Send_Data     ro code  0x08009a40     0x10  RFCOMM.o [3]
+  i._HCI_Delete_Stored_Link_Key
+                          ro code  0x08009a50     0x3c  HCI.o [3]
+  .text                   ro code  0x08009a8c     0x10  rtc_report.o [8]
+  i.CompareNULLBluetoothAddress
+                          ro code  0x08009a9c     0x20  BSC.o [3]
+  i.CompareBluetoothAddress
+                          ro code  0x08009abc     0x38  BSC.o [3]
+  i._HCI_User_Confirmation_Request_Reply
+                          ro code  0x08009af4     0x30  HCI.o [3]
+  i._HCI_User_Confirmation_Request_Negative_Reply
+                          ro code  0x08009b24     0x30  HCI.o [3]
+  i._HCI_User_Passkey_Request_Reply
+                          ro code  0x08009b54     0x50  HCI.o [3]
+  i._HCI_User_Passkey_Request_Negative_Reply
+                          ro code  0x08009ba4     0x30  HCI.o [3]
+  i._HCI_Send_Keypress_Notification
+                          ro code  0x08009bd4     0x34  HCI.o [3]
+  i._HCI_Remote_OOB_Data_Request_Reply
+                          ro code  0x08009c08     0x7c  HCI.o [3]
+  i._HCI_Remote_OOB_Data_Request_Negative_Reply
+                          ro code  0x08009c84     0x30  HCI.o [3]
+  i.SearchCallbackEntry   ro code  0x08009cb4     0x10  GAP.o [3]
+  i._HCI_IO_Capability_Request_Negative_Reply
+                          ro code  0x08009cc4     0x34  HCI.o [3]
+  i._HCI_IO_Capability_Request_Reply
+                          ro code  0x08009cf8     0x50  HCI.o [3]
+  i._HCI_Link_Key_Request_Reply
+                          ro code  0x08009d48     0x38  HCI.o [3]
+  i._HCI_Link_Key_Request_Negative_Reply
+                          ro code  0x08009d80     0x30  HCI.o [3]
+  i._HCI_PIN_Code_Request_Reply
+                          ro code  0x08009db0     0x3c  HCI.o [3]
+  i._HCI_PIN_Code_Request_Negative_Reply
+                          ro code  0x08009dec     0x30  HCI.o [3]
+  .text                   ro code  0x08009e1c     0x32  ABImemset48.o [7]
+  i.AcquireGAPStackACLInfo
+                          ro code  0x08009e4e     0x42  GAP.o [3]
+  i._RFCOMM_Send_Credits  ro code  0x08009e90      0xe  RFCOMM.o [3]
+  i.SPP_Port_Status       ro code  0x08009e9e     0xca  SPP.o [3]
+  i.BuildRemotePortNegotiationStructure
+                          ro code  0x08009f68    0x1d6  SPP.o [3]
+  i._RFCOMM_Remote_Port_Negotiation_Response
+                          ro code  0x0800a13e     0x8a  RFCOMM.o [3]
+  i._RFCOMM_Open_Response
+                          ro code  0x0800a1c8     0xa6  RFCOMM.o [3]
+  i.FormatAndDispatchEventBD_ADDR
+                          ro code  0x0800a26e     0x2c  SPP.o [3]
+  i.SearchPortInformationEntry
+                          ro code  0x0800a29a     0x14  SPP.o [3]
+  i.CleanupPortInformationEntry
+                          ro code  0x0800a2ae     0x54  SPP.o [3]
+  CODE                    ro code  0x0800a304     0x94  portasm.o [1]
+  .text                   ro code  0x0800a398     0x9e  list.o [1]
+  .text                   ro code  0x0800a438     0x8c  freertos.o [1]
+  .text                   ro code  0x0800a4c4   0x1156  xprintffull.o [5]
+  i.HCI_Send_Raw_Command  ro code  0x0800b61c    0x17c  HCI.o [3]
+  .text                   ro code  0x0800b798    0x518  BTVS.o [1]
+  i.InitializeCOMMList    ro code  0x0800bcb0     0x18  HCIComm.o [3]
+  i.BSC_AcquireListLock   ro code  0x0800bcc8     0x18  BSC.o [3]
+  i.GetNextCallbackPacketID
+                          ro code  0x0800bce0     0x14  HCIDrv.o [3]
+  i.OpenComm              ro code  0x0800bcf4    0x108  HCIComm.o [3]
+  i.CloseComm             ro code  0x0800bdfc     0x44  HCIComm.o [3]
+  i.BSC_ReleaseListLock   ro code  0x0800be40     0x14  BSC.o [3]
+  i.CompareListEntryKeys  ro code  0x0800be54     0x4a  BSC.o [3]
+  i.QuerySharedBuffer     ro code  0x0800be9e     0x3a  BSC.o [3]
+  i.HCI_RegisterEventCallback
+                          ro code  0x0800bed8      0xa  HCIDrv.o [3]
+  i.HCI_RegisterACLDataCallback
+                          ro code  0x0800bee2      0xa  HCIDrv.o [3]
+  i.HCI_RegisterSCODataCallback
+                          ro code  0x0800beec      0xa  HCIDrv.o [3]
+  i.HCI_Reset             ro code  0x0800bef6     0x8a  HCI.o [3]
+  i._HCI_Read_Local_Version_Information
+                          ro code  0x0800bf80     0x54  HCI.o [3]
+  i.DetermineLEControllerSupport
+                          ro code  0x0800bfd4     0x2a  HCI.o [3]
+  i._HCI_Set_Event_Mask   ro code  0x0800bffe     0x32  HCI.o [3]
+  i._HCI_Write_LE_Host_Supported
+                          ro code  0x0800c030     0x38  HCI.o [3]
+  i._HCI_Read_Local_Supported_Commands
+                          ro code  0x0800c068     0x38  HCI.o [3]
+  i.HCI_UnRegisterCallback
+                          ro code  0x0800c0a0     0x70  HCIDrv.o [3]
+  i.SendDispatchResetThreadClose
+                          ro code  0x0800c110     0x1c  HCI.o [3]
+  i.BuildAndSubmitCommandNoData
+                          ro code  0x0800c12c      0xe  HCI.o [3]
+  i._HCI_Read_Local_Supported_Features
+                          ro code  0x0800c13a     0x3a  HCI.o [3]
+  i._HCI_Read_Buffer_Size
+                          ro code  0x0800c174     0x50  HCI.o [3]
+  i.HCI_Write_SCO_Flow_Control_Enable
+                          ro code  0x0800c1c4     0x28  HCI.o [3]
+  i.HCI_Register_SCO_Data_Callback
+                          ro code  0x0800c1ec      0xa  HCI.o [3]
+  i.HCI_Change_SCO_Configuration
+                          ro code  0x0800c1f6     0x2a  HCI.o [3]
+  i.HCI_Change_SCO_Configuration_Handles
+                          ro code  0x0800c220     0x2e  HCI.o [3]
+  i.FreeL2CAPContextInformation
+                          ro code  0x0800c24e     0x3e  L2CAP.o [3]
+  i.HCI_Build_ACL_Packet_Type_Mask
+                          ro code  0x0800c28c     0x26  HCI.o [3]
+  i._HCI_LE_Read_Buffer_Size
+                          ro code  0x0800c2b2     0x38  HCI.o [3]
+  i.HCI_Register_ACL_Data_Callback
+                          ro code  0x0800c2ea      0xa  HCI.o [3]
+  i.AddServiceRecordEntry
+                          ro code  0x0800c2f4     0x12  SDP.o [3]
+  i._L2CA_Register_PSM    ro code  0x0800c306     0x56  L2CAP.o [3]
+  i.BSC_RegisterEventCallback
+                          ro code  0x0800c35c     0x2a  BSC.o [3]
+  i.GAP_LE_Initialize     ro code  0x0800c388    0x108  GAPLE.o [3]
+  i.BSC_UnRegisterEventCallback
+                          ro code  0x0800c490     0x1a  BSC.o [3]
+  i._RFCOMM_Set_System_Parameters
+                          ro code  0x0800c4aa     0x48  RFCOMM.o [3]
+  i.FreePortInfoList      ro code  0x0800c4f2     0x1c  GOEP.o [3]
+  i.FreePortInformationList
+                          ro code  0x0800c50e     0x1c  SPP.o [3]
+  i.FreeACLLinkList       ro code  0x0800c52a      0x6  GAP.o [3]
+  i.FreeCallbackList      ro code  0x0800c530      0x6  GAP.o [3]
+  i.FreeInquiryResultList
+                          ro code  0x0800c536      0x6  GAP.o [3]
+  i.GAP_LE_Cleanup        ro code  0x0800c53c     0x34  GAPLE.o [3]
+  i.AcquireRFCOMMStackInformation
+                          ro code  0x0800c570     0x2e  RFCOMM.o [3]
+  i.FreeConnectionInfoList
+                          ro code  0x0800c59e     0x24  SDP.o [3]
+  i.FreeL2CAPConnectionInfoList
+                          ro code  0x0800c5c2     0x2e  SDP.o [3]
+  i.FreeServiceRecordList
+                          ro code  0x0800c5f0     0x28  SDP.o [3]
+  i.FreeCallbackList      ro code  0x0800c618      0x6  SCO.o [3]
+  i._HCI_Disconnect       ro code  0x0800c61e     0x2e  HCI.o [3]
+  i.FreeACLLinkList       ro code  0x0800c64c      0x6  SCO.o [3]
+  i.HandleChannelDisconnection
+                          ro code  0x0800c654     0xcc  L2CAP.o [3]
+  i.GetNextChannelInfoEntry
+                          ro code  0x0800c720      0xa  L2CAP.o [3]
+  i.FreeRegistryInfoList  ro code  0x0800c72a      0x6  L2CAP.o [3]
+  i.FreeACLDataList       ro code  0x0800c730      0x6  L2CAP.o [3]
+  i.FreeChannelInfoList   ro code  0x0800c736     0x14  L2CAP.o [3]
+  i.FreeConnectionInfoList
+                          ro code  0x0800c74a     0x28  L2CAP.o [3]
+  i.FreeIdentifierInfoList
+                          ro code  0x0800c772     0x28  L2CAP.o [3]
+  i.FreeCallbackList      ro code  0x0800c79a      0x6  HCI.o [3]
+  i._HCI_Read_LE_Host_Supported
+                          ro code  0x0800c7a0     0x38  HCI.o [3]
+  i.SearchDriverEntry     ro code  0x0800c7d8     0x14  HCIDrv.o [3]
+  i.FreeDriverStructureResources
+                          ro code  0x0800c7ec     0x34  HCIDrv.o [3]
+  i.CleanupCOMMList       ro code  0x0800c820     0x48  HCIComm.o [3]
+  i.BuildCommandHeader    ro code  0x0800c868     0x2e  HCI.o [3]
+  i.HCISendPacket         ro code  0x0800c896     0x76  HCI.o [3]
+  i.BuildAndSubmitCommandWord
+                          ro code  0x0800c90c     0x54  HCI.o [3]
+  .text                   ro code  0x0800c960    0x280  stm32l1xx_hal_cortex.o [1]
+  .text                   ro code  0x0800cbe0     0x80  buzzer.o [1]
+  .text                   ro code  0x0800cc60    0xea2  stm32l1xx_hal_dma.o [1]
+  .text                   ro code  0x0800db04   0x10a8  stm32l1xx_hal_rcc.o [1]
+  .text                   ro code  0x0800ebac     0x1c  divbyzerocheck.o [4]
+  .text                   ro code  0x0800ebc8     0x80  stm32l1xx_hal.o [1]
+  .text                   ro code  0x0800ec48    0x25c  gpio.o [1]
+  .text                   ro code  0x0800eea4     0xe4  dma.o [1]
+  .text                   ro code  0x0800ef88    0x120  fsmc.o [1]
+  .text                   ro code  0x0800f0a8    0x140  i2c.o [1]
+  .text                   ro code  0x0800f1e8     0xf8  rtc.o [1]
+  .text                   ro code  0x0800f2e0    0x204  spi.o [1]
+  .text                   ro code  0x0800f4e4    0x1a4  tim.o [1]
+  .text                   ro code  0x0800f688     0x3c  stm32l1xx_hal_pwr.o [1]
+  .text                   ro code  0x0800f6c4    0x1a8  stm32l1xx_hal_rcc_ex.o [1]
+  i.AcquireDriverEntry    ro code  0x0800f86c     0x58  HCIDrv.o [3]
+  i.ReconfigureComm       ro code  0x0800f8c4     0xe4  HCIComm.o [3]
+  i.BSC_SearchGenericListEntry
+                          ro code  0x0800f9a8     0x36  BSC.o [3]
+  i.AddServiceAttributeEntry
+                          ro code  0x0800f9de     0x56  SDP.o [3]
+  i.ParseAPIUUIDs         ro code  0x0800fa34     0xf0  SDP.o [3]
+  i.SearchServiceRecordEntry
+                          ro code  0x0800fb24     0x14  SDP.o [3]
+  i.SearchL2CAPConnectionInfoEntryByCID
+                          ro code  0x0800fb38     0x14  RFCOMM.o [3]
+  i.SearchRFCOMMChannelInfoEntryByTEIAndDLCI
+                          ro code  0x0800fb4c     0x34  RFCOMM.o [3]
+  i.RFCOMM_Control        ro code  0x0800fb80     0x38  RFCOMM.o [3]
+  i.Disconnect            ro code  0x0800fbb8    0x1c4  RFCOMM.o [3]
+  i.BSC_FreeGenericListEntryList
+                          ro code  0x0800fd7c     0x1e  BSC.o [3]
+  i.DeleteCallbackEntry   ro code  0x0800fd9a     0x10  GAP.o [3]
+  i.SearchACLLinkEntryBD_ADDR
+                          ro code  0x0800fdaa     0x10  GAP.o [3]
+  i.L2CA_Get_Link_Connection_State
+                          ro code  0x0800fdba     0xec  L2CAP.o [3]
+  i._HCI_Create_Connection_Cancel
+                          ro code  0x0800fea6     0x30  HCI.o [3]
+  i.BuildAndSubmitCommandByte
+                          ro code  0x0800fed8     0x50  HCI.o [3]
+  i.BuildAndSubmitCommandByteVariable
+                          ro code  0x0800ff28     0x84  HCI.o [3]
+  i.GetNextTimerID        ro code  0x0800ffac     0x44  BTPSTMR.o [3]
+  i.RFCOMM_Data_Write     ro code  0x0800fff0     0xf0  RFCOMM.o [3]
+  i.FormatAndDispatchFlowEvent
+                          ro code  0x080100e0     0x32  RFCOMM.o [3]
+  i.BuildAndSubmitCommandBD_ADDRByte
+                          ro code  0x08010114     0x68  HCI.o [3]
+  i.BuildAndSubmitCommandBD_ADDRByteVariable
+                          ro code  0x0801017c     0x98  HCI.o [3]
+  i._RFCOMM_Modem_Status  ro code  0x08010214     0x96  RFCOMM.o [3]
+  i.RFCOMM_Control_Message
+                          ro code  0x080102aa     0x80  RFCOMM.o [3]
+  .text                   ro code  0x0801032c    0x656  afe.o [1]
+  .text                   ro code  0x08010984    0x1b8  gauge.o [1]
+  .text                   ro code  0x08010b3c    0x8f8  tasks_ecg.o [1]
+  .text                   ro code  0x08011434    0x188  tasks_bt.o [1]
+  .text                   ro code  0x080115bc    0x114  tasks_input.o [1]
+  .text                   ro code  0x080116d0    0x184  tasks_periph.o [1]
+  .text                   ro code  0x08011854     0x7c  tasks_fsm.o [1]
+  .text                   ro code  0x080118d0     0x20  xmbtowc.o [5]
+  .text                   ro code  0x080118f0     0x16  strchr.o [7]
+  .text                   ro code  0x08011908     0x58  memchr.o [7]
+  .text                   ro code  0x08011960      0xa  xmbcurmax.o [5]
+  .text                   ro code  0x0801196c     0xb0  xxmemxmalloc.o [5]
+  .text                   ro code  0x08011a1c     0x1a  xwctomb.o [5]
+  .text                   ro code  0x08011a38     0x80  xxmemxfree.o [5]
+  .text                   ro code  0x08011ab8     0xee  I64DivMod.o [7]
+  .text                   ro code  0x08011ba6     0x42  xdnorm.o [6]
+  .text                   ro code  0x08011be8     0x2e  DblCmpLe.o [6]
+  .text                   ro code  0x08011c18     0x2e  DblCmpGe.o [6]
+  .text                   ro code  0x08011c48    0x110  xdscale.o [6]
+  .text                   ro code  0x08011d58     0x58  DblToI32.o [6]
+  .text                   ro code  0x08011db0     0x30  I32ToDbl.o [6]
+  .text                   ro code  0x08011de0    0x180  DblSub.o [6]
+  .text                   ro code  0x08011f60    0x1a2  DblMul.o [6]
+  .text                   ro code  0x08012104    0x256  DblDiv.o [6]
+  .text                   ro code  0x0801235c     0x6c  localeconv.o [5]
+  .text                   ro code  0x080123c8      0xe  div.o [5]
+  i.InitializeProtocol    ro code  0x080123d8     0x54  HCIComm.o [3]
+  i.DeleteCOMEntry        ro code  0x0801242c     0x14  HCIComm.o [3]
+  i.FreeCOMStructureResources
+                          ro code  0x08012440     0x40  HCIComm.o [3]
+  i.CalculateBufferOffset
+                          ro code  0x08012480     0x34  BSC.o [3]
+  i.RegisterCallback      ro code  0x080124b4     0x98  HCIDrv.o [3]
+  i._HCI_Write_SCO_Flow_Control_Enable
+                          ro code  0x0801254c     0x2c  HCI.o [3]
+  i.HCI_ChangeSCOConfiguration
+                          ro code  0x08012578     0x60  HCIDrv.o [3]
+  i.HCI_ChangeSCOConfigurationHandles
+                          ro code  0x080125d8     0x3c  HCIDrv.o [3]
+  i.VerifySharedBufferPointer
+                          ro code  0x08012614     0x28  BSC.o [3]
+  i.GetNextIDNumber       ro code  0x0801263c     0x14  L2CAP.o [3]
+  i.AddRegistryInfoEntry  ro code  0x08012650     0x12  L2CAP.o [3]
+  i._HCI_LE_Read_White_List_Size
+                          ro code  0x08012662     0x32  HCI.o [3]
+  i.L2CA_Register_Fixed_Channel
+                          ro code  0x08012694     0x84  L2CAP.o [3]
+  i.FreePortInfoEntryMemory
+                          ro code  0x08012718     0x22  GOEP.o [3]
+  i.AcquireGAPLEContext   ro code  0x0801273a     0x2a  GAP.o [3]
+  i.FreeLELinkList        ro code  0x08012764     0x1c  GAPLE.o [3]
+  i.FreeCallbackInfoList  ro code  0x08012780      0x6  GAPLE.o [3]
+  i.CleanupSDPConnection  ro code  0x08012786     0x38  SDP.o [3]
+  i._L2CA_Disconnect_Request
+                          ro code  0x080127be     0x96  L2CAP.o [3]
+  i.BuildAndSubmitCommandWordByte
+                          ro code  0x08012854     0x58  HCI.o [3]
+  i.CleanupChannel        ro code  0x080128ac     0x30  L2CAP.o [3]
+  i.SearchConnectionInfoEntryByConnectionHandle
+                          ro code  0x080128dc     0x14  L2CAP.o [3]
+  i.LP_DisconnectReq      ro code  0x080128f0     0x64  L2CAP.o [3]
+  i.SearchConnectionInfoEntryByBD_ADDRType
+                          ro code  0x08012954     0x44  L2CAP.o [3]
+  i.DeleteConnectionInfoEntry
+                          ro code  0x08012998     0x2e  L2CAP.o [3]
+  i.BSC_GetNextGenericListEntry
+                          ro code  0x080129c6     0x20  BSC.o [3]
+  i.DeleteChannelInfoEntry
+                          ro code  0x080129e6     0x30  L2CAP.o [3]
+  i.FreeFixedChannelInfoList
+                          ro code  0x08012a16      0x6  L2CAP.o [3]
+  i.HCI_SendPacket        ro code  0x08012a1c     0xb4  HCIDrv.o [3]
+  i.HCI_CancelPacket      ro code  0x08012ad0     0x74  HCIDrv.o [3]
+  .text                   ro code  0x08012b44    0x762  stm32l1xx_hal_tim.o [1]
+  .text                   ro code  0x080132a8     0x10  stm32l1xx_hal_pwr_ex.o [1]
+  .text                   ro code  0x080132b8    0x114  stm32l1xx_hal_sram.o [1]
+  .text                   ro code  0x080133cc    0xb2e  stm32l1xx_hal_i2c.o [1]
+  .text                   ro code  0x08013efc    0x1d0  stm32l1xx_hal_rtc.o [1]
+  .text                   ro code  0x080140cc    0x27e  stm32l1xx_hal_rtc_ex.o [1]
+  .text                   ro code  0x0801434a     0x8c  stm32l1xx_hal_spi_ex.o [1]
+  .text                   ro code  0x080143d6     0x5a  stm32l1xx_hal_tim_ex.o [1]
+  i.SearchCOMEntry        ro code  0x08014430     0x14  HCIComm.o [3]
+  i.CalculateFCS          ro code  0x08014444     0x20  RFCOMM.o [3]
+  i._L2CA_Data_Write      ro code  0x08014464      0xe  L2CAP.o [3]
+  i.GetNextRFCOMMChannelInfoEntry
+                          ro code  0x08014472      0xa  RFCOMM.o [3]
+  i.RemoveL2CAPConnectionInfoEntry
+                          ro code  0x0801447c     0x10  RFCOMM.o [3]
+  i.RemoveRFCOMMChannelInfoEntry
+                          ro code  0x0801448c     0x26  RFCOMM.o [3]
+  i.DisconnectChannel     ro code  0x080144b2     0x86  RFCOMM.o [3]
+  i.GetNextRFCOMMServerInfoEntry
+                          ro code  0x08014538      0xa  RFCOMM.o [3]
+  i.AdjustSharedBuffer    ro code  0x08014544     0x64  BSC.o [3]
+  i._L2CA_Enhanced_Data_Write
+                          ro code  0x080145a8     0xb6  L2CAP.o [3]
+  i.SendFormattedControlMessage
+                          ro code  0x08014660     0xbc  RFCOMM.o [3]
+  .text                   ro code  0x0801471c     0xa0  afe_hal.o [1]
+  .text                   ro code  0x080147bc    0x95a  stm32l1xx_hal_spi.o [1]
+  .text                   ro code  0x08015116    0x1b8  gauge_hal.o [1]
+  .text                   ro code  0x080152d0    0x794  dsp.o [1]
+  .text                   ro code  0x08015a64     0xba  checked_operators.o [4]
+  .text                   ro code  0x08015b20    0x324  authentication.o [1]
+  .text                   ro code  0x08015e44     0x34  sprintf.o [5]
+  .text                   ro code  0x08015e78      0x6  ABImemclr.o [7]
+  .text                   ro code  0x08015e80     0x42  strcmp_unaligned.o [7]
+  .text                   ro code  0x08015ec2     0x4a  fsm_client.o [1]
+  .text                   ro code  0x08015f0c     0x14  setlocale.o [5]
+  .text                   ro code  0x08015f20     0x60  xencoding_sb.o [5]
+  .text                   ro code  0x08015f80     0x2c  xgetmemchunk.o [5]
+  .text                   ro code  0x08015fac      0x2  I64DivZer.o [7]
+  .text                   ro code  0x08015fb0     0xd4  DblAdd.o [6]
+  .text                   ro code  0x08016084      0x2  xtls.o [5]
+  i.HCILL_Initialize      ro code  0x08016086     0x50  HCILL.o [3]
+  i.TWUART_Initialize     ro code  0x080160d8     0xf0  TWUART.o [3]
+  i.ChangeCommSCOConfiguration
+                          ro code  0x080161c8     0x30  HCIComm.o [3]
+  i.SearchRegistryByValue
+                          ro code  0x080161f8     0x14  L2CAP.o [3]
+  i.FreeLELinkEntryMemory
+                          ro code  0x0801620c     0x24  GAPLE.o [3]
+  i.SearchChannelInfoEntry
+                          ro code  0x08016230     0x14  L2CAP.o [3]
+  i.CreateNewIdentifierEntry
+                          ro code  0x08016244     0x74  L2CAP.o [3]
+  i.L2CAP_DisconnectRequestResponse
+                          ro code  0x080162b8     0x90  L2CAP.o [3]
+  i.DeleteIdentifierInfoEntryByIdentifier
+                          ro code  0x08016348     0x2e  L2CAP.o [3]
+  i._L2CA_Flush_Channel_Data
+                          ro code  0x08016376     0x72  L2CAP.o [3]
+  i.LP_DisconnectCfm      ro code  0x080163e8     0xf6  L2CAP.o [3]
+  i.SendHCIPacketToLowerDriver
+                          ro code  0x080164e0     0xe8  HCIDrv.o [3]
+  i.AddPacketQueueEntry   ro code  0x080165c8     0x60  HCIDrv.o [3]
+  i.DeletePacketQueueEntry
+                          ro code  0x08016628     0x14  HCIDrv.o [3]
+  .text                   ro code  0x0801663c    0x664  stm32l1xx_ll_fsmc.o [1]
+  i.RemoveRFCOMMMessageInfoEntryByTEIAndMessage
+                          ro code  0x08016ca0     0x42  RFCOMM.o [3]
+  i.SearchRFCOMMMessageInfoEntryByTEIAndDLCI
+                          ro code  0x08016ce2     0x24  RFCOMM.o [3]
+  i.FormatAndDispatchEventTEIDLCIByte
+                          ro code  0x08016d06     0x32  RFCOMM.o [3]
+  i.FormatAndDispatchOpenConfirmationEvent
+                          ro code  0x08016d38     0x40  RFCOMM.o [3]
+  i.CheckQueuedDataWrite  ro code  0x08016d78    0x106  L2CAP.o [3]
+  i.GetNextDataIdentifier
+                          ro code  0x08016e80     0x1c  L2CAP.o [3]
+  i.EnhancedFragmentPacket
+                          ro code  0x08016e9c     0x70  L2CAP.o [3]
+  i.SearchRFCOMMMessageInfoEntryByMessageTEIAndDLCI
+                          ro code  0x08016f0c     0x30  RFCOMM.o [3]
+  i.AddRFCOMMMessageInfoEntry
+                          ro code  0x08016f3c     0x42  RFCOMM.o [3]
+  .text                   ro code  0x08016f80     0x22  I64Shl.o [7]
+  .text                   ro code  0x08016fa4     0xac  state_welcome.o [1]
+  i.SetTransportConfiguration
+                          ro code  0x08017050     0x26  TWUART.o [3]
+  i.FreeSecurityManagerResources
+                          ro code  0x08017076     0x34  GAPLE.o [3]
+  i.L2CAP_DataWrite       ro code  0x080170aa     0x7c  L2CAP.o [3]
+  i.DeleteACLPacketEntry  ro code  0x08017126     0x1e  L2CAP.o [3]
+  i.DispatchFixedChannelConnectDisconnect
+                          ro code  0x08017144     0x54  L2CAP.o [3]
+  i.FormatEventDisconnectIndication
+                          ro code  0x08017198     0x14  L2CAP.o [3]
+  i.FormatEventConnectConfirmation
+                          ro code  0x080171ac     0x28  L2CAP.o [3]
+  i.DispatchDebugPacketCallbacks
+                          ro code  0x080171d4     0x1e  HCIDrv.o [3]
+  i.SendCommPacket        ro code  0x080171f4     0xbc  HCIComm.o [3]
+  i.BSC_AddGenericListEntry
+                          ro code  0x080172b0     0x6c  BSC.o [3]
+  i.FragmentPacket        ro code  0x0801731c     0xac  L2CAP.o [3]
+  i.SearchACLPacketEntryByIdentifier
+                          ro code  0x080173c8     0x14  L2CAP.o [3]
+  .text                   ro code  0x080173dc     0xd0  state_running.o [1]
+  .text                   ro code  0x080174ac     0x40  state.o [1]
+  i.DeleteCallbackInfoByType
+                          ro code  0x080174ec     0x14  GAPLE.o [3]
+  i.QueueACLPacket        ro code  0x08017500     0x12  L2CAP.o [3]
+  i.L2CAP_ProcessACLQueue
+                          ro code  0x08017512     0x36  L2CAP.o [3]
+  .text                   ro code  0x08017548     0xf4  state_goodbye.o [1]
+  .text                   ro code  0x0801763c     0x48  state_h2h_wait.o [1]
+  i.ProcessSendQueueData  ro code  0x08017684    0x1d0  L2CAP.o [3]
+  .text                   ro code  0x08017854     0x6c  state_h2h_connected.o [1]
+  i.HCI_Send_ACL_Data     ro code  0x080178c0     0x10  HCI.o [3]
+  i.SearchIdentifierInfoEntryByIdentifier
+                          ro code  0x080178d0     0x14  L2CAP.o [3]
+  i.BTPS_ChangeTimer      ro code  0x080178e4     0x60  BTPSTMR.o [3]
+  i.SearchFixedChannelInfoEntry
+                          ro code  0x08017944     0x4c  L2CAP.o [3]
+  i.FormatEventCIDOnly    ro code  0x08017990     0x12  L2CAP.o [3]
+  .text                   ro code  0x080179a4     0x4c  state_h2h_keygen.o [1]
+  i.SendDataPacket        ro code  0x080179f0     0xfe  HCI.o [3]
+  .text                   ro code  0x08017af0     0xc4  state_h2h_waitkey.o [1]
+  .text                   ro code  0x08017bb4     0x3c  state_h2h_auth.o [1]
+  .rodata                 const    0x08017bf0   0x1848  BTPSVEND.o [1]
+  i.L2CA_Event_Callback   ro code  0x08019438    0x6e8  SDP.o [3]
+  i.AddConnectionInfoEntry
+                          ro code  0x08019b20     0x12  SDP.o [3]
+  i.ProcessSDPConnectionRequest
+                          ro code  0x08019b32     0x8e  SDP.o [3]
+  i.SendConnectionResponse
+                          ro code  0x08019bc0     0x58  SDP.o [3]
+  i._L2CA_Connect_Response
+                          ro code  0x08019c18     0xb0  L2CAP.o [3]
+  i.ProcessConnectionError
+                          ro code  0x08019cc8     0x64  SDP.o [3]
+  i.SearchConnectionInfoEntry
+                          ro code  0x08019d2c     0x14  SDP.o [3]
+  i._L2CA_Config_Request  ro code  0x08019d40    0x190  L2CAP.o [3]
+  i._L2CA_Config_Response
+                          ro code  0x08019ed0     0x86  L2CAP.o [3]
+  i.DispatchSDPConnectionEvent
+                          ro code  0x08019f56     0x26  SDP.o [3]
+  i._L2CA_Disconnect_Response
+                          ro code  0x08019f7c     0x20  L2CAP.o [3]
+  i.ParseServiceSearchPattern
+                          ro code  0x08019f9c     0xce  SDP.o [3]
+  i.CalculateDataTypeLength
+                          ro code  0x0801a06a     0x98  SDP.o [3]
+  i.ProcessServiceSearchRequest
+                          ro code  0x0801a104    0x19c  SDP.o [3]
+  i.ParseAttributeIDList  ro code  0x0801a2a0     0xea  SDP.o [3]
+  i.ProcessServiceAttributeRequest
+                          ro code  0x0801a38a    0x1ac  SDP.o [3]
+  i.FormatResponsePDUHeaderAndSend
+                          ro code  0x0801a536     0x3a  SDP.o [3]
+  i.ProcessServiceSearchAttributeRequest
+                          ro code  0x0801a570    0x25a  SDP.o [3]
+  i.DeleteConnectionInfoEntryCID
+                          ro code  0x0801a7ca     0x14  SDP.o [3]
+  i.L2CAP_ConnectRequestResponse
+                          ro code  0x0801a7de     0xc6  L2CAP.o [3]
+  i._HCI_Write_Automatic_Flush_Timeout
+                          ro code  0x0801a8a4     0x32  HCI.o [3]
+  i.ParseAPIOptions       ro code  0x0801a8d6     0xd8  L2CAP.o [3]
+  i.L2CAP_ConfigRequestResponse
+                          ro code  0x0801a9ae    0x10a  L2CAP.o [3]
+  i._HCI_Write_Link_Supervision_Timeout
+                          ro code  0x0801aab8     0x32  HCI.o [3]
+  i.ReadDataElementSequenceLength
+                          ro code  0x0801aaea     0x52  SDP.o [3]
+  i.NormalizeUUID         ro code  0x0801ab3c     0x62  SDP.o [3]
+  i.CompareServiceRecordWithServiceList
+                          ro code  0x0801ab9e    0x202  SDP.o [3]
+  i.CalculateAttributeRequestParameters
+                          ro code  0x0801ada0     0x58  SDP.o [3]
+  i.ParseRecordAttributes
+                          ro code  0x0801adf8    0x14a  SDP.o [3]
+  i.WriteAttributeRequestContinuationInformation
+                          ro code  0x0801af42     0x60  SDP.o [3]
+  i.BuildAndSubmitCommandThreeWords
+                          ro code  0x0801afa4     0x74  HCI.o [3]
+  i.ServiceAttributeListValid
+                          ro code  0x0801b018     0x12  SDP.o [3]
+  i.GetNextServiceAttribute
+                          ro code  0x0801b02c     0x88  SDP.o [3]
+  i.HCI_Event_Callback    ro code  0x0801b0b4    0x6a0  GAP.o [3]
+  i.IssueBondingCallback  ro code  0x0801b754     0x38  GAP.o [3]
+  i.DeleteACLLinkEntryConnection_Handle
+                          ro code  0x0801b78c     0x14  GAP.o [3]
+  i.FormatAndDispatchEncryptionChangeEvent
+                          ro code  0x0801b7a0     0x4a  GAP.o [3]
+  i.FormatAndDispatchAuthenticationStatusEvent
+                          ro code  0x0801b7ea     0x32  GAP.o [3]
+  i.SearchACLLinkEntryConnection_Handle
+                          ro code  0x0801b81c     0x14  GAP.o [3]
+  i.FormatAndDispatchAuthenticationEvent
+                          ro code  0x0801b830     0x3c  GAP.o [3]
+  i.GAP_Set_Encryption_Mode
+                          ro code  0x0801b86c     0x84  GAP.o [3]
+  i.FormatAndDispatchInquiryEvent
+                          ro code  0x0801b8f0     0x32  GAP.o [3]
+  i._HCI_Write_Encryption_Mode
+                          ro code  0x0801b922     0x2c  HCI.o [3]
+  i._HCI_Set_Connection_Encryption
+                          ro code  0x0801b94e     0x2e  HCI.o [3]
+  i.CleanUpInquiry        ro code  0x0801b97c     0x1c  GAP.o [3]
+  i.AsynchronousHCIEventCallback
+                          ro code  0x0801b998    0x684  HCI.o [3]
+  i.BuildEventHeader      ro code  0x0801c01c     0x1e  HCI.o [3]
+  i.BuildEventByte        ro code  0x0801c03a     0x14  HCI.o [3]
+  i.BuildEventByteWordByte
+                          ro code  0x0801c04e     0x2e  HCI.o [3]
+  i.BuildEventByteBD_ADDRByte
+                          ro code  0x0801c07c     0x34  HCI.o [3]
+  i.BuildEventByteWordWord
+                          ro code  0x0801c0b0     0x3c  HCI.o [3]
+  i.BuildEventWord        ro code  0x0801c0ec     0x16  HCI.o [3]
+  i.BuildEventBD_ADDRDWord
+                          ro code  0x0801c102     0x34  HCI.o [3]
+  i.BuildEventBD_ADDRVariableData
+                          ro code  0x0801c136     0x3e  HCI.o [3]
+  i.ProcessRFCOMMControlMessage
+                          ro code  0x0801c174    0x622  RFCOMM.o [3]
+  i.RFCOMM_Start_Link_Negotiation
+                          ro code  0x0801c796     0x60  RFCOMM.o [3]
+  i.HCI_Event_Callback    ro code  0x0801c7f8    0x500  L2CAP.o [3]
+  i.LP_ConnectCfmNeg      ro code  0x0801ccf8     0xf4  L2CAP.o [3]
+  i.AddConnectionInfoEntry
+                          ro code  0x0801cdec     0x26  L2CAP.o [3]
+  i._HCI_Read_Simple_Pairing_Mode
+                          ro code  0x0801ce12     0x32  HCI.o [3]
+  i._HCI_Read_Remote_Extended_Features
+                          ro code  0x0801ce44     0x2e  HCI.o [3]
+  i.LP_ConnectIndication  ro code  0x0801ce72     0xa6  L2CAP.o [3]
+  i._HCI_Flush            ro code  0x0801cf18     0x2c  HCI.o [3]
+  i.LP_ConnectCfm         ro code  0x0801cf44    0x13a  L2CAP.o [3]
+  i.HCI_Schedule_Asynchronous_Callback
+                          ro code  0x0801d07e     0x54  HCI.o [3]
+  i._HCI_Reject_Connection_Request
+                          ro code  0x0801d0d2     0x34  HCI.o [3]
+  i._HCI_Accept_Connection_Request
+                          ro code  0x0801d106     0x34  HCI.o [3]
+  i.L2CA_Event_Callback   ro code  0x0801d13c    0x3f4  RFCOMM.o [3]
+  i.SearchL2CAPConnectionInfoEntryByBD_ADDR
+                          ro code  0x0801d530     0x10  RFCOMM.o [3]
+  i.AddL2CAPConnectionInfoEntry
+                          ro code  0x0801d540     0x12  RFCOMM.o [3]
+  i.ProcessRFCOMMDataMessage
+                          ro code  0x0801d552    0x2c0  RFCOMM.o [3]
+  i.RFCOMM_Event_Callback
+                          ro code  0x0801d812    0x390  SPP.o [3]
+  i.FormatAndDispatchEventUnsignedInteger
+                          ro code  0x0801dba2     0x2a  SPP.o [3]
+  i.SendQueuedData        ro code  0x0801dbcc    0x168  SPP.o [3]
+  i.SPP_Send_Break        ro code  0x0801dd34     0xdc  SPP.o [3]
+  i.SPP_Line_Status       ro code  0x0801de10     0x80  SPP.o [3]
+  i.FormatAndDispatchEventPortInformation
+                          ro code  0x0801de90     0x32  SPP.o [3]
+  i._RFCOMM_Line_Status_Change
+                          ro code  0x0801dec2     0x48  RFCOMM.o [3]
+  i.BuildPortInformationStructure
+                          ro code  0x0801df0a    0x200  SPP.o [3]
+  i.ProcessL2CAPDataPacket
+                          ro code  0x0801e10a    0x336  L2CAP.o [3]
+  i.L2CAP_RequestTimeout  ro code  0x0801e440    0x13a  L2CAP.o [3]
+  i.L2CAP_ConnectRequestEvent
+                          ro code  0x0801e57c    0x1a4  L2CAP.o [3]
+  i.L2CAP_ConnectResponseEvent
+                          ro code  0x0801e720    0x12c  L2CAP.o [3]
+  i.L2CAP_ConfigRequestEvent
+                          ro code  0x0801e84c    0x214  L2CAP.o [3]
+  i.L2CAP_ConfigResponseEvent
+                          ro code  0x0801ea60     0xc2  L2CAP.o [3]
+  i.L2CAP_DisconnectRequestEvent
+                          ro code  0x0801eb22     0x86  L2CAP.o [3]
+  i.L2CAP_DisconnectResponseEvent
+                          ro code  0x0801eba8     0x80  L2CAP.o [3]
+  i.L2CAP_EchoRequestResponse
+                          ro code  0x0801ec28     0xac  L2CAP.o [3]
+  i.L2CAP_InformationRequestResponse
+                          ro code  0x0801ecd4     0xde  L2CAP.o [3]
+  i.L2CAP_ConnectionParameterUpdateRequestEvent
+                          ro code  0x0801edb2     0x9c  L2CAP.o [3]
+  i.L2CAP_ConnectionParameterUpdateResponseEvent
+                          ro code  0x0801ee4e     0x7a  L2CAP.o [3]
+  i.L2CAP_RejectCommand   ro code  0x0801eec8     0x96  L2CAP.o [3]
+  i.HandleReadDataError   ro code  0x0801ef5e     0x26  L2CAP.o [3]
+  i.FormatEventDisconnectConfirmation
+                          ro code  0x0801ef84     0x16  L2CAP.o [3]
+  i.FormatEventConfigConfirmation
+                          ro code  0x0801ef9a     0x30  L2CAP.o [3]
+  i.CreateNewChannel      ro code  0x0801efcc     0x78  L2CAP.o [3]
+  i.ParseOptionsToAPI     ro code  0x0801f044    0x164  L2CAP.o [3]
+  i.HCICallbackThread     ro code  0x0801f1a8    0x278  HCI.o [3]
+  i.CreditDataPacket      ro code  0x0801f420     0x16  HCI.o [3]
+  i.DeleteCallbackEntry   ro code  0x0801f436     0x14  HCI.o [3]
+  i._HCI_Host_Number_Of_Completed_Packets
+                          ro code  0x0801f44c     0x98  HCI.o [3]
+  i.HCI_DriverCallback    ro code  0x0801f4e4    0x21c  HCIDrv.o [3]
+  i.ProtocolEventCallback
+                          ro code  0x0801f700    0x214  HCIComm.o [3]
+  i.HCITR_COMDataCallback_UART
+                          ro code  0x0801f914    0x1e2  HCIComm.o [3]
+  i.TWUART_ReceiveBytes   ro code  0x0801faf8    0x1a0  TWUART.o [3]
+  i.SetTWUARTTimer        ro code  0x0801fc98     0x54  TWUART.o [3]
+  i.RestartPacketizer     ro code  0x0801fcec     0x20  TWUART.o [3]
+  i.ProcessReceivedPacket
+                          ro code  0x0801fd0c    0x178  TWUART.o [3]
+  i.CheckIdle             ro code  0x0801fe84     0x2c  TWUART.o [3]
+  i.CalculateCRC          ro code  0x0801feb0     0x30  TWUART.o [3]
+  i.SendNullPacket        ro code  0x0801fee0     0x18  TWUART.o [3]
+  i.FreeBufferListHead    ro code  0x0801fef8     0x1c  TWUART.o [3]
+  i.SendQueuedPackets     ro code  0x0801ff14     0x5c  TWUART.o [3]
+  i.ProcessTWUARTMessage  ro code  0x0801ff70     0xe8  TWUART.o [3]
+  i.SendSLIPPacket        ro code  0x08020058     0xc8  TWUART.o [3]
+  i.TWUART_Resynchronize  ro code  0x08020120     0x6e  TWUART.o [3]
+  i.SendTWUARTMessage     ro code  0x08020190     0x5c  TWUART.o [3]
+  i.ParseConfigurationField
+                          ro code  0x080201ec     0x96  TWUART.o [3]
+  i.SetTWUARTState        ro code  0x08020282     0x80  TWUART.o [3]
+  i.TransmitData          ro code  0x08020302     0x1a  TWUART.o [3]
+  i.EncodeAndSend         ro code  0x0802031c     0x8c  TWUART.o [3]
+  i.SendSleepIndication   ro code  0x080203a8     0x10  TWUART.o [3]
+  i.RFCOMMServerSABMMessageHandler
+                          ro code  0x080203b8    0x188  RFCOMM.o [3]
+  i.SearchRFCOMMServerInfoEntryByTEI
+                          ro code  0x08020540     0x28  RFCOMM.o [3]
+  i.AddRFCOMMChannelInfoEntry
+                          ro code  0x08020568     0x36  RFCOMM.o [3]
+  i.HCI_ACL_Data_Callback
+                          ro code  0x080205a0    0x168  L2CAP.o [3]
+  i.SearchACLPacketEntryByConnectionHandle
+                          ro code  0x08020708     0x14  L2CAP.o [3]
+  i.L2CAP_ReceiveTimeout  ro code  0x0802071c     0x82  L2CAP.o [3]
+  i.VerifyACLHeader       ro code  0x0802079e     0x90  L2CAP.o [3]
+  i.SPPServerHandler      ro code  0x0802082e    0x132  SPP.o [3]
+  i._RFCOMM_Parameter_Negotiation_Response
+                          ro code  0x08020960     0xc8  RFCOMM.o [3]
+  i.CalculateCreditThreshold
+                          ro code  0x08020a28     0x34  SPP.o [3]
+  .constdata              const    0x08020a5c    0x100  RFCOMM.o [3]
+  i._HCI_Event_Callback   ro code  0x08020b5c     0xf6  SCO.o [3]
+  .text                   ro code  0x08020c54     0xdc  stm32l1xx_it.o [1]
+  i.RFCOMMServerPNMessageHandler
+                          ro code  0x08020d30     0xdc  RFCOMM.o [3]
+  .text                   ro code  0x08020e0c     0xd0  packbits_init.o [7]
+  .text                   ro code  0x08020edc      0x6  abort.o [5]
+  .text                   ro code  0x08020ee4     0x14  exit.o [8]
+  i.TWUART_TransmitBytes  ro code  0x08020ef8     0xbc  TWUART.o [3]
+  i.SendReliablePacket    ro code  0x08020fb4     0x82  TWUART.o [3]
+  i.RFCOMM_SignalTimeout  ro code  0x08021036     0xba  RFCOMM.o [3]
+  i.TWUART_Reconfigure    ro code  0x080210f0     0xae  TWUART.o [3]
+  i.AsynchronousCallbackFunction
+                          ro code  0x080211a0     0xa4  BTPSTMR.o [3]
+  i.DelayedAuthenticationProcess
+                          ro code  0x08021244     0xa0  L2CAP.o [3]
+  i.BSC_AuthenticateDevice
+                          ro code  0x080212e4     0x86  BSC.o [3]
+  i.HCILL_TransmitBytes   ro code  0x0802136c     0xa0  HCILL.o [3]
+  i.TransmitData          ro code  0x0802140c     0x26  HCILL.o [3]
+  i.SendSleepIndication   ro code  0x08021432     0x10  HCILL.o [3]
+  i.HCILL_ReceiveBytes    ro code  0x08021444     0x9c  HCILL.o [3]
+  i.SendQueuedPackets     ro code  0x080214e0     0x20  HCILL.o [3]
+  i.FreeTransmitBufferListHead
+                          ro code  0x08021500     0x1e  HCILL.o [3]
+  i.GAP_Authenticate_Remote_Device
+                          ro code  0x0802151e     0x9a  GAP.o [3]
+  i._HCI_Authentication_Requested
+                          ro code  0x080215b8     0x2c  HCI.o [3]
+  .rodata                 const    0x080215e4     0x90  dsp.o [1]
+  i.RetransmitTimerExpired
+                          ro code  0x08021674     0x82  TWUART.o [3]
+  i.TimerThread           ro code  0x080216f8     0x7c  BTPSTMR.o [3]
+  i.UpdateAndExpireTimers
+                          ro code  0x08021774     0x78  BTPSTMR.o [3]
+  i.BSC_ScheduleAsynchronousCallback
+                          ro code  0x080217ec     0x32  BSC.o [3]
+  i.SynchronousHCICommandCallback
+                          ro code  0x0802181e     0x74  HCI.o [3]
+  i.RFCOMMCleanupHandler  ro code  0x08021892     0x68  RFCOMM.o [3]
+  i.FreeL2CAPConnectionInfoList
+                          ro code  0x080218fa      0x6  RFCOMM.o [3]
+  i.FreeRFCOMMChannelInfoList
+                          ro code  0x08021900      0x6  RFCOMM.o [3]
+  i.L2CAP_StateTimeout    ro code  0x08021906     0x66  L2CAP.o [3]
+  .text                   ro code  0x0802196c     0x64  system_stm32l1xx.o [1]
+  i.TWUART_Shutdown       ro code  0x080219d0     0x5c  TWUART.o [3]
+  i.BSC_Event_Callback    ro code  0x08021a2c     0x54  GAP.o [3]
+  i.AcquireGAPStackInfo   ro code  0x08021a80     0x4e  GAPLE.o [3]
+  i.ReleaseGAPLEContext   ro code  0x08021ace      0xa  GAP.o [3]
+  i._L2CA_Event_Callback  ro code  0x08021ad8     0x4a  RFCOMM.o [3]
+  i._HCI_SCO_Callback     ro code  0x08021b22     0x48  SCO.o [3]
+  .rodata                 const    0x08021b6c     0x44  authentication.o [1]
+  .rodata                 const    0x08021bb0     0x44  authentication.o [1]
+  .rodata                 const    0x08021bf4     0x44  authentication.o [1]
+  .rodata                 const    0x08021c38     0x44  authentication.o [1]
+  .rodata                 const    0x08021c7c     0x44  authentication.o [1]
+  i.IdleTimerExpired      ro code  0x08021cc0     0x40  TWUART.o [3]
+  .text                   ro code  0x08021d00     0x40  zero_init3.o [7]
+  i.AcknowledgeTimerExpired
+                          ro code  0x08021d40     0x3e  TWUART.o [3]
+  .constdata              const    0x08021d80     0x3c  BSC.o [3]
+  i.AsynchronousACLDataCallback
+                          ro code  0x08021dbc     0x3a  HCI.o [3]
+  i.AsynchronousSCODataCallback
+                          ro code  0x08021df6     0x3a  HCI.o [3]
+  i.HCILL_Reconfigure     ro code  0x08021e30     0x3a  HCILL.o [3]
+  i.HCILL_Shutdown        ro code  0x08021e6a     0x38  HCILL.o [3]
+  i.L2CAP_ConnectionTimeout
+                          ro code  0x08021ea2     0x36  L2CAP.o [3]
+  i._RFCOMM_Event_Callback
+                          ro code  0x08021ed8     0x36  SPP.o [3]
+  .constdata              const    0x08021f10     0x34  SDP.o [3]
+  .constdata              const    0x08021f44     0x30  HCIComm.o [3]
+  i._HCI_Event_Callback   ro code  0x08021f74     0x2e  GAPLE.o [3]
+  i._L2CA_Event_Callback  ro code  0x08021fa2     0x2e  GAPLE.o [3]
+  .constdata              const    0x08021fd0     0x28  TWUART.o [3]
+  .rodata                 const    0x08021ff8     0x28  dsp.o [1]
+  .text                   ro code  0x08022020     0x28  data_init.o [7]
+  i.Discoverability_Timeout_Callback
+                          ro code  0x08022048     0x26  GAP.o [3]
+  i.HCILL_Resynchronize   ro code  0x0802206e     0x26  HCILL.o [3]
+  i.MailboxDeleteDataCallback
+                          ro code  0x08022094     0x26  HCI.o [3]
+  .iar.init_table         const    0x080220bc     0x2c  - Linker created -
+  .rodata                 const    0x080220e8     0x1c  bluetooth_internal.o [1]
+  .text                   ro code  0x08022104     0x1a  cmain.o [7]
+  .text                   ro code  0x0802211e      0x4  low_level_init.o [5]
+  .text                   ro code  0x08022122      0x4  exit.o [5]
+  .text                   ro code  0x08022128      0xa  cexit.o [7]
+  .constdata              const    0x08022134     0x18  L2CAP.o [3]
+  .rodata                 const    0x0802214c     0x14  HCITRANS.o [1]
+  .rodata                 const    0x08022160     0x14  state_h2h_connected.o [1]
+  .rodata                 const    0x08022174     0x14  state_h2h_waitkey.o [1]
+  .rodata                 const    0x08022188     0x14  tasks_bt.o [1]
+  .rodata                 const    0x0802219c     0x14  tasks_bt.o [1]
+  .rodata                 const    0x080221b0     0x14  tasks_ecg.o [1]
+  .rodata                 const    0x080221c4     0x14  tasks_ecg.o [1]
+  .rodata                 const    0x080221d8     0x14  tasks_ecg.o [1]
+  .rodata                 const    0x080221ec     0x14  tasks_ecg.o [1]
+  .rodata                 const    0x08022200     0x14  tasks_ecg.o [1]
+  .rodata                 const    0x08022214     0x14  tasks_ecg.o [1]
+  .rodata                 const    0x08022228     0x14  tasks_ecg.o [1]
+  .rodata                 const    0x0802223c     0x14  tasks_fsm.o [1]
+  .rodata                 const    0x08022250     0x14  tasks_input.o [1]
+  .rodata                 const    0x08022264     0x14  tasks_input.o [1]
+  .rodata                 const    0x08022278     0x14  tasks_periph.o [1]
+  .rodata                 const    0x0802228c     0x14  tasks_periph.o [1]
+  .rodata                 const    0x080222a0     0x14  tasks_periph.o [1]
+  .rodata                 const    0x080222b4     0x14  tasks_periph.o [1]
+  .rodata                 const    0x080222c8     0x14  tasks_periph.o [1]
+  i.ProtocolTimerCallback
+                          ro code  0x080222dc     0x14  HCIComm.o [3]
+  .rodata                 const    0x080222f0     0x10  bluetooth_internal.o [1]
+  .rodata                 const    0x08022300     0x10  state_h2h_connected.o [1]
+  .rodata                 const    0x08022310     0x10  system_stm32l1xx.o [1]
+  .rodata                 const    0x08022320     0x10  tasks_bt.o [1]
+  .rodata                 const    0x08022330     0x10  tasks_ecg.o [1]
+  .rodata                 const    0x08022340     0x10  tasks_ecg.o [1]
+  .rodata                 const    0x08022350     0x10  tasks_ecg.o [1]
+  .rodata                 const    0x08022360     0x10  tasks_ecg.o [1]
+  .rodata                 const    0x08022370     0x10  tasks_fsm.o [1]
+  .rodata                 const    0x08022380     0x10  tasks_periph.o [1]
+  .text                   ro code  0x08022390     0x10  startup_stm32l162xd.o [1]
+  .constdata              const    0x080223a0      0xc  SPP.o [3]
+  .rodata                 const    0x080223ac      0xc  HCITRANS.o [1]
+  .rodata                 const    0x080223b8      0xc  state_h2h_auth.o [1]
+  .rodata                 const    0x080223c4      0xc  state_h2h_keygen.o [1]
+  .rodata                 const    0x080223d0      0xc  state_h2h_wait.o [1]
+  .rodata                 const    0x080223dc      0xc  state_h2h_waitkey.o [1]
+  .rodata                 const    0x080223e8      0xc  system_stm32l1xx.o [1]
+  .rodata                 const    0x080223f4      0xc  tasks_bt.o [1]
+  .rodata                 const    0x08022400      0xc  tasks_bt.o [1]
+  .rodata                 const    0x0802240c      0xc  tasks_bt.o [1]
+  .rodata                 const    0x08022418      0xc  tasks_bt.o [1]
+  .rodata                 const    0x08022424      0xc  tasks_ecg.o [1]
+  .rodata                 const    0x08022430      0xc  tasks_ecg.o [1]
+  .rodata                 const    0x0802243c      0xc  tasks_ecg.o [1]
+  .rodata                 const    0x08022448      0xc  tasks_fsm.o [1]
+  .rodata                 const    0x08022454      0xc  tasks_periph.o [1]
+  .text                   ro code  0x08022460      0xc  cstartup_M.o [7]
+  .rodata                 const    0x0802246c      0x8  bluetooth_internal.o [1]
+  .rodata                 const    0x08022474      0x8  bluetooth_internal.o [1]
+  .rodata                 const    0x0802247c      0x8  bluetooth_internal.o [1]
+  .rodata                 const    0x08022484      0x8  bluetooth_internal.o [1]
+  .rodata                 const    0x0802248c      0x8  BTPSKRNL.o [1]
+  .rodata                 const    0x08022494      0x8  state_goodbye.o [1]
+  .rodata                 const    0x0802249c      0x8  state_running.o [1]
+  .rodata                 const    0x080224a4      0x8  state_welcome.o [1]
+  .rodata                 const    0x080224ac      0x8  system_stm32l1xx.o [1]
+  .rodata                 const    0x080224b4      0x8  tasks.o [1]
+  .rodata                 const    0x080224bc      0x8  tasks_ecg.o [1]
+  .rodata                 const    0x080224c4      0x8  tasks_ecg.o [1]
+  .rodata                 const    0x080224cc      0x8  tasks_ecg.o [1]
+  .rodata                 const    0x080224d4      0x8  tasks_ecg.o [1]
+  .rodata                 const    0x080224dc      0x8  tasks_ecg.o [1]
+  .rodata                 const    0x080224e4      0x8  tasks_ecg.o [1]
+  .rodata                 const    0x080224ec      0x8  tasks_ecg.o [1]
+  .rodata                 const    0x080224f4      0x8  tasks_ecg.o [1]
+  .rodata                 const    0x080224fc      0x8  tasks_ecg.o [1]
+  .rodata                 const    0x08022504      0x8  tasks_ecg.o [1]
+  .rodata                 const    0x0802250c      0x8  tasks_ecg.o [1]
+  .constdata              const    0x08022514      0x4  HCILL.o [3]
+  .rodata                 const    0x08022518      0x4  HCITRANS.o [1]
+  .rodata                 const    0x0802251c      0x4  heap_4.o [1]
+  .rodata                 const    0x08022520      0x4  port.o [1]
+  .rodata                 const    0x08022524      0x4  tasks_ecg.o [1]
+  .rodata                 const    0x08022528      0x4  tasks_ecg.o [1]
+  .rodata                 const    0x0802252c      0x4  tasks_ecg.o [1]
+  .rodata                 const    0x08022530      0x4  tasks_ecg.o [1]
+  .rodata                 const    0x08022534      0x4  tasks_input.o [1]
+  .rodata                 const    0x08022538      0x4  tasks_input.o [1]
+  .rodata                 const    0x0802253c      0x4  tasks_periph.o [1]
+  .rodata                 const    0x08022540      0x4  tasks_periph.o [1]
+  .rodata                 const    0x08022544      0x4  tasks_periph.o [1]
+  .text                   ro code  0x08022548      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x0802254c      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x08022550      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x08022554      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x08022558      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x0802255c      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x08022560      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x08022564      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x08022568      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x0802256c      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x08022570      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x08022574      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x08022578      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x0802257c      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x08022580      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x08022584      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x08022588      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x0802258c      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x08022590      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x08022594      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x08022598      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x0802259c      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x080225a0      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x080225a4      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x080225a8      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x080225ac      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x080225b0      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x080225b4      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x080225b8      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x080225bc      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x080225c0      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x080225c4      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x080225c8      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x080225cc      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x080225d0      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x080225d4      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x080225d8      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x080225dc      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x080225e0      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x080225e4      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x080225e8      0x4  startup_stm32l162xd.o [1]
+  .text                   ro code  0x080225ec      0x4  startup_stm32l162xd.o [1]
+  .rodata                 const    0x080225f0      0x0  zero_init3.o [7]
+  .rodata                 const    0x080225f0      0x0  packbits_init.o [7]
+  Initializer bytes       const    0x080225f0     0x2f  <for P2 s0>
+                                 - 0x0802261f  0x224fb
+
+"P2":                                           0x9ee8
+  P2 s0                            0x20000000    0x178  <Init block>
+    __DLIB_PERTHREAD      inited   0x20000000     0x88  localeconv.o [5]
+    __DLIB_PERTHREAD      inited   0x20000088     0x74  setlocale.o [5]
+    .data                 inited   0x200000fc     0x1c  BTPSTMR.o [3]
+    .data                 inited   0x20000118     0x10  BSC.o [3]
+    .data                 inited   0x20000128      0xc  L2CAP.o [3]
+    .data                 inited   0x20000134      0xc  SDP.o [3]
+    .data                 inited   0x20000140      0xc  HCIDrv.o [3]
+    .data                 inited   0x2000014c      0xc  HCIComm.o [3]
+    .data                 inited   0x20000158      0x4  port.o [1]
+    .data                 inited   0x2000015c      0x4  system_stm32l1xx.o [1]
+    .data                 inited   0x20000160      0x4  HCI.o [3]
+    .data                 inited   0x20000164      0x4  SPP.o [3]
+    .data                 inited   0x20000168      0x4  RFCOMM.o [3]
+    .data                 inited   0x2000016c      0x2  gauge.o [1]
+    .data                 inited   0x2000016e      0x2  gauge.o [1]
+    .data                 inited   0x20000170      0x2  gauge.o [1]
+    .data                 inited   0x20000172      0x2  gauge.o [1]
+    .data                 inited   0x20000174      0x2  gauge.o [1]
+    .data                 inited   0x20000176      0x2  gauge.o [1]
+  .bss                    zero     0x20000178   0x88b8  heap_4.o [1]
+  .bss                    zero     0x20008a30    0x460  bluetooth_internal.o [1]
+  .bss                    zero     0x20008e90    0x1c0  BTPSTMR.o [3]
+  .bss                    zero     0x20009050    0x11c  dsp.o [1]
+  .bss                    zero     0x2000916c     0x8c  tasks.o [1]
+  .bss                    zero     0x200091f8     0x64  freertos.o [1]
+  .bss                    zero     0x2000925c     0x58  spi.o [1]
+  .bss                    zero     0x200092b4     0x58  spi.o [1]
+  .bss                    zero     0x2000930c     0x44  fsmc.o [1]
+  .bss                    zero     0x20009350     0x40  queue.o [1]
+  .bss                    zero     0x20009390     0x40  usart.o [1]
+  .bss                    zero     0x200093d0     0x3c  i2c.o [1]
+  .bss                    zero     0x2000940c     0x38  dma.o [1]
+  .bss                    zero     0x20009444     0x38  i2c.o [1]
+  .bss                    zero     0x2000947c     0x38  i2c.o [1]
+  .bss                    zero     0x200094b4     0x38  spi.o [1]
+  .bss                    zero     0x200094ec     0x38  spi.o [1]
+  .bss                    zero     0x20009524     0x38  tasks_fsm.o [1]
+  .bss                    zero     0x2000955c     0x38  tim.o [1]
+  .bss                    zero     0x20009594     0x38  tim.o [1]
+  .bss                    zero     0x200095cc     0x38  usart.o [1]
+  .bss                    zero     0x20009604     0x38  usart.o [1]
+  .bss                    zero     0x2000963c     0x2c  HCI.o [3]
+  .bss                    zero     0x20009668     0x28  dsp.o [1]
+  .bss                    zero     0x20009690     0x28  freertos.o [1]
+  .bss                    zero     0x200096b8     0x20  rtc.o [1]
+  .bss                    zero     0x200096d8     0x18  bluetooth_internal.o [1]
+  .bss                    zero     0x200096f0     0x18  tasks_ecg.o [1]
+  .bss                    zero     0x20009708     0x14  tasks.o [1]
+  .bss                    zero     0x2000971c     0x14  tasks.o [1]
+  .bss                    zero     0x20009730     0x14  tasks.o [1]
+  .bss                    zero     0x20009744     0x14  tasks.o [1]
+  .bss                    zero     0x20009758     0x14  tasks.o [1]
+  .bss                    zero     0x2000976c      0x8  bluetooth_internal.o [1]
+  .bss                    zero     0x20009774      0x8  bluetooth_internal.o [1]
+  .bss                    zero     0x2000977c      0x8  bluetooth_internal.o [1]
+  .bss                    zero     0x20009784      0x8  freertos.o [1]
+  .bss                    zero     0x2000978c      0x8  heap_4.o [1]
+  .bss                    zero     0x20009794      0x8  xxmemxmalloc.o [5]
+  .bss                    zero     0x2000979c      0x4  bluetooth_internal.o [1]
+  .bss                    zero     0x200097a0      0x4  bluetooth_internal.o [1]
+  .bss                    zero     0x200097a4      0x4  bluetooth_internal.o [1]
+  .bss                    zero     0x200097a8      0x4  bluetooth_internal.o [1]
+  .bss                    zero     0x200097ac      0x4  bluetooth_internal.o [1]
+  .bss                    zero     0x200097b0      0x4  bluetooth_internal.o [1]
+  .bss                    zero     0x200097b4      0x4  BTPSKRNL.o [1]
+  .bss                    zero     0x200097b8      0x4  BTPSVEND.o [1]
+  .bss                    zero     0x200097bc      0x4  dsp.o [1]
+  .bss                    zero     0x200097c0      0x4  dsp.o [1]
+  .bss                    zero     0x200097c4      0x4  fsmc.o [1]
+  .bss                    zero     0x200097c8      0x4  HCITRANS.o [1]
+  .bss                    zero     0x200097cc      0x4  HCITRANS.o [1]
+  .bss                    zero     0x200097d0      0x4  HCITRANS.o [1]
+  .bss                    zero     0x200097d4      0x4  HCITRANS.o [1]
+  .bss                    zero     0x200097d8      0x4  HCITRANS.o [1]
+  .bss                    zero     0x200097dc      0x4  heap_4.o [1]
+  .bss                    zero     0x200097e0      0x4  heap_4.o [1]
+  .bss                    zero     0x200097e4      0x4  heap_4.o [1]
+  .bss                    zero     0x200097e8      0x4  heap_4.o [1]
+  .bss                    zero     0x200097ec      0x4  port.o [1]
+  .bss                    zero     0x200097f0      0x4  port.o [1]
+  .bss                    zero     0x200097f4      0x4  port.o [1]
+  .bss                    zero     0x200097f8      0x4  port.o [1]
+  .bss                    zero     0x200097fc      0x4  stm32l1xx_hal.o [1]
+  .bss                    zero     0x20009800      0x4  tasks.o [1]
+  .bss                    zero     0x20009804      0x4  tasks.o [1]
+  .bss                    zero     0x20009808      0x4  tasks.o [1]
+  .bss                    zero     0x2000980c      0x4  tasks.o [1]
+  .bss                    zero     0x20009810      0x4  tasks.o [1]
+  .bss                    zero     0x20009814      0x4  tasks.o [1]
+  .bss                    zero     0x20009818      0x4  tasks.o [1]
+  .bss                    zero     0x2000981c      0x4  tasks.o [1]
+  .bss                    zero     0x20009820      0x4  tasks.o [1]
+  .bss                    zero     0x20009824      0x4  tasks.o [1]
+  .bss                    zero     0x20009828      0x4  tasks.o [1]
+  .bss                    zero     0x2000982c      0x4  tasks.o [1]
+  .bss                    zero     0x20009830      0x4  tasks.o [1]
+  .bss                    zero     0x20009834      0x4  tasks.o [1]
+  .bss                    zero     0x20009838      0x4  tasks_bt.o [1]
+  .bss                    zero     0x2000983c      0x4  tasks_bt.o [1]
+  .bss                    zero     0x20009840      0x4  tasks_bt.o [1]
+  .bss                    zero     0x20009844      0x4  tasks_bt.o [1]
+  .bss                    zero     0x20009848      0x4  tasks_ecg.o [1]
+  .bss                    zero     0x2000984c      0x4  tasks_ecg.o [1]
+  .bss                    zero     0x20009850      0x4  tasks_ecg.o [1]
+  .bss                    zero     0x20009854      0x4  tasks_ecg.o [1]
+  .bss                    zero     0x20009858      0x4  tasks_ecg.o [1]
+  .bss                    zero     0x2000985c      0x4  tasks_ecg.o [1]
+  .bss                    zero     0x20009860      0x4  tasks_ecg.o [1]
+  .bss                    zero     0x20009864      0x4  tasks_ecg.o [1]
+  .bss                    zero     0x20009868      0x4  tasks_ecg.o [1]
+  .bss                    zero     0x2000986c      0x4  tasks_ecg.o [1]
+  .bss                    zero     0x20009870      0x4  tasks_ecg.o [1]
+  .bss                    zero     0x20009874      0x4  tasks_ecg.o [1]
+  .bss                    zero     0x20009878      0x4  tasks_ecg.o [1]
+  .bss                    zero     0x2000987c      0x4  tasks_ecg.o [1]
+  .bss                    zero     0x20009880      0x4  tasks_ecg.o [1]
+  .bss                    zero     0x20009884      0x4  tasks_ecg.o [1]
+  .bss                    zero     0x20009888      0x4  tasks_ecg.o [1]
+  .bss                    zero     0x2000988c      0x4  tasks_ecg.o [1]
+  .bss                    zero     0x20009890      0x4  tasks_ecg.o [1]
+  .bss                    zero     0x20009894      0x4  tasks_ecg.o [1]
+  .bss                    zero     0x20009898      0x4  tasks_ecg.o [1]
+  .bss                    zero     0x2000989c      0x4  tasks_ecg.o [1]
+  .bss                    zero     0x200098a0      0x4  tasks_ecg.o [1]
+  .bss                    zero     0x200098a4      0x4  tasks_fsm.o [1]
+  .bss                    zero     0x200098a8      0x4  tasks_fsm.o [1]
+  .bss                    zero     0x200098ac      0x4  tasks_input.o [1]
+  .bss                    zero     0x200098b0      0x4  tasks_input.o [1]
+  .bss                    zero     0x200098b4      0x4  tasks_input.o [1]
+  .bss                    zero     0x200098b8      0x4  tasks_periph.o [1]
+  .bss                    zero     0x200098bc      0x4  tasks_periph.o [1]
+  .bss                    zero     0x200098c0      0x4  tasks_periph.o [1]
+  .bss                    zero     0x200098c4      0x4  tasks_periph.o [1]
+  .bss                    zero     0x200098c8      0x4  tasks_periph.o [1]
+  .bss                    zero     0x200098cc      0x4  tasks_periph.o [1]
+  .bss                    zero     0x200098d0      0x4  tasks_periph.o [1]
+  .bss                    zero     0x200098d4      0x4  xgetmemchunk.o [5]
+  .bss                    zero     0x200098d8      0x2  bluetooth_internal.o [1]
+  .bss                    zero     0x200098da      0x2  HCITRANS.o [1]
+  .bss                    zero     0x200098dc      0x1  bluetooth_internal.o [1]
+  .bss                    zero     0x200098dd      0x1  bluetooth_internal.o [1]
+  .bss                    zero     0x200098de      0x1  bluetooth_internal.o [1]
+  .bss                    zero     0x200098df      0x1  bluetooth_internal.o [1]
+  .bss                    zero     0x200098e0      0x1  BTPSKRNL.o [1]
+  .bss                    zero     0x200098e1      0x1  BTPSVEND.o [1]
+  .bss                    zero     0x200098e2      0x1  BTPSVEND.o [1]
+  .bss                    zero     0x200098e3      0x1  port.o [1]
+  CSTACK                           0x200098e8    0x400  <Block>
+    CSTACK                uninit   0x200098e8    0x400  <Block tail>
+  HEAP                             0x20009ce8    0x200  <Block>
+    HEAP                  uninit   0x20009ce8    0x200  <Block tail>
+                                 - 0x20009ee8   0x9ee8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x976c:
+          0x20000178  0x976c
+
+Copy/packbits (__iar_packbits_init3)
+    1 source range, total size 0x2f (12% of destination):
+          0x080225f0    0x2f
+    1 destination range, total size 0x178:
+          0x20000000   0x178
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H Pacemaker\EWARM\H2H\Obj: [1]
+    BTPSKRNL.o                1 412        8        5
+    BTPSVEND.o                  552    6 216        6
+    BTVS.o                    1 304
+    HCITRANS.o                  566       36       22
+    afe.o                     1 622
+    afe_hal.o                   160
+    authentication.o            804      340
+    bluetooth_internal.o      7 624       76    1 198
+    buzzer.o                    128
+    cmsis_os.o                1 412
+    dma.o                       228                56
+    dsp.o                     1 940      184      332
+    freertos.o                  140               148
+    fsm_client.o                 74
+    fsmc.o                      288                72
+    gauge.o                     440        2       12
+    gauge_hal.o                 440
+    gpio.o                      604
+    heap_4.o                    592        4   35 024
+    i2c.o                       320               172
+    list.o                      158
+    main.o                      378
+    port.o                      880        4       21
+    portasm.o                   148
+    queue.o                   2 688                64
+    rtc.o                       248                32
+    spi.o                       516               288
+    startup_stm32l162xd.o       476
+    state.o                      64
+    state_goodbye.o             244        8
+    state_h2h_auth.o             60       12
+    state_h2h_connected.o       108       36
+    state_h2h_keygen.o           76       12
+    state_h2h_wait.o             72       12
+    state_h2h_waitkey.o         196       32
+    state_running.o             208        8
+    state_welcome.o             172        8
+    stm32l1xx_hal.o             128                 4
+    stm32l1xx_hal_cortex.o      640
+    stm32l1xx_hal_dma.o       3 746
+    stm32l1xx_hal_gpio.o      2 208
+    stm32l1xx_hal_i2c.o       2 862
+    stm32l1xx_hal_msp.o         468
+    stm32l1xx_hal_pwr.o          60
+    stm32l1xx_hal_pwr_ex.o       16
+    stm32l1xx_hal_rcc.o       4 264
+    stm32l1xx_hal_rcc_ex.o      424
+    stm32l1xx_hal_rtc.o         464
+    stm32l1xx_hal_rtc_ex.o      638
+    stm32l1xx_hal_spi.o       2 394
+    stm32l1xx_hal_spi_ex.o      140
+    stm32l1xx_hal_sram.o        276
+    stm32l1xx_hal_tim.o       1 890
+    stm32l1xx_hal_tim_ex.o       90
+    stm32l1xx_hal_uart.o      2 276
+    stm32l1xx_it.o              220
+    stm32l1xx_ll_fsmc.o       1 636
+    system_stm32l1xx.o          100       37        4
+    tasks.o                   4 844        8      296
+    tasks_bt.o                  392      104       16
+    tasks_ecg.o               2 296      344      116
+    tasks_fsm.o                 124       48       64
+    tasks_input.o               276       48       12
+    tasks_periph.o              388      140       28
+    tim.o                       420               112
+    usart.o                     420               176
+    -------------------------------------------------
+    Total:                   61 442    7 727   38 280
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+Bluetopia_16_M3.a: [3]
+    BSC.o                     2 672       62       16
+    BTPSC.o                      56
+    BTPSTMR.o                 1 028        4      476
+    GAP.o                     4 420       30
+    GAPLE.o                     628
+    GOEP.o                      158
+    HCI.o                     8 906                48
+    HCIComm.o                 2 114       50       12
+    HCIDrv.o                  2 356        1       12
+    HCILL.o                     664        4
+    L2CAP.o                  13 210       25       12
+    OTP.o                         6
+    RFCOMM.o                  8 018      256        4
+    SCO.o                     1 018
+    SDP.o                     7 230       69       12
+    SPP.o                     5 722       13        4
+    TWUART.o                  3 356       40
+    -------------------------------------------------
+    Total:                   61 562      554      596
+
+as7l.a: [4]
+    checked_operators.o         186
+    divbyzerocheck.o             28
+    rangecheck.o                256
+    -------------------------------------------------
+    Total:                      470
+
+dl7M_tlf.a: [5]
+    abort.o                       6
+    div.o                        14
+    exit.o                        4
+    localeconv.o                108       17      136
+    low_level_init.o              4
+    setlocale.o                  20       14      116
+    sprintf.o                    52
+    vsprintf.o                   44
+    xencoding_sb.o               96
+    xgetmemchunk.o               44                 4
+    xmbcurmax.o                  10
+    xmbtowc.o                    32
+    xprintffull.o             4 438
+    xsprout.o                    10
+    xtls.o                        2
+    xwctomb.o                    26
+    xxmemxfree.o                128
+    xxmemxmalloc.o              176                 8
+    -------------------------------------------------
+    Total:                    5 214       31      264
+
+m7M_tl.a: [6]
+    DblAdd.o                    212
+    DblCmpGe.o                   46
+    DblCmpLe.o                   46
+    DblDiv.o                    598
+    DblMul.o                    418
+    DblSub.o                    384
+    DblToI32.o                   88
+    I32ToDbl.o                   48
+    xdnorm.o                     66
+    xdscale.o                   272
+    -------------------------------------------------
+    Total:                    2 178
+
+rt7M_tl.a: [7]
+    ABImemclr.o                   6
+    ABImemclr4.o                  6
+    ABImemcpy_unaligned.o       118
+    ABImemmove_unaligned.o      120
+    ABImemset.o                 102
+    ABImemset48.o                50
+    I64DivMod.o                 238
+    I64DivZer.o                   2
+    I64Shl.o                     34
+    cexit.o                      10
+    cmain.o                      26
+    cstartup_M.o                 12
+    data_init.o                  40
+    memchr.o                     88
+    memcmp_unaligned.o           98
+    packbits_init.o             208
+    strchr.o                     22
+    strcmp_unaligned.o           66
+    strcpy_unaligned.o           68
+    strlen.o                     54
+    zero_init3.o                 64
+    -------------------------------------------------
+    Total:                    1 432
+
+shb_l.a: [8]
+    exit.o                       20
+    rtc_report.o                 16
+    -------------------------------------------------
+    Total:                       36
+
+    Gaps                        131       10
+    Linker created                        44    1 536
+-----------------------------------------------------
+    Grand Total:            132 465    8 366   40 676
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.iar.init_table$$Base   0x080220bc           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x080220e8           --   Gb  - Linker created -
+?main                   0x08022105          Code  Gb  cmain.o [7]
+AHBPrescTable           0x08022310    0x10  Data  Gb  system_stm32l1xx.o [1]
+APBPrescTable           0x080224ac     0x8  Data  Gb  system_stm32l1xx.o [1]
+AcknowledgeTimerExpired
+                        0x08021d41    0x3e  Code  Lc  TWUART.o [3]
+AcquireBluetoothStackInformation
+                        0x08007d79    0x88  Code  Gb  BSC.o [3]
+AcquireDriverEntry      0x0800f86d    0x58  Code  Lc  HCIDrv.o [3]
+AcquireGAPLEContext     0x0801273b    0x2a  Code  Gb  GAP.o [3]
+AcquireGAPStackACLInfo  0x08009e4f    0x42  Code  Lc  GAP.o [3]
+AcquireGAPStackInfo     0x08021a81    0x4e  Code  Lc  GAPLE.o [3]
+AcquireGAPStackInformation
+                        0x08007c89    0x28  Code  Lc  GAP.o [3]
+AcquireL2CAPStackInformation
+                        0x08007d49    0x2e  Code  Lc  L2CAP.o [3]
+AcquireRFCOMMStackInformation
+                        0x0800c571    0x2e  Code  Lc  RFCOMM.o [3]
+AcquireSDPStackInformation
+                        0x0800959b    0x28  Code  Lc  SDP.o [3]
+AcquireSPPStackInformation
+                        0x0800909d    0x28  Code  Lc  SPP.o [3]
+AcquireSPPStackPortInformation
+                        0x080091b1    0x42  Code  Lc  SPP.o [3]
+AddConnectionInfoEntry  0x0801cded    0x26  Code  Lc  L2CAP.o [3]
+AddConnectionInfoEntry  0x08019b21    0x12  Code  Lc  SDP.o [3]
+AddL2CAPConnectionInfoEntry
+                        0x0801d541    0x12  Code  Lc  RFCOMM.o [3]
+AddPacketQueueEntry     0x080165c9    0x60  Code  Lc  HCIDrv.o [3]
+AddPortInformationEntry
+                        0x08009171    0x12  Code  Lc  SPP.o [3]
+AddRFCOMMChannelInfoEntry
+                        0x08020569    0x36  Code  Lc  RFCOMM.o [3]
+AddRFCOMMMessageInfoEntry
+                        0x08016f3d    0x42  Code  Lc  RFCOMM.o [3]
+AddRegistryInfoEntry    0x08012651    0x12  Code  Lc  L2CAP.o [3]
+AddServiceAttributeEntry
+                        0x0800f9df    0x56  Code  Lc  SDP.o [3]
+AddServiceRecordEntry   0x0800c2f5    0x12  Code  Lc  SDP.o [3]
+AdjustSharedBuffer      0x08014545    0x60  Code  Gb  BSC.o [3]
+AsynchronousACLDataCallback
+                        0x08021dbd    0x3a  Code  Lc  HCI.o [3]
+AsynchronousCallbackFunction
+                        0x080211a1    0x9c  Code  Lc  BTPSTMR.o [3]
+AsynchronousHCIEventCallback
+                        0x0801b999   0x684  Code  Lc  HCI.o [3]
+AsynchronousSCODataCallback
+                        0x08021df7    0x3a  Code  Lc  HCI.o [3]
+BSCTimerEntryList       0x20000124     0x4  Data  Lc  BSC.o [3]
+BSC_AcquireListLock     0x0800bcc9    0x12  Code  Gb  BSC.o [3]
+BSC_AddGenericListEntry
+                        0x080172b1    0x6c  Code  Gb  BSC.o [3]
+BSC_AddGenericListEntry_Actual
+                        0x08006da1    0x46  Code  Gb  BSC.o [3]
+BSC_AuthenticateDevice  0x080212e5    0x86  Code  Gb  BSC.o [3]
+BSC_DeleteGenericListEntry
+                        0x080095c3    0x62  Code  Gb  BSC.o [3]
+BSC_Event_Callback      0x08021a2d    0x54  Code  Lc  GAP.o [3]
+BSC_FreeGenericListEntryList
+                        0x0800fd7d    0x1e  Code  Gb  BSC.o [3]
+BSC_FreeGenericListEntryMemory
+                        0x0800962b     0xa  Code  Gb  BSC.o [3]
+BSC_GetNextGenericListEntry
+                        0x080129c7    0x20  Code  Gb  BSC.o [3]
+BSC_Initialize          0x08002471   0x372  Code  Gb  BSC.o [3]
+BSC_RegisterEventCallback
+                        0x0800c35d    0x2a  Code  Gb  BSC.o [3]
+BSC_ReleaseListLock     0x0800be41     0xe  Code  Gb  BSC.o [3]
+BSC_ScheduleAsynchronousCallback
+                        0x080217ed    0x32  Code  Gb  BSC.o [3]
+BSC_SearchGenericListEntry
+                        0x0800f9a9    0x36  Code  Gb  BSC.o [3]
+BSC_Shutdown            0x08003989    0xf0  Code  Gb  BSC.o [3]
+BSC_UnRegisterEventCallback
+                        0x0800c491    0x1a  Code  Gb  BSC.o [3]
+BTPSInitCallback        0x080002a1     0x6  Code  Lc  bluetooth_internal.o [1]
+BTPS_AddMailbox         0x0800233b    0x46  Code  Gb  BTPSKRNL.o [1]
+BTPS_AllocateMemory     0x0800216b    0x2e  Code  Gb  BTPSKRNL.o [1]
+BTPS_ChangeTimer        0x080178e5    0x58  Code  Gb  BTPSTMR.o [3]
+BTPS_CleanupTimerModule
+                        0x08007c3d    0x48  Code  Gb  BTPSTMR.o [3]
+BTPS_CloseEvent         0x08002153    0x18  Code  Gb  BTPSKRNL.o [1]
+BTPS_CloseMutex         0x08001fcb    0x10  Code  Gb  BTPSKRNL.o [1]
+BTPS_CreateEvent        0x08001fdb    0x7c  Code  Gb  BTPSKRNL.o [1]
+BTPS_CreateMailbox      0x080022e5    0x56  Code  Gb  BTPSKRNL.o [1]
+BTPS_CreateMutex        0x08001f29    0x38  Code  Gb  BTPSKRNL.o [1]
+BTPS_CreateThread       0x0800224b    0x92  Code  Gb  BTPSKRNL.o [1]
+BTPS_CurrentThreadHandle
+                        0x080022dd     0x8  Code  Gb  BTPSKRNL.o [1]
+BTPS_Delay              0x08001f09    0x20  Code  Gb  BTPSKRNL.o [1]
+BTPS_DeleteMailbox      0x080023c7    0x72  Code  Gb  BTPSKRNL.o [1]
+BTPS_FreeMemory         0x08002199    0x24  Code  Gb  BTPSKRNL.o [1]
+BTPS_Init               0x08002439    0x28  Code  Gb  BTPSKRNL.o [1]
+BTPS_InitializeTimerModule
+                        0x08006a2d    0x68  Code  Gb  BTPSTMR.o [3]
+BTPS_MemCompare         0x080021fb    0x14  Code  Gb  BTPSKRNL.o [1]
+BTPS_MemCopy            0x080021bd    0x14  Code  Gb  BTPSKRNL.o [1]
+BTPS_MemInitialize      0x080021e5    0x16  Code  Gb  BTPSKRNL.o [1]
+BTPS_MemMove            0x080021d1    0x14  Code  Gb  BTPSKRNL.o [1]
+BTPS_ReleaseMutex       0x08001fbb    0x10  Code  Gb  BTPSKRNL.o [1]
+BTPS_ResetEvent         0x080020e9    0x34  Code  Gb  BTPSKRNL.o [1]
+BTPS_SetEvent           0x0800211d    0x36  Code  Gb  BTPSKRNL.o [1]
+BTPS_SprintF            0x0800222b    0x20  Code  Gb  BTPSKRNL.o [1]
+BTPS_StartTimer         0x08009849    0x8a  Code  Gb  BTPSTMR.o [3]
+BTPS_StopTimer          0x08009795    0x6a  Code  Gb  BTPSTMR.o [3]
+BTPS_StringCopy         0x0800220f    0x10  Code  Gb  BTPSKRNL.o [1]
+BTPS_StringLength       0x0800221f     0xc  Code  Gb  BTPSKRNL.o [1]
+BTPS_WaitEvent          0x08002057    0x92  Code  Gb  BTPSKRNL.o [1]
+BTPS_WaitMailbox        0x08002381    0x46  Code  Gb  BTPSKRNL.o [1]
+BTPS_WaitMutex          0x08001f61    0x5a  Code  Gb  BTPSKRNL.o [1]
+BTStackInfoList         0x20000120     0x4  Data  Lc  BSC.o [3]
+BTStackInfoListMutex    0x2000011c     0x4  Data  Lc  BSC.o [3]
+BasePatch               0x08017bf0  0x1848  Data  Lc  BTPSVEND.o [1]
+BluetoothStackID        0x2000979c     0x4  Data  Gb  bluetooth_internal.o [1]
+BufferOffsets           0x08021d80    0x3c  Data  Lc  BSC.o [3]
+BuildAndSubmitCommandBD_ADDRByte
+                        0x08010115    0x62  Code  Lc  HCI.o [3]
+BuildAndSubmitCommandBD_ADDRByteVariable
+                        0x0801017d    0x94  Code  Lc  HCI.o [3]
+BuildAndSubmitCommandByte
+                        0x0800fed9    0x4a  Code  Lc  HCI.o [3]
+BuildAndSubmitCommandByteVariable
+                        0x0800ff29    0x80  Code  Lc  HCI.o [3]
+BuildAndSubmitCommandNoData
+                        0x0800c12d     0xe  Code  Lc  HCI.o [3]
+BuildAndSubmitCommandThreeWords
+                        0x0801afa5    0x6e  Code  Lc  HCI.o [3]
+BuildAndSubmitCommandWord
+                        0x0800c90d    0x4e  Code  Lc  HCI.o [3]
+BuildAndSubmitCommandWordByte
+                        0x08012855    0x52  Code  Lc  HCI.o [3]
+BuildCommandHeader      0x0800c869    0x2e  Code  Lc  HCI.o [3]
+BuildEventBD_ADDRDWord  0x0801c103    0x34  Code  Lc  HCI.o [3]
+BuildEventBD_ADDRVariableData
+                        0x0801c137    0x3e  Code  Lc  HCI.o [3]
+BuildEventByte          0x0801c03b    0x14  Code  Lc  HCI.o [3]
+BuildEventByteBD_ADDRByte
+                        0x0801c07d    0x34  Code  Lc  HCI.o [3]
+BuildEventByteWordByte  0x0801c04f    0x2e  Code  Lc  HCI.o [3]
+BuildEventByteWordWord  0x0801c0b1    0x3c  Code  Lc  HCI.o [3]
+BuildEventHeader        0x0801c01d    0x1e  Code  Lc  HCI.o [3]
+BuildEventWord          0x0801c0ed    0x16  Code  Lc  HCI.o [3]
+BuildPortInformationStructure
+                        0x0801df0b   0x200  Code  Lc  SPP.o [3]
+BuildRemotePortNegotiationStructure
+                        0x08009f69   0x1d6  Code  Lc  SPP.o [3]
+BusFault_Handler        0x08020c61     0x2  Code  Gb  stm32l1xx_it.o [1]
+CIDIdentifier           0x20000128     0x2  Data  Lc  L2CAP.o [3]
+COMDataCallbackFunction
+                        0x200097d0     0x4  Data  Gb  HCITRANS.o [1]
+COMDataCallbackParameter
+                        0x200097cc     0x4  Data  Gb  HCITRANS.o [1]
+COMInfoList             0x20000154     0x4  Data  Lc  HCIComm.o [3]
+COMInfoListInitialized  0x2000014c     0x1  Data  Lc  HCIComm.o [3]
+CSTACK$$Base            0x200098e8           --   Gb  - Linker created -
+CSTACK$$Limit           0x20009ce8           --   Gb  - Linker created -
+CalculateAttributeRequestParameters
+                        0x0801ada1    0x58  Code  Lc  SDP.o [3]
+CalculateBufferOffset   0x08012481    0x30  Code  Lc  BSC.o [3]
+CalculateCRC            0x0801feb1    0x30  Code  Lc  TWUART.o [3]
+CalculateCreditThreshold
+                        0x08020a29    0x34  Code  Lc  SPP.o [3]
+CalculateDataTypeLength
+                        0x0801a06b    0x98  Code  Lc  SDP.o [3]
+CalculateFCS            0x08014445    0x1a  Code  Lc  RFCOMM.o [3]
+ChangeCommSCOConfiguration
+                        0x080161c9    0x2c  Code  Gb  HCIComm.o [3]
+CheckIdle               0x0801fe85    0x2c  Code  Lc  TWUART.o [3]
+CheckQueuedDataWrite    0x08016d79   0x106  Code  Lc  L2CAP.o [3]
+CleanUpInquiry          0x0801b97d    0x1c  Code  Lc  GAP.o [3]
+CleanupCOMMList         0x0800c821    0x44  Code  Gb  HCIComm.o [3]
+CleanupCertificateModule
+                        0x0800715b     0x2  Code  Gb  BTPSC.o [3]
+CleanupChannel          0x080128ad    0x30  Code  Lc  L2CAP.o [3]
+CleanupPortInformationEntry
+                        0x0800a2af    0x54  Code  Lc  SPP.o [3]
+CleanupSDPConnection    0x08012787    0x38  Code  Lc  SDP.o [3]
+CloseComm               0x0800bdfd    0x3e  Code  Gb  HCIComm.o [3]
+CloseServer             0x08000453    0x76  Code  Gb  bluetooth_internal.o [1]
+CloseStack              0x0800036b    0x38  Code  Gb  bluetooth_internal.o [1]
+CompareBluetoothAddress
+                        0x08009abd    0x38  Code  Gb  BSC.o [3]
+CompareListEntryKeys    0x0800be55    0x4a  Code  Lc  BSC.o [3]
+CompareNULLBluetoothAddress
+                        0x08009a9d    0x20  Code  Gb  BSC.o [3]
+CompareServiceRecordWithServiceList
+                        0x0801ab9f   0x202  Code  Lc  SDP.o [3]
+Connected               0x200098dc     0x1  Data  Lc  bluetooth_internal.o [1]
+Connection_Handle       0x200098d8     0x2  Data  Lc  bluetooth_internal.o [1]
+CreateNewChannel        0x0801efcd    0x6e  Code  Lc  L2CAP.o [3]
+CreateNewIdentifierEntry
+                        0x08016245    0x70  Code  Lc  L2CAP.o [3]
+CreditDataPacket        0x0801f421    0x16  Code  Lc  HCI.o [3]
+CurrentRemoteBD_ADDR    0x2000976c     0x8  Data  Lc  bluetooth_internal.o [1]
+DMA1_Channel2_IRQHandler
+                        0x08020c9b     0xa  Code  Gb  stm32l1xx_it.o [1]
+DMA1_Channel3_IRQHandler
+                        0x08020ca5     0xa  Code  Gb  stm32l1xx_it.o [1]
+DMA1_Channel4_IRQHandler
+                        0x08020caf     0xa  Code  Gb  stm32l1xx_it.o [1]
+DMA1_Channel5_IRQHandler
+                        0x08020cb9     0xa  Code  Gb  stm32l1xx_it.o [1]
+DMA1_Channel6_IRQHandler
+                        0x08020cc3     0xa  Code  Gb  stm32l1xx_it.o [1]
+DMA1_Channel7_IRQHandler
+                        0x08020ccd     0xa  Code  Gb  stm32l1xx_it.o [1]
+DMA_SetConfig           0x0800dae1    0x22  Code  Lc  stm32l1xx_hal_dma.o [1]
+DebugMon_Handler        0x08020c65     0x2  Code  Gb  stm32l1xx_it.o [1]
+DecreaseBluetoothStackThreadCount
+                        0x08007079    0x6e  Code  Gb  BSC.o [3]
+DelayedAuthenticationProcess
+                        0x08021245    0x9a  Code  Lc  L2CAP.o [3]
+DeleteACLLinkEntryConnection_Handle
+                        0x0801b78d    0x14  Code  Lc  GAP.o [3]
+DeleteACLPacketEntry    0x08017127    0x1e  Code  Lc  L2CAP.o [3]
+DeleteCOMEntry          0x0801242d    0x14  Code  Lc  HCIComm.o [3]
+DeleteCallbackEntry     0x0800fd9b    0x10  Code  Lc  GAP.o [3]
+DeleteCallbackEntry     0x0801f437    0x14  Code  Lc  HCI.o [3]
+DeleteCallbackInfoByType
+                        0x080174ed    0x14  Code  Lc  GAPLE.o [3]
+DeleteChannelInfoEntry  0x080129e7    0x30  Code  Lc  L2CAP.o [3]
+DeleteConnectionInfoEntry
+                        0x08012999    0x2e  Code  Lc  L2CAP.o [3]
+DeleteConnectionInfoEntryCID
+                        0x0801a7cb    0x14  Code  Lc  SDP.o [3]
+DeleteIdentifierInfoEntryByIdentifier
+                        0x08016349    0x2e  Code  Lc  L2CAP.o [3]
+DeleteLinkKey           0x080005f9   0x3ee  Code  Gb  bluetooth_internal.o [1]
+DeletePacketQueueEntry  0x08016629    0x14  Code  Lc  HCIDrv.o [3]
+DeletePortInformationEntry
+                        0x08009491    0x14  Code  Lc  SPP.o [3]
+DetermineLEControllerSupport
+                        0x0800bfd5    0x2a  Code  Lc  HCI.o [3]
+Disconnect              0x0800fbb9   0x1c0  Code  Lc  RFCOMM.o [3]
+DisconnectChannel       0x080144b3    0x86  Code  Lc  RFCOMM.o [3]
+Discoverability_Timeout_Callback
+                        0x08022049    0x26  Code  Lc  GAP.o [3]
+DispatchDebugPacketCallbacks
+                        0x080171d5    0x1e  Code  Lc  HCIDrv.o [3]
+DispatchFixedChannelConnectDisconnect
+                        0x08017145    0x54  Code  Lc  L2CAP.o [3]
+DispatchSDPConnectionEvent
+                        0x08019f57    0x26  Code  Lc  SDP.o [3]
+DownloadPatch           0x08006aa1    0xa4  Code  Lc  BTPSVEND.o [1]
+DriverInfoInitialized   0x20000140     0x1  Data  Lc  HCIDrv.o [3]
+DriverInfoList          0x20000148     0x4  Data  Lc  HCIDrv.o [3]
+EXTI0_IRQHandler        0x08020c73     0xa  Code  Gb  stm32l1xx_it.o [1]
+EXTI15_10_IRQHandler    0x08020cf5     0xc  Code  Gb  stm32l1xx_it.o [1]
+EXTI1_IRQHandler        0x08020c7d     0xa  Code  Gb  stm32l1xx_it.o [1]
+EXTI2_IRQHandler        0x08020c87     0xa  Code  Gb  stm32l1xx_it.o [1]
+EXTI4_IRQHandler        0x08020c91     0xa  Code  Gb  stm32l1xx_it.o [1]
+EXTI9_5_IRQHandler      0x08020cd7     0xa  Code  Gb  stm32l1xx_it.o [1]
+EncodeAndSend           0x0802031d    0x86  Code  Lc  TWUART.o [3]
+EnhancedFragmentPacket  0x08016e9d    0x70  Code  Lc  L2CAP.o [3]
+Error_Handler           0x08008ca9     0x2  Code  Gb  main.o [1]
+FSMC_Initialized        0x200097c4     0x4  Data  Lc  fsmc.o [1]
+FSMC_NORSRAM_Extended_Timing_Init
+                        0x08016acd   0x1cc  Code  Gb  stm32l1xx_ll_fsmc.o [1]
+FSMC_NORSRAM_Init       0x0801663d   0x2d4  Code  Gb  stm32l1xx_ll_fsmc.o [1]
+FSMC_NORSRAM_Timing_Init
+                        0x08016911   0x1bc  Code  Gb  stm32l1xx_ll_fsmc.o [1]
+FormatAndDispatchAuthenticationEvent
+                        0x0801b831    0x3c  Code  Lc  GAP.o [3]
+FormatAndDispatchAuthenticationStatusEvent
+                        0x0801b7eb    0x32  Code  Lc  GAP.o [3]
+FormatAndDispatchEncryptionChangeEvent
+                        0x0801b7a1    0x4a  Code  Lc  GAP.o [3]
+FormatAndDispatchEventBD_ADDR
+                        0x0800a26f    0x2c  Code  Lc  SPP.o [3]
+FormatAndDispatchEventPortInformation
+                        0x0801de91    0x32  Code  Lc  SPP.o [3]
+FormatAndDispatchEventTEIDLCIByte
+                        0x08016d07    0x32  Code  Lc  RFCOMM.o [3]
+FormatAndDispatchEventUnsignedInteger
+                        0x0801dba3    0x2a  Code  Lc  SPP.o [3]
+FormatAndDispatchFlowEvent
+                        0x080100e1    0x32  Code  Lc  RFCOMM.o [3]
+FormatAndDispatchInquiryEvent
+                        0x0801b8f1    0x32  Code  Lc  GAP.o [3]
+FormatAndDispatchOpenConfirmationEvent
+                        0x08016d39    0x40  Code  Lc  RFCOMM.o [3]
+FormatEventCIDOnly      0x08017991    0x12  Code  Lc  L2CAP.o [3]
+FormatEventConfigConfirmation
+                        0x0801ef9b    0x30  Code  Lc  L2CAP.o [3]
+FormatEventConnectConfirmation
+                        0x080171ad    0x28  Code  Lc  L2CAP.o [3]
+FormatEventDisconnectConfirmation
+                        0x0801ef85    0x16  Code  Lc  L2CAP.o [3]
+FormatEventDisconnectIndication
+                        0x08017199    0x14  Code  Lc  L2CAP.o [3]
+FormatResponsePDUHeaderAndSend
+                        0x0801a537    0x3a  Code  Lc  SDP.o [3]
+FragmentPacket          0x0801731d    0xac  Code  Lc  L2CAP.o [3]
+FreeACLDataList         0x0800c731     0x6  Code  Lc  L2CAP.o [3]
+FreeACLLinkList         0x0800c52b     0x6  Code  Lc  GAP.o [3]
+FreeACLLinkList         0x0800c64d     0x6  Code  Lc  SCO.o [3]
+FreeBSCTimerEntryList   0x08007c15    0x26  Code  Lc  BSC.o [3]
+FreeBufferListHead      0x0801fef9    0x1c  Code  Lc  TWUART.o [3]
+FreeCOMStructureResources
+                        0x08012441    0x40  Code  Lc  HCIComm.o [3]
+FreeCallbackInfoList    0x08012781     0x6  Code  Lc  GAPLE.o [3]
+FreeCallbackList        0x0800c531     0x6  Code  Lc  GAP.o [3]
+FreeCallbackList        0x0800c79b     0x6  Code  Lc  HCI.o [3]
+FreeCallbackList        0x0800c619     0x6  Code  Lc  SCO.o [3]
+FreeChannelInfoList     0x0800c737    0x14  Code  Lc  L2CAP.o [3]
+FreeConnectionInfoList  0x0800c74b    0x28  Code  Lc  L2CAP.o [3]
+FreeConnectionInfoList  0x0800c59f    0x24  Code  Lc  SDP.o [3]
+FreeDriverStructureResources
+                        0x0800c7ed    0x2e  Code  Lc  HCIDrv.o [3]
+FreeFixedChannelInfoList
+                        0x08012a17     0x6  Code  Lc  L2CAP.o [3]
+FreeIdentifierInfoList  0x0800c773    0x28  Code  Lc  L2CAP.o [3]
+FreeInquiryResultList   0x0800c537     0x6  Code  Lc  GAP.o [3]
+FreeL2CAPConnectionInfoList
+                        0x0800c5c3    0x2e  Code  Lc  SDP.o [3]
+FreeL2CAPConnectionInfoList
+                        0x080218fb     0x6  Code  Lc  RFCOMM.o [3]
+FreeL2CAPContextInformation
+                        0x0800c24f    0x3e  Code  Lc  L2CAP.o [3]
+FreeLELinkEntryMemory   0x0801620d    0x24  Code  Lc  GAPLE.o [3]
+FreeLELinkList          0x08012765    0x1c  Code  Lc  GAPLE.o [3]
+FreePortInfoEntryMemory
+                        0x08012719    0x22  Code  Lc  GOEP.o [3]
+FreePortInfoList        0x0800c4f3    0x1c  Code  Lc  GOEP.o [3]
+FreePortInformationEntryMemory
+                        0x08009571    0x2a  Code  Lc  SPP.o [3]
+FreePortInformationList
+                        0x0800c50f    0x1c  Code  Lc  SPP.o [3]
+FreeRFCOMMChannelInfoList
+                        0x08021901     0x6  Code  Lc  RFCOMM.o [3]
+FreeRegistryInfoList    0x0800c72b     0x6  Code  Lc  L2CAP.o [3]
+FreeSecurityManagerResources
+                        0x08017077    0x34  Code  Lc  GAPLE.o [3]
+FreeServiceAttributeList
+                        0x08009625     0x6  Code  Lc  SDP.o [3]
+FreeServiceRecordList   0x0800c5f1    0x28  Code  Lc  SDP.o [3]
+FreeTransmitBufferListHead
+                        0x08021501    0x1e  Code  Lc  HCILL.o [3]
+GAPIOCapabilityTable    0x080028be     0x4  Data  Lc  GAP.o [3]
+GAPKeypressTable        0x080028c7     0x5  Data  Lc  GAP.o [3]
+GAP_Authenticate_Remote_Device
+                        0x0802151f    0x9a  Code  Gb  GAP.o [3]
+GAP_Authentication_Response
+                        0x080044c9   0x16c  Code  Gb  GAP.o [3]
+GAP_Cancel_Bonding      0x08009659    0xb0  Code  Gb  GAP.o [3]
+GAP_Cleanup             0x080078bd    0x7e  Code  Gb  GAP.o [3]
+GAP_Event_Callback      0x08000a01  0x1264  Code  Gb  bluetooth_internal.o [1]
+GAP_Initialize          0x080076d1    0xca  Code  Gb  GAP.o [3]
+GAP_LE_Cleanup          0x0800c53d    0x34  Code  Gb  GAPLE.o [3]
+GAP_LE_Initialize       0x0800c389   0x100  Code  Gb  GAPLE.o [3]
+GAP_Query_Connection_Handle
+                        0x08004643    0x3c  Code  Gb  GAP.o [3]
+GAP_Register_Remote_Authentication
+                        0x08003ed1    0x32  Code  Gb  GAP.o [3]
+GAP_Set_Connectability_Mode
+                        0x08003f03    0x54  Code  Gb  GAP.o [3]
+GAP_Set_Discoverability_Mode
+                        0x08003f5d   0x184  Code  Gb  GAP.o [3]
+GAP_Set_Encryption_Mode
+                        0x0801b86d    0x84  Code  Gb  GAP.o [3]
+GAP_Set_Local_Device_Name
+                        0x080027e9    0x2e  Code  Gb  GAP.o [3]
+GAP_Set_Pairability_Mode
+                        0x08003dfd    0xd4  Code  Gb  GAP.o [3]
+GOEP_Cleanup            0x08007869    0x2a  Code  Gb  GOEP.o [3]
+GOEP_Initialize         0x0800782d    0x36  Code  Gb  GOEP.o [3]
+GetAccess               0x08007139    0x22  Code  Gb  BTPSC.o [3]
+GetCertCurrentDate      0x08007135     0x4  Code  Gb  BTPSC.o [3]
+GetCertLength           0x08007129     0x4  Code  Gb  BTPSC.o [3]
+GetCertPtr              0x0800712d     0x4  Code  Gb  BTPSC.o [3]
+GetNextCallbackPacketID
+                        0x0800bce1    0x10  Code  Lc  HCIDrv.o [3]
+GetNextChannelInfoEntry
+                        0x0800c721     0xa  Code  Lc  L2CAP.o [3]
+GetNextDataIdentifier   0x08016e81    0x16  Code  Lc  L2CAP.o [3]
+GetNextIDNumber         0x0801263d    0x10  Code  Lc  L2CAP.o [3]
+GetNextRFCOMMChannelInfoEntry
+                        0x08014473     0xa  Code  Lc  RFCOMM.o [3]
+GetNextRFCOMMServerInfoEntry
+                        0x08014539     0xa  Code  Lc  RFCOMM.o [3]
+GetNextSerialPortID     0x080090c5    0x10  Code  Lc  SPP.o [3]
+GetNextServiceAttribute
+                        0x0801b02d    0x84  Code  Lc  SDP.o [3]
+GetNextTimerID          0x0800ffad    0x3a  Code  Lc  BTPSTMR.o [3]
+HAL_DBGMCU_EnableDBGStandbyMode
+                        0x0800ec2f     0xe  Code  Gb  stm32l1xx_hal.o [1]
+HAL_DMA_DeInit          0x0800ccb9   0x43e  Code  Gb  stm32l1xx_hal_dma.o [1]
+HAL_DMA_IRQHandler      0x0800d1a1   0x900  Code  Gb  stm32l1xx_hal_dma.o [1]
+HAL_DMA_Init            0x0800cc61    0x58  Code  Gb  stm32l1xx_hal_dma.o [1]
+HAL_DMA_Start_IT        0x0800d12d    0x6e  Code  Gb  stm32l1xx_hal_dma.o [1]
+HAL_Delay               0x0800ec15    0x1a  Code  Wk  stm32l1xx_hal.o [1]
+HAL_FSMC_MspInit        0x0800f01d    0x6a  Code  Lc  fsmc.o [1]
+HAL_GPIO_DeInit         0x08002d43   0x3a6  Code  Gb  stm32l1xx_hal_gpio.o [1]
+HAL_GPIO_EXTI_Callback  0x08007f4d    0x6e  Code  Gb  stm32l1xx_hal_msp.o [1]
+HAL_GPIO_EXTI_IRQHandler
+                        0x0800311f    0x1e  Code  Gb  stm32l1xx_hal_gpio.o [1]
+HAL_GPIO_Init           0x080028d9   0x46a  Code  Gb  stm32l1xx_hal_gpio.o [1]
+HAL_GPIO_ReadPin        0x080030e9    0x18  Code  Gb  stm32l1xx_hal_gpio.o [1]
+HAL_GPIO_TogglePin      0x08003115     0xa  Code  Gb  stm32l1xx_hal_gpio.o [1]
+HAL_GPIO_WritePin       0x08003101    0x14  Code  Gb  stm32l1xx_hal_gpio.o [1]
+HAL_GetTick             0x0800ec0f     0x6  Code  Wk  stm32l1xx_hal.o [1]
+HAL_I2C_ErrorCallback   0x08013a6d     0x2  Code  Wk  stm32l1xx_hal_i2c.o [1]
+HAL_I2C_Init            0x080133cd   0x1a8  Code  Gb  stm32l1xx_hal_i2c.o [1]
+HAL_I2C_MasterRxCpltCallback
+                        0x08007edd    0x1e  Code  Gb  stm32l1xx_hal_msp.o [1]
+HAL_I2C_Master_Receive  0x080136ad   0x256  Code  Gb  stm32l1xx_hal_i2c.o [1]
+HAL_I2C_Master_Receive_DMA
+                        0x08013903   0x146  Code  Gb  stm32l1xx_hal_i2c.o [1]
+HAL_I2C_Master_Transmit
+                        0x08013575   0x138  Code  Gb  stm32l1xx_hal_i2c.o [1]
+HAL_I2C_MspInit         0x0800f0f5    0xd2  Code  Gb  i2c.o [1]
+HAL_IncTick             0x0800ec03     0xc  Code  Wk  stm32l1xx_hal.o [1]
+HAL_Init                0x0800ebc9    0x16  Code  Gb  stm32l1xx_hal.o [1]
+HAL_InitTick            0x0800ebdf    0x24  Code  Wk  stm32l1xx_hal.o [1]
+HAL_MspInit             0x08007e31    0x8e  Code  Gb  stm32l1xx_hal_msp.o [1]
+HAL_NVIC_DisableIRQ     0x0800cb81     0xe  Code  Gb  stm32l1xx_hal_cortex.o [1]
+HAL_NVIC_EnableIRQ      0x0800cb73     0xe  Code  Gb  stm32l1xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority    0x0800cb4d    0x26  Code  Gb  stm32l1xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                        0x0800cb41     0xc  Code  Gb  stm32l1xx_hal_cortex.o [1]
+HAL_PWREx_GetVoltageRange
+                        0x080132a9     0xa  Code  Gb  stm32l1xx_hal_pwr_ex.o [1]
+HAL_PWR_EnableWakeUpPin
+                        0x0800f689    0x12  Code  Gb  stm32l1xx_hal_pwr.o [1]
+HAL_PWR_EnterSTANDBYMode
+                        0x0800f69b    0x1c  Code  Gb  stm32l1xx_hal_pwr.o [1]
+HAL_RCCEx_PeriphCLKConfig
+                        0x0800f6c5   0x192  Code  Gb  stm32l1xx_hal_rcc_ex.o [1]
+HAL_RCC_CSSCallback     0x0800ead9     0x2  Code  Wk  stm32l1xx_hal_rcc.o [1]
+HAL_RCC_ClockConfig     0x0800e529   0x318  Code  Gb  stm32l1xx_hal_rcc.o [1]
+HAL_RCC_GetHCLKFreq     0x0800ea29     0x6  Code  Gb  stm32l1xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK1Freq    0x0800ea2f    0x44  Code  Gb  stm32l1xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK2Freq    0x0800ea73    0x44  Code  Gb  stm32l1xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                        0x0800e8b1   0x178  Code  Gb  stm32l1xx_hal_rcc.o [1]
+HAL_RCC_MCOConfig       0x0800e841    0x68  Code  Gb  stm32l1xx_hal_rcc.o [1]
+HAL_RCC_NMI_IRQHandler  0x0800eabd    0x16  Code  Gb  stm32l1xx_hal_rcc.o [1]
+HAL_RCC_OscConfig       0x0800db05   0xa16  Code  Gb  stm32l1xx_hal_rcc.o [1]
+HAL_RTCEx_AlarmBEventCallback
+                        0x08014349     0x2  Code  Wk  stm32l1xx_hal_rtc_ex.o [1]
+HAL_RTC_AlarmAEventCallback
+                        0x08007f2f    0x1e  Code  Gb  stm32l1xx_hal_msp.o [1]
+HAL_RTC_AlarmIRQHandler
+                        0x08013ff7    0x5e  Code  Gb  stm32l1xx_hal_rtc.o [1]
+HAL_RTC_GetDate         0x08013fa9    0x4e  Code  Gb  stm32l1xx_hal_rtc.o [1]
+HAL_RTC_GetTime         0x080140cd    0x66  Code  Gb  stm32l1xx_hal_rtc_ex.o [1]
+HAL_RTC_Init            0x08013efd    0xac  Code  Gb  stm32l1xx_hal_rtc.o [1]
+HAL_RTC_MspInit         0x0800f2a3    0x2e  Code  Gb  rtc.o [1]
+HAL_RTC_SetAlarm_IT     0x08014133   0x208  Code  Gb  stm32l1xx_hal_rtc_ex.o [1]
+HAL_SPI_ErrorCallback   0x08014e2f     0x2  Code  Wk  stm32l1xx_hal_spi.o [1]
+HAL_SPI_Init            0x0801434b    0x8c  Code  Gb  stm32l1xx_hal_spi_ex.o [1]
+HAL_SPI_MspInit         0x0800f39d   0x116  Code  Gb  spi.o [1]
+HAL_SPI_RxCpltCallback  0x08014e29     0x2  Code  Wk  stm32l1xx_hal_spi.o [1]
+HAL_SPI_RxHalfCpltCallback
+                        0x08014e2b     0x2  Code  Wk  stm32l1xx_hal_spi.o [1]
+HAL_SPI_Transmit        0x080147bd   0x1cc  Code  Gb  stm32l1xx_hal_spi.o [1]
+HAL_SPI_TransmitReceive
+                        0x08014989   0x364  Code  Gb  stm32l1xx_hal_spi.o [1]
+HAL_SPI_TransmitReceive_DMA
+                        0x08014ced   0x13c  Code  Gb  stm32l1xx_hal_spi.o [1]
+HAL_SPI_TxRxCpltCallback
+                        0x08007ebf    0x1e  Code  Gb  stm32l1xx_hal_msp.o [1]
+HAL_SPI_TxRxHalfCpltCallback
+                        0x08014e2d     0x2  Code  Wk  stm32l1xx_hal_spi.o [1]
+HAL_SRAM_Init           0x080132b9   0x114  Code  Gb  stm32l1xx_hal_sram.o [1]
+HAL_SRAM_MspInit        0x0800f087     0xa  Code  Gb  fsmc.o [1]
+HAL_SYSTICK_CLKSourceConfig
+                        0x0800cb9b    0x20  Code  Gb  stm32l1xx_hal_cortex.o [1]
+HAL_SYSTICK_Config      0x0800cb8f     0xc  Code  Gb  stm32l1xx_hal_cortex.o [1]
+HAL_TIMEx_MasterConfigSynchronization
+                        0x080143d7    0x5a  Code  Gb  stm32l1xx_hal_tim_ex.o [1]
+HAL_TIM_Base_Init       0x08012b45    0x38  Code  Gb  stm32l1xx_hal_tim.o [1]
+HAL_TIM_Base_MspInit    0x0800f5e7    0x5a  Code  Gb  tim.o [1]
+HAL_TIM_ConfigClockSource
+                        0x08012f27   0x11e  Code  Gb  stm32l1xx_hal_tim.o [1]
+HAL_TIM_IC_CaptureCallback
+                        0x08013047     0x2  Code  Wk  stm32l1xx_hal_tim.o [1]
+HAL_TIM_IRQHandler      0x08012ced   0x13a  Code  Gb  stm32l1xx_hal_tim.o [1]
+HAL_TIM_MspPostInit     0x0800f641    0x2e  Code  Gb  tim.o [1]
+HAL_TIM_OC_DelayElapsedCallback
+                        0x08007efb    0x14  Code  Gb  stm32l1xx_hal_msp.o [1]
+HAL_TIM_OC_Start_IT     0x08012b7d    0x6c  Code  Gb  stm32l1xx_hal_tim.o [1]
+HAL_TIM_OC_Stop_IT      0x08012be9    0x78  Code  Gb  stm32l1xx_hal_tim.o [1]
+HAL_TIM_PWM_ConfigChannel
+                        0x08012e27   0x100  Code  Gb  stm32l1xx_hal_tim.o [1]
+HAL_TIM_PWM_Init        0x08012c61    0x38  Code  Gb  stm32l1xx_hal_tim.o [1]
+HAL_TIM_PWM_MspInit     0x08012c99     0x2  Code  Wk  stm32l1xx_hal_tim.o [1]
+HAL_TIM_PWM_PulseFinishedCallback
+                        0x08013049     0x2  Code  Wk  stm32l1xx_hal_tim.o [1]
+HAL_TIM_PWM_Start       0x08012c9b    0x20  Code  Gb  stm32l1xx_hal_tim.o [1]
+HAL_TIM_PWM_Stop        0x08012cbb    0x32  Code  Gb  stm32l1xx_hal_tim.o [1]
+HAL_TIM_PeriodElapsedCallback
+                        0x08013045     0x2  Code  Wk  stm32l1xx_hal_tim.o [1]
+HAL_TIM_TriggerCallback
+                        0x0801304b     0x2  Code  Wk  stm32l1xx_hal_tim.o [1]
+HAL_UART_ErrorCallback  0x08007f2d     0x2  Code  Gb  stm32l1xx_hal_msp.o [1]
+HAL_UART_GetState       0x0800837f     0x6  Code  Gb  stm32l1xx_hal_uart.o [1]
+HAL_UART_IRQHandler     0x0800825f   0x11a  Code  Gb  stm32l1xx_hal_uart.o [1]
+HAL_UART_Init           0x080080a9    0x70  Code  Gb  stm32l1xx_hal_uart.o [1]
+HAL_UART_MspDeInit      0x08008ad9    0x36  Code  Gb  usart.o [1]
+HAL_UART_MspInit        0x080089d3   0x106  Code  Gb  usart.o [1]
+HAL_UART_Receive_DMA    0x080081c1    0x9e  Code  Gb  stm32l1xx_hal_uart.o [1]
+HAL_UART_RxCpltCallback
+                        0x08007f0f    0x1e  Code  Gb  stm32l1xx_hal_msp.o [1]
+HAL_UART_RxHalfCpltCallback
+                        0x0800837d     0x2  Code  Wk  stm32l1xx_hal_uart.o [1]
+HAL_UART_Transmit_DMA   0x08008119    0xa8  Code  Gb  stm32l1xx_hal_uart.o [1]
+HAL_UART_TxCpltCallback
+                        0x08008379     0x2  Code  Wk  stm32l1xx_hal_uart.o [1]
+HAL_UART_TxHalfCpltCallback
+                        0x0800837b     0x2  Code  Wk  stm32l1xx_hal_uart.o [1]
+HCICOMMInitialized      0x20000141     0x1  Data  Lc  HCIDrv.o [3]
+HCICallbackThread       0x0801f1a9   0x274  Code  Lc  HCI.o [3]
+HCIEventHandlers        0x2000963c    0x2c  Data  Lc  HCI.o [3]
+HCIIOCapabilityBondingTable
+                        0x080028d2     0x6  Data  Lc  GAP.o [3]
+HCIIOCapabilityMITMTable
+                        0x080028cc     0x6  Data  Lc  GAP.o [3]
+HCIIOCapabilityTable    0x080028ba     0x4  Data  Lc  GAP.o [3]
+HCIKeypressTable        0x080028c2     0x5  Data  Lc  GAP.o [3]
+HCILL_Initialize        0x08016087    0x50  Code  Gb  HCILL.o [3]
+HCILL_Message           0x08022514     0x4  Data  Lc  HCILL.o [3]
+HCILL_Protocol_Information
+                        0x08021f44    0x18  Data  Lc  HCIComm.o [3]
+HCILL_ReceiveBytes      0x08021445    0x96  Code  Gb  HCILL.o [3]
+HCILL_Reconfigure       0x08021e31    0x3a  Code  Gb  HCILL.o [3]
+HCILL_Resynchronize     0x0802206f    0x26  Code  Gb  HCILL.o [3]
+HCILL_Shutdown          0x08021e6b    0x38  Code  Gb  HCILL.o [3]
+HCILL_TransmitBytes     0x0802136d    0x9a  Code  Gb  HCILL.o [3]
+HCISendPacket           0x0800c897    0x76  Code  Lc  HCI.o [3]
+HCITR_COMClose          0x0800328b    0x5c  Code  Gb  HCITRANS.o [1]
+HCITR_COMDataCallback_UART
+                        0x0801f915   0x1e2  Code  Lc  HCIComm.o [3]
+HCITR_COMOpen           0x080031c5    0xc6  Code  Gb  HCITRANS.o [1]
+HCITR_COMReconfigure    0x080032e7    0x44  Code  Gb  HCITRANS.o [1]
+HCITR_COMSuspend        0x080033b9     0xa  Code  Gb  HCITRANS.o [1]
+HCITR_COMWrite          0x0800332b    0x60  Code  Gb  HCITRANS.o [1]
+HCITransportOpen        0x200097c8     0x4  Data  Gb  HCITRANS.o [1]
+HCI_ACL_Data_Callback   0x080205a1   0x164  Code  Lc  L2CAP.o [3]
+HCI_Build_ACL_Packet_Type_Mask
+                        0x0800c28d    0x26  Code  Gb  HCI.o [3]
+HCI_CancelPacket        0x08012ad1    0x6e  Code  Gb  HCIDrv.o [3]
+HCI_ChangeSCOConfiguration
+                        0x08012579    0x5c  Code  Gb  HCIDrv.o [3]
+HCI_ChangeSCOConfigurationHandles
+                        0x080125d9    0x38  Code  Gb  HCIDrv.o [3]
+HCI_Change_SCO_Configuration
+                        0x0800c1f7    0x2a  Code  Gb  HCI.o [3]
+HCI_Change_SCO_Configuration_Handles
+                        0x0800c221    0x2e  Code  Gb  HCI.o [3]
+HCI_Cleanup             0x08007aab    0x8a  Code  Gb  HCI.o [3]
+HCI_CloseDriver         0x08007b59    0xb8  Code  Gb  HCIDrv.o [3]
+HCI_Command_Supported   0x08002859    0x3a  Code  Gb  HCI.o [3]
+HCI_Delete_Stored_Link_Key
+                        0x0800431d    0x32  Code  Gb  HCI.o [3]
+HCI_DriverCallback      0x0801f4e5   0x218  Code  Lc  HCIDrv.o [3]
+HCI_Event_Callback      0x08001e55    0x4c  Code  Gb  bluetooth_internal.o [1]
+HCI_Event_Callback      0x0801b0b5   0x69c  Code  Lc  GAP.o [3]
+HCI_Event_Callback      0x0801c7f9   0x4f6  Code  Lc  L2CAP.o [3]
+HCI_Initialize          0x08006e21   0x242  Code  Gb  HCI.o [3]
+HCI_OpenDriver          0x08006cc9    0xce  Code  Gb  HCIDrv.o [3]
+HCI_Query_LE_Controller_Support
+                        0x08007b35    0x24  Code  Gb  HCI.o [3]
+HCI_ReconfigureDriver   0x0800901d    0x68  Code  Gb  HCIDrv.o [3]
+HCI_Reconfigure_Driver  0x08003951    0x38  Code  Gb  HCI.o [3]
+HCI_RegisterACLDataCallback
+                        0x0800bee3     0xa  Code  Gb  HCIDrv.o [3]
+HCI_RegisterEventCallback
+                        0x0800bed9     0xa  Code  Gb  HCIDrv.o [3]
+HCI_RegisterSCODataCallback
+                        0x0800beed     0xa  Code  Gb  HCIDrv.o [3]
+HCI_Register_ACL_Data_Callback
+                        0x0800c2eb     0xa  Code  Gb  HCI.o [3]
+HCI_Register_Event_Callback
+                        0x08003179     0xa  Code  Gb  HCI.o [3]
+HCI_Register_SCO_Data_Callback
+                        0x0800c1ed     0xa  Code  Gb  HCI.o [3]
+HCI_Reset               0x0800bef7    0x8a  Code  Gb  HCI.o [3]
+HCI_Schedule_Asynchronous_Callback
+                        0x0801d07f    0x54  Code  Gb  HCI.o [3]
+HCI_SendPacket          0x08012a1d    0xae  Code  Gb  HCIDrv.o [3]
+HCI_Send_ACL_Data       0x080178c1    0x10  Code  Gb  HCI.o [3]
+HCI_Send_Raw_Command    0x0800b61d   0x178  Code  Gb  HCI.o [3]
+HCI_UnRegisterCallback  0x0800c0a1    0x6c  Code  Gb  HCIDrv.o [3]
+HCI_VS_InitializeAfterHCIClose
+                        0x08006caf     0x4  Code  Gb  BTPSVEND.o [1]
+HCI_VS_InitializeAfterHCIOpen
+                        0x08006b63     0x6  Code  Gb  BTPSVEND.o [1]
+HCI_VS_InitializeAfterHCIReset
+                        0x08006b6f    0xe6  Code  Gb  BTPSVEND.o [1]
+HCI_VS_InitializeBeforeHCIClose
+                        0x08006c55    0x5a  Code  Gb  BTPSVEND.o [1]
+HCI_VS_InitializeBeforeHCIOpen
+                        0x08006b45    0x1e  Code  Gb  BTPSVEND.o [1]
+HCI_VS_InitializeBeforeHCIReset
+                        0x08006b69     0x6  Code  Gb  BTPSVEND.o [1]
+HCI_Version_Supported   0x08009635    0x24  Code  Gb  HCI.o [3]
+HCI_Write_Default_Link_Policy_Settings
+                        0x08002893    0x28  Code  Gb  HCI.o [3]
+HCI_Write_SCO_Flow_Control_Enable
+                        0x0800c1c5    0x28  Code  Gb  HCI.o [3]
+HEAP$$Base              0x20009ce8           --   Gb  - Linker created -
+HEAP$$Limit             0x20009ee8           --   Gb  - Linker created -
+HandleChannelDisconnection
+                        0x0800c655    0xc8  Code  Lc  L2CAP.o [3]
+HandleReadDataError     0x0801ef5f    0x26  Code  Lc  L2CAP.o [3]
+HardFault_Handler       0x08020c5d     0x2  Code  Gb  stm32l1xx_it.o [1]
+I2C_DMAError            0x08013c71    0x32  Code  Lc  stm32l1xx_hal_i2c.o [1]
+I2C_DMAMasterReceiveCplt
+                        0x08013c0b    0x5c  Code  Lc  stm32l1xx_hal_i2c.o [1]
+I2C_IsAcknowledgeFailed
+                        0x08013ed1    0x2a  Code  Lc  stm32l1xx_hal_i2c.o [1]
+I2C_MasterRequestRead   0x08013b05   0x106  Code  Lc  stm32l1xx_hal_i2c.o [1]
+I2C_MasterRequestWrite  0x08013a6f    0x96  Code  Lc  stm32l1xx_hal_i2c.o [1]
+I2C_WaitOnFlagUntilTimeout
+                        0x08013ca3    0xda  Code  Lc  stm32l1xx_hal_i2c.o [1]
+I2C_WaitOnMasterAddressFlagUntilTimeout
+                        0x08013d7d    0x9e  Code  Lc  stm32l1xx_hal_i2c.o [1]
+I2C_WaitOnRXNEFlagUntilTimeout
+                        0x08013e6d    0x64  Code  Lc  stm32l1xx_hal_i2c.o [1]
+I2C_WaitOnTXEFlagUntilTimeout
+                        0x08013e1b    0x52  Code  Lc  stm32l1xx_hal_i2c.o [1]
+IOCapability            0x200098dd     0x1  Data  Lc  bluetooth_internal.o [1]
+Identifier              0x2000012a     0x2  Data  Lc  L2CAP.o [3]
+Identifier              0x2000012c     0x2  Data  Lc  L2CAP.o [3]
+IdleTimerExpired        0x08021cc1    0x40  Code  Lc  TWUART.o [3]
+InStream_Read           0x08020e0d    0x22  Code  Lc  packbits_init.o [7]
+IncreaseBluetoothStackThreadCount
+                        0x08006de9    0x34  Code  Gb  BSC.o [3]
+InitializeApplication   0x080001f5    0xac  Code  Gb  bluetooth_internal.o [1]
+InitializeBSCModule     0x08006a0d    0x1c  Code  Gb  BSC.o [3]
+InitializeCOMMList      0x0800bcb1    0x12  Code  Gb  HCIComm.o [3]
+InitializeCertificateModule
+                        0x08007125     0x4  Code  Gb  BTPSC.o [3]
+InitializeProtocol      0x080123d9    0x4a  Code  Lc  HCIComm.o [3]
+InquiryResultList       0x20008a30   0x460  Data  Lc  bluetooth_internal.o [1]
+IssueBondingCallback    0x0801b755    0x38  Code  Lc  GAP.o [3]
+KernelMutex             0x200097b4     0x4  Data  Lc  BTPSKRNL.o [1]
+L2CAP_Cleanup           0x08007a37    0x74  Code  Gb  L2CAP.o [3]
+L2CAP_ConfigRequestEvent
+                        0x0801e84d   0x210  Code  Lc  L2CAP.o [3]
+L2CAP_ConfigRequestResponse
+                        0x0801a9af   0x10a  Code  Lc  L2CAP.o [3]
+L2CAP_ConfigResponseEvent
+                        0x0801ea61    0xc2  Code  Lc  L2CAP.o [3]
+L2CAP_ConnectRequestEvent
+                        0x0801e57d   0x19e  Code  Lc  L2CAP.o [3]
+L2CAP_ConnectRequestResponse
+                        0x0801a7df    0xc6  Code  Lc  L2CAP.o [3]
+L2CAP_ConnectResponseEvent
+                        0x0801e721   0x122  Code  Lc  L2CAP.o [3]
+L2CAP_ConnectionParameterUpdateRequestEvent
+                        0x0801edb3    0x9c  Code  Lc  L2CAP.o [3]
+L2CAP_ConnectionParameterUpdateResponseEvent
+                        0x0801ee4f    0x7a  Code  Lc  L2CAP.o [3]
+L2CAP_ConnectionTimeout
+                        0x08021ea3    0x36  Code  Lc  L2CAP.o [3]
+L2CAP_DataWrite         0x080170ab    0x7c  Code  Lc  L2CAP.o [3]
+L2CAP_DisconnectRequestEvent
+                        0x0801eb23    0x86  Code  Lc  L2CAP.o [3]
+L2CAP_DisconnectRequestResponse
+                        0x080162b9    0x90  Code  Lc  L2CAP.o [3]
+L2CAP_DisconnectResponseEvent
+                        0x0801eba9    0x80  Code  Lc  L2CAP.o [3]
+L2CAP_EchoRequestResponse
+                        0x0801ec29    0xac  Code  Lc  L2CAP.o [3]
+L2CAP_InformationRequestResponse
+                        0x0801ecd5    0xde  Code  Lc  L2CAP.o [3]
+L2CAP_Initialize        0x08007381   0x1e0  Code  Gb  L2CAP.o [3]
+L2CAP_ProcessACLQueue   0x08017513    0x36  Code  Lc  L2CAP.o [3]
+L2CAP_ReceiveTimeout    0x0802071d    0x82  Code  Lc  L2CAP.o [3]
+L2CAP_RejectCommand     0x0801eec9    0x96  Code  Lc  L2CAP.o [3]
+L2CAP_RequestTimeout    0x0801e441   0x13a  Code  Lc  L2CAP.o [3]
+L2CAP_StateTimeout      0x08021907    0x66  Code  Lc  L2CAP.o [3]
+L2CA_DEFAULT_QOS_FLOW_SPEC
+                        0x08022134    0x18  Data  Lc  L2CAP.o [3]
+L2CA_Event_Callback     0x08019439   0x6e8  Code  Lc  SDP.o [3]
+L2CA_Event_Callback     0x0801d13d   0x3ee  Code  Lc  RFCOMM.o [3]
+L2CA_Get_Link_Connection_State
+                        0x0800fdbb    0xec  Code  Gb  L2CAP.o [3]
+L2CA_Register_Fixed_Channel
+                        0x08012695    0x84  Code  Gb  L2CAP.o [3]
+L2CA_Set_Link_Connection_Configuration
+                        0x08002817    0x42  Code  Gb  L2CAP.o [3]
+LP_ConnectCfm           0x0801cf45   0x13a  Code  Lc  L2CAP.o [3]
+LP_ConnectCfmNeg        0x0801ccf9    0xf4  Code  Lc  L2CAP.o [3]
+LP_ConnectIndication    0x0801ce73    0xa6  Code  Lc  L2CAP.o [3]
+LP_DisconnectCfm        0x080163e9    0xf6  Code  Lc  L2CAP.o [3]
+LP_DisconnectReq        0x080128f1    0x64  Code  Lc  L2CAP.o [3]
+LinkKeyInfo             0x200096d8    0x18  Data  Lc  bluetooth_internal.o [1]
+LoadInt                 0x0800aaf9    0x6e  Code  Lc  xprintffull.o [5]
+MITMProtection          0x200098df     0x1  Data  Lc  bluetooth_internal.o [1]
+MX_DMA_Init             0x0800eea5    0xe4  Code  Gb  dma.o [1]
+MX_FREERTOS_Init        0x0800a495    0x30  Code  Gb  freertos.o [1]
+MX_FSMC_Init            0x0800ef89    0x94  Code  Gb  fsmc.o [1]
+MX_GPIO_Init            0x0800ec49   0x25c  Code  Gb  gpio.o [1]
+MX_I2C1_Init            0x0800f0a9    0x4c  Code  Gb  i2c.o [1]
+MX_RTC_Init             0x0800f1e9    0xba  Code  Gb  rtc.o [1]
+MX_SPI1_Init            0x0800f2e1    0x5e  Code  Gb  spi.o [1]
+MX_SPI2_Init            0x0800f33f    0x5e  Code  Gb  spi.o [1]
+MX_TIM3_Init            0x0800f4e5    0x9c  Code  Gb  tim.o [1]
+MX_TIM4_Init            0x0800f581    0x66  Code  Gb  tim.o [1]
+MX_USART1_UART_Init     0x0800898d    0x46  Code  Gb  usart.o [1]
+MailboxDeleteDataCallback
+                        0x08022095    0x26  Code  Lc  HCI.o [3]
+MapSendRawResults       0x0800b799    0x36  Code  Lc  BTVS.o [1]
+MemManage_Handler       0x08020c5f     0x2  Code  Gb  stm32l1xx_it.o [1]
+NMI_Handler             0x08020c55     0x8  Code  Gb  stm32l1xx_it.o [1]
+NVIC_DisableIRQ         0x0800ca07    0x76  Code  Lc  stm32l1xx_hal_cortex.o [1]
+NVIC_EnableIRQ          0x0800c991    0x76  Code  Lc  stm32l1xx_hal_cortex.o [1]
+NVIC_EncodePriority     0x0800caa3    0x6e  Code  Lc  stm32l1xx_hal_cortex.o [1]
+NVIC_GetPriorityGrouping
+                        0x0800c985     0xc  Code  Lc  stm32l1xx_hal_cortex.o [1]
+NVIC_SetPriority        0x0800ca7d    0x26  Code  Lc  stm32l1xx_hal_cortex.o [1]
+NVIC_SetPriorityGrouping
+                        0x0800c961    0x24  Code  Lc  stm32l1xx_hal_cortex.o [1]
+NextCallbackID          0x20000160     0x4  Data  Lc  HCI.o [3]
+NextCallbackPacketID    0x20000144     0x4  Data  Lc  HCIDrv.o [3]
+NextDriverID            0x20000150     0x4  Data  Lc  HCIComm.o [3]
+NextIdentifier          0x20000130     0x4  Data  Lc  L2CAP.o [3]
+NextPortID              0x20000164     0x4  Data  Lc  SPP.o [3]
+NextRecordHandle        0x20000138     0x4  Data  Lc  SDP.o [3]
+NextRequestID           0x2000013c     0x4  Data  Lc  SDP.o [3]
+NextServerID            0x20000168     0x4  Data  Lc  RFCOMM.o [3]
+NextStackID             0x20000118     0x4  Data  Lc  BSC.o [3]
+NextTimerID             0x20000114     0x4  Data  Lc  BTPSTMR.o [3]
+NextTransactionID       0x20000134     0x2  Data  Lc  SDP.o [3]
+NormalizeUUID           0x0801ab3d    0x62  Code  Lc  SDP.o [3]
+NullADDR                0x2000977c     0x8  Data  Lc  bluetooth_internal.o [1]
+NumberTimers            0x20000100     0x4  Data  Lc  BTPSTMR.o [3]
+NumberofValidResponses  0x200097b0     0x4  Data  Lc  bluetooth_internal.o [1]
+OOBSupport              0x200098de     0x1  Data  Lc  bluetooth_internal.o [1]
+OTP_Cleanup             0x08007867     0x2  Code  Gb  OTP.o [3]
+OTP_Initialize          0x08007863     0x4  Code  Gb  OTP.o [3]
+OpenComm                0x0800bcf5    0xfe  Code  Gb  HCIComm.o [3]
+OpenServer              0x080003a3    0xb0  Code  Gb  bluetooth_internal.o [1]
+OpenStack               0x08000125    0xd0  Code  Gb  bluetooth_internal.o [1]
+PLLMulTable             0x080223e8     0xc  Data  Gb  system_stm32l1xx.o [1]
+ParseAPIOptions         0x0801a8d7    0xd8  Code  Lc  L2CAP.o [3]
+ParseAPIUUIDs           0x0800fa35    0xf0  Code  Lc  SDP.o [3]
+ParseAttributeIDList    0x0801a2a1    0xea  Code  Lc  SDP.o [3]
+ParseConfigurationField
+                        0x080201ed    0x96  Code  Lc  TWUART.o [3]
+ParseOptionsToAPI       0x0801f045   0x164  Code  Lc  L2CAP.o [3]
+ParseRecordAttributes   0x0801adf9   0x14a  Code  Lc  SDP.o [3]
+ParseServiceSearchPattern
+                        0x08019f9d    0xce  Code  Lc  SDP.o [3]
+PendSV_Handler          0x0800a305          Code  Gb  portasm.o [1]
+PostSleepProcessing     0x0800a43b     0x2  Code  Gb  freertos.o [1]
+PreSleepProcessing      0x0800a439     0x2  Code  Gb  freertos.o [1]
+ProcessConnectionError  0x08019cc9    0x64  Code  Lc  SDP.o [3]
+ProcessL2CAPDataPacket  0x0801e10b   0x336  Code  Lc  L2CAP.o [3]
+ProcessRFCOMMControlMessage
+                        0x0801c175   0x622  Code  Lc  RFCOMM.o [3]
+ProcessRFCOMMDataMessage
+                        0x0801d553   0x2c0  Code  Lc  RFCOMM.o [3]
+ProcessReceivedPacket   0x0801fd0d   0x178  Code  Lc  TWUART.o [3]
+ProcessSDPConnectionRequest
+                        0x08019b33    0x8e  Code  Lc  SDP.o [3]
+ProcessSendQueueData    0x08017685   0x1ca  Code  Lc  L2CAP.o [3]
+ProcessServiceAttributeRequest
+                        0x0801a38b   0x1ac  Code  Lc  SDP.o [3]
+ProcessServiceSearchAttributeRequest
+                        0x0801a571   0x25a  Code  Lc  SDP.o [3]
+ProcessServiceSearchRequest
+                        0x0801a105   0x198  Code  Lc  SDP.o [3]
+ProcessTWUARTMessage    0x0801ff71    0xe4  Code  Lc  TWUART.o [3]
+ProtocolEventCallback   0x0801f701   0x20c  Code  Lc  HCIComm.o [3]
+ProtocolTimerCallback   0x080222dd    0x14  Code  Lc  HCIComm.o [3]
+QuerySharedBuffer       0x0800be9f    0x3a  Code  Gb  BSC.o [3]
+QueueACLPacket          0x08017501    0x12  Code  Lc  L2CAP.o [3]
+RCC_SetFlashLatencyFromMSIRange
+                        0x0800eadb    0x90  Code  Lc  stm32l1xx_hal_rcc.o [1]
+RFCOMMCleanupHandler    0x08021893    0x68  Code  Lc  RFCOMM.o [3]
+RFCOMMServerPNMessageHandler
+                        0x08020d31    0xdc  Code  Lc  RFCOMM.o [3]
+RFCOMMServerSABMMessageHandler
+                        0x080203b9   0x188  Code  Lc  RFCOMM.o [3]
+RFCOMM_Cleanup          0x0800793b    0x2c  Code  Gb  RFCOMM.o [3]
+RFCOMM_Control          0x0800fb81    0x38  Code  Lc  RFCOMM.o [3]
+RFCOMM_Control_Message  0x080102ab    0x80  Code  Lc  RFCOMM.o [3]
+RFCOMM_Data_Write       0x0800fff1    0xf0  Code  Lc  RFCOMM.o [3]
+RFCOMM_Event_Callback   0x0801d813   0x390  Code  Lc  SPP.o [3]
+RFCOMM_Initialize       0x08007611    0xbc  Code  Gb  RFCOMM.o [3]
+RFCOMM_SignalTimeout    0x08021037    0xba  Code  Lc  RFCOMM.o [3]
+RFCOMM_Start_Link_Negotiation
+                        0x0801c797    0x60  Code  Lc  RFCOMM.o [3]
+RTC_Alarm_IRQHandler    0x08020d01     0xa  Code  Gb  stm32l1xx_it.o [1]
+RTC_Bcd2ToByte          0x080140b3    0x1a  Code  Gb  stm32l1xx_hal_rtc.o [1]
+RTC_ByteToBcd2          0x0801409d    0x16  Code  Gb  stm32l1xx_hal_rtc.o [1]
+RTC_EnterInitMode       0x08014065    0x38  Code  Gb  stm32l1xx_hal_rtc.o [1]
+ReadDataElementSequenceLength
+                        0x0801aaeb    0x52  Code  Lc  SDP.o [3]
+ReconfigureComm         0x0800f8c5    0xe0  Code  Gb  HCIComm.o [3]
+Region$$Table$$Base     0x080220bc           --   Gb  - Linker created -
+Region$$Table$$Limit    0x080220e8           --   Gb  - Linker created -
+RegisterCallback        0x08008005    0x9e  Code  Lc  HCI.o [3]
+RegisterCallback        0x080124b5    0x94  Code  Lc  HCIDrv.o [3]
+ReleaseBluetoothStackInformation
+                        0x08007d2d    0x18  Code  Gb  BSC.o [3]
+ReleaseGAPLEContext     0x08021acf     0xa  Code  Gb  GAP.o [3]
+RemoveL2CAPConnectionInfoEntry
+                        0x0801447d    0x10  Code  Lc  RFCOMM.o [3]
+RemoveRFCOMMChannelInfoEntry
+                        0x0801448d    0x26  Code  Lc  RFCOMM.o [3]
+RemoveRFCOMMMessageInfoEntryByTEIAndMessage
+                        0x08016ca1    0x42  Code  Lc  RFCOMM.o [3]
+RestartPacketizer       0x0801fced    0x20  Code  Lc  TWUART.o [3]
+RetransmitTimerExpired  0x08021675    0x82  Code  Lc  TWUART.o [3]
+RxBuffer                0x200098da     0x2  Data  Gb  HCITRANS.o [1]
+SCO_Cleanup             0x080079ab    0x8c  Code  Gb  SCO.o [3]
+SCO_Initialize          0x0800715d   0x21c  Code  Gb  SCO.o [3]
+SDPServerRecord         0x08021f20    0x24  Data  Lc  SDP.o [3]
+SDPServerRecordHandleRecordState
+                        0x080033c2     0x5  Data  Lc  SDP.o [3]
+SDPServerRecordServiceList
+                        0x080033c7     0x5  Data  Lc  SDP.o [3]
+SDPServerRecordVersionNumberList
+                        0x08003f56     0x5  Data  Lc  SDP.o [3]
+SDP_Add_Raw_Attribute   0x080093a7    0xea  Code  Gb  SDP.o [3]
+SDP_Cleanup             0x08007967    0x44  Code  Gb  SDP.o [3]
+SDP_Create_Service_Record
+                        0x080091f5   0x152  Code  Gb  SDP.o [3]
+SDP_Delete_Service_Record
+                        0x08003da3    0x5a  Code  Gb  SDP.o [3]
+SDP_Initialize          0x08007569    0xa2  Code  Gb  SDP.o [3]
+SDP_UUID                0x08021f10    0x10  Data  Lc  SDP.o [3]
+SLIPByteEncodingMap     0x08021fd1     0xc  Data  Lc  TWUART.o [3]
+SPI_DMAError            0x08015001    0x24  Code  Lc  stm32l1xx_hal_spi.o [1]
+SPI_DMAHalfReceiveCplt  0x08014fe1     0xe  Code  Lc  stm32l1xx_hal_spi.o [1]
+SPI_DMAHalfTransmitReceiveCplt
+                        0x08014ff1     0xe  Code  Lc  stm32l1xx_hal_spi.o [1]
+SPI_DMAReceiveCplt      0x08014e31    0xd4  Code  Lc  stm32l1xx_hal_spi.o [1]
+SPI_DMATransmitReceiveCplt
+                        0x08014f05    0xdc  Code  Lc  stm32l1xx_hal_spi.o [1]
+SPI_WaitOnFlagUntilTimeout
+                        0x08015025    0xf2  Code  Lc  stm32l1xx_hal_spi.o [1]
+SPPSDPProtocolDescriptorList
+                        0x080223a0     0xc  Data  Lc  SPP.o [3]
+SPPServerHandler        0x0802082f   0x132  Code  Lc  SPP.o [3]
+SPPServerSDPHandle      0x200097ac     0x4  Data  Lc  bluetooth_internal.o [1]
+SPP_Cleanup             0x08007893    0x2a  Code  Gb  SPP.o [3]
+SPP_Close_Server_Port   0x08003d39    0x6a  Code  Gb  SPP.o [3]
+SPP_Data_Read           0x0800467f    0xfc  Code  Gb  SPP.o [3]
+SPP_Data_Write          0x080040e9   0x234  Code  Gb  SPP.o [3]
+SPP_Event_Callback      0x08001c75   0x1e0  Code  Gb  bluetooth_internal.o [1]
+SPP_Initialize          0x080077a5    0x88  Code  Gb  SPP.o [3]
+SPP_Line_Status         0x0801de11    0x80  Code  Gb  SPP.o [3]
+SPP_Open_Port_Request_Response
+                        0x080047d9    0x8a  Code  Gb  SPP.o [3]
+SPP_Open_Server_Port    0x08003a7d    0xe6  Code  Gb  SPP.o [3]
+SPP_Port_Status         0x08009e9f    0xca  Code  Gb  SPP.o [3]
+SPP_Register_Raw_SDP_Record
+                        0x08003b71   0x1c4  Code  Gb  SPP.o [3]
+SPP_Respond_Port_Information
+                        0x0800477b    0x5e  Code  Gb  SPP.o [3]
+SPP_Send_Break          0x0801dd35    0xdc  Code  Gb  SPP.o [3]
+SVC_Handler             0x0800a357          Code  Gb  portasm.o [1]
+SearchACLLinkEntryBD_ADDR
+                        0x0800fdab    0x10  Code  Lc  GAP.o [3]
+SearchACLLinkEntryConnection_Handle
+                        0x0801b81d    0x14  Code  Lc  GAP.o [3]
+SearchACLPacketEntryByConnectionHandle
+                        0x08020709    0x14  Code  Lc  L2CAP.o [3]
+SearchACLPacketEntryByIdentifier
+                        0x080173c9    0x14  Code  Lc  L2CAP.o [3]
+SearchBTStackEntry      0x08009089    0x14  Code  Lc  BSC.o [3]
+SearchCOMEntry          0x08014431    0x14  Code  Lc  HCIComm.o [3]
+SearchCallbackEntry     0x08009cb5    0x10  Code  Lc  GAP.o [3]
+SearchChannelInfoEntry  0x08016231    0x14  Code  Lc  L2CAP.o [3]
+SearchConnectionInfoEntry
+                        0x08019d2d    0x14  Code  Lc  SDP.o [3]
+SearchConnectionInfoEntryByBD_ADDRType
+                        0x08012955    0x44  Code  Lc  L2CAP.o [3]
+SearchConnectionInfoEntryByConnectionHandle
+                        0x080128dd    0x14  Code  Lc  L2CAP.o [3]
+SearchDriverEntry       0x0800c7d9    0x14  Code  Lc  HCIDrv.o [3]
+SearchFixedChannelInfoEntry
+                        0x08017945    0x4c  Code  Lc  L2CAP.o [3]
+SearchIdentifierInfoEntryByIdentifier
+                        0x080178d1    0x14  Code  Lc  L2CAP.o [3]
+SearchL2CAPConnectionInfoEntryByBD_ADDR
+                        0x0801d531    0x10  Code  Lc  RFCOMM.o [3]
+SearchL2CAPConnectionInfoEntryByCID
+                        0x0800fb39    0x14  Code  Lc  RFCOMM.o [3]
+SearchPortInformationEntry
+                        0x0800a29b    0x14  Code  Lc  SPP.o [3]
+SearchRFCOMMChannelInfoEntryByTEIAndDLCI
+                        0x0800fb4d    0x34  Code  Lc  RFCOMM.o [3]
+SearchRFCOMMMessageInfoEntryByMessageTEIAndDLCI
+                        0x08016f0d    0x30  Code  Lc  RFCOMM.o [3]
+SearchRFCOMMMessageInfoEntryByTEIAndDLCI
+                        0x08016ce3    0x24  Code  Lc  RFCOMM.o [3]
+SearchRFCOMMServerInfoEntryByTEI
+                        0x08020541    0x28  Code  Lc  RFCOMM.o [3]
+SearchRegistryByValue   0x080161f9    0x14  Code  Lc  L2CAP.o [3]
+SearchServiceRecordEntry
+                        0x0800fb25    0x14  Code  Lc  SDP.o [3]
+SelectedBD_ADDR         0x20009774     0x8  Data  Lc  bluetooth_internal.o [1]
+SendCommPacket          0x080171f5    0xb6  Code  Gb  HCIComm.o [3]
+SendConnectionResponse  0x08019bc1    0x58  Code  Lc  SDP.o [3]
+SendData                0x080005c5    0x30  Code  Gb  bluetooth_internal.o [1]
+SendDataPacket          0x080179f1    0xfe  Code  Lc  HCI.o [3]
+SendDispatchResetThreadClose
+                        0x0800c111    0x1c  Code  Lc  HCI.o [3]
+SendFormattedControlMessage
+                        0x08014661    0xb8  Code  Lc  RFCOMM.o [3]
+SendHCIPacketToLowerDriver
+                        0x080164e1    0xe2  Code  Lc  HCIDrv.o [3]
+SendNullPacket          0x0801fee1    0x18  Code  Lc  TWUART.o [3]
+SendQueuedData          0x0801dbcd   0x164  Code  Lc  SPP.o [3]
+SendQueuedPackets       0x080214e1    0x20  Code  Lc  HCILL.o [3]
+SendQueuedPackets       0x0801ff15    0x5c  Code  Lc  TWUART.o [3]
+SendReliablePacket      0x08020fb5    0x82  Code  Lc  TWUART.o [3]
+SendSLIPPacket          0x08020059    0xc4  Code  Lc  TWUART.o [3]
+SendSleepIndication     0x08021433    0x10  Code  Lc  HCILL.o [3]
+SendSleepIndication     0x080203a9    0x10  Code  Lc  TWUART.o [3]
+SendTWUARTMessage       0x08020191    0x58  Code  Lc  TWUART.o [3]
+SerialPortID            0x200097a4     0x4  Data  Lc  bluetooth_internal.o [1]
+ServerPortID            0x200097a8     0x4  Data  Lc  bluetooth_internal.o [1]
+ServiceAttributeListValid
+                        0x0801b019    0x12  Code  Lc  SDP.o [3]
+ServiceTimersEvent      0x20000110     0x4  Data  Lc  BTPSTMR.o [3]
+SetConnectabilityMode   0x0800050f    0x32  Code  Lc  bluetooth_internal.o [1]
+SetDiscoverabilityMode  0x08000541    0x34  Code  Gb  bluetooth_internal.o [1]
+SetPairabilityMode      0x080004c9    0x46  Code  Lc  bluetooth_internal.o [1]
+SetTWUARTState          0x08020283    0x80  Code  Lc  TWUART.o [3]
+SetTWUARTTimer          0x0801fc99    0x54  Code  Lc  TWUART.o [3]
+SetTransportConfiguration
+                        0x08017051    0x26  Code  Lc  TWUART.o [3]
+Sleep_Indication_Callback
+                        0x080002a7    0x18  Code  Lc  bluetooth_internal.o [1]
+SpecifiedBaudRate       0x200097b8     0x4  Data  Lc  BTPSVEND.o [1]
+SpecifiedProtocol       0x200098e1     0x1  Data  Lc  BTPSVEND.o [1]
+Start_bt_rxTask         0x080114df    0xa4  Code  Gb  tasks_bt.o [1]
+Start_bt_transportTask  0x0800318d    0x38  Code  Gb  HCITRANS.o [1]
+Start_bt_txTask         0x080114a9    0x36  Code  Gb  tasks_bt.o [1]
+Start_ecg_afeTask       0x08010d83    0x84  Code  Gb  tasks_ecg.o [1]
+Start_ecg_bpmDetTask    0x08010f13   0x2b6  Code  Gb  tasks_ecg.o [1]
+Start_ecg_filterTask    0x08010e07   0x10c  Code  Gb  tasks_ecg.o [1]
+Start_ecg_keyGenTask    0x080111c9    0xa6  Code  Gb  tasks_ecg.o [1]
+Start_ecg_validationTask
+                        0x0801126f    0xc8  Code  Gb  tasks_ecg.o [1]
+Start_fsm_managerTask   0x08011893    0x2a  Code  Gb  tasks_fsm.o [1]
+Start_input_buttonTask  0x08011605    0x9a  Code  Gb  tasks_input.o [1]
+Start_periph_batteryTask
+                        0x0801179b    0x46  Code  Gb  tasks_periph.o [1]
+Start_periph_buzzerTask
+                        0x08011775    0x26  Code  Gb  tasks_periph.o [1]
+Start_periph_rtcTask    0x080117e1    0x2c  Code  Gb  tasks_periph.o [1]
+SynchronousHCICommandCallback
+                        0x0802181f    0x74  Code  Lc  HCI.o [3]
+SysTick_Config          0x0800cb11    0x30  Code  Lc  stm32l1xx_hal_cortex.o [1]
+SysTick_Handler         0x08020c67     0xc  Code  Gb  stm32l1xx_it.o [1]
+SystemClock_Config      0x08008bc7    0xca  Code  Gb  main.o [1]
+SystemCoreClock         0x2000015c     0x4  Data  Gb  system_stm32l1xx.o [1]
+SystemInit              0x0802196d    0x4c  Code  Gb  system_stm32l1xx.o [1]
+TIM4_IRQHandler         0x08020ce1     0xa  Code  Gb  stm32l1xx_it.o [1]
+TIM_Base_SetConfig      0x0801304d    0x6e  Code  Lc  stm32l1xx_hal_tim.o [1]
+TIM_CCxChannelCmd       0x08013261    0x46  Code  Lc  stm32l1xx_hal_tim.o [1]
+TIM_ETR_SetConfig       0x08013245    0x1c  Code  Lc  stm32l1xx_hal_tim.o [1]
+TIM_ITRx_SetConfig      0x0801322f    0x16  Code  Lc  stm32l1xx_hal_tim.o [1]
+TIM_OC1_SetConfig       0x080130bb    0x3e  Code  Lc  stm32l1xx_hal_tim.o [1]
+TIM_OC2_SetConfig       0x080130f9    0x42  Code  Lc  stm32l1xx_hal_tim.o [1]
+TIM_OC3_SetConfig       0x0801313b    0x40  Code  Lc  stm32l1xx_hal_tim.o [1]
+TIM_OC4_SetConfig       0x0801317b    0x42  Code  Lc  stm32l1xx_hal_tim.o [1]
+TIM_TI1_ConfigInputStage
+                        0x080131d5    0x2c  Code  Lc  stm32l1xx_hal_tim.o [1]
+TIM_TI2_ConfigInputStage
+                        0x08013201    0x2e  Code  Lc  stm32l1xx_hal_tim.o [1]
+TWUART_Initialize       0x080160d9    0xec  Code  Gb  TWUART.o [3]
+TWUART_MessageList      0x08021fdd     0xe  Data  Lc  TWUART.o [3]
+TWUART_PacketStartEndByte
+                        0x08021fd0     0x1  Data  Lc  TWUART.o [3]
+TWUART_Protocol_Information
+                        0x08021f5c    0x18  Data  Lc  HCIComm.o [3]
+TWUART_ReceiveBytes     0x0801faf9   0x19a  Code  Gb  TWUART.o [3]
+TWUART_Reconfigure      0x080210f1    0xae  Code  Gb  TWUART.o [3]
+TWUART_Resynchronize    0x08020121    0x6e  Code  Gb  TWUART.o [3]
+TWUART_Shutdown         0x080219d1    0x5c  Code  Gb  TWUART.o [3]
+TWUART_TimerCallbackList
+                        0x08021fec     0xc  Data  Lc  TWUART.o [3]
+TWUART_TransmitBytes    0x08020ef9    0xbc  Code  Gb  TWUART.o [3]
+ThreadCount             0x200098e0     0x1  Data  Lc  BTPSKRNL.o [1]
+ThreadWrapper           0x08001eed    0x1c  Code  Lc  BTPSKRNL.o [1]
+TimerList               0x20008e90   0x1c0  Data  Lc  BTPSTMR.o [3]
+TimerListMutex          0x20000104     0x4  Data  Lc  BTPSTMR.o [3]
+TimerModuleInitialized  0x200000fc     0x1  Data  Lc  BTPSTMR.o [3]
+TimerThread             0x080216f9    0x76  Code  Lc  BTPSTMR.o [3]
+TimerThreadExitEvent    0x20000108     0x4  Data  Lc  BTPSTMR.o [3]
+TimerThreadHandle       0x2000010c     0x4  Data  Lc  BTPSTMR.o [3]
+TransmitData            0x0802140d    0x26  Code  Lc  HCILL.o [3]
+TransmitData            0x08020303    0x1a  Code  Lc  TWUART.o [3]
+UART_DMAError           0x08008415    0x24  Code  Lc  stm32l1xx_hal_uart.o [1]
+UART_DMAReceiveCplt     0x080083c9    0x3c  Code  Lc  stm32l1xx_hal_uart.o [1]
+UART_DMARxHalfCplt      0x08008405     0xe  Code  Lc  stm32l1xx_hal_uart.o [1]
+UART_DMATransmitCplt    0x08008385    0x34  Code  Lc  stm32l1xx_hal_uart.o [1]
+UART_DMATxHalfCplt      0x080083b9     0xe  Code  Lc  stm32l1xx_hal_uart.o [1]
+UART_EndTransmit_IT     0x080084b3    0x30  Code  Lc  stm32l1xx_hal_uart.o [1]
+UART_Receive_IT         0x080084e3    0xc4  Code  Lc  stm32l1xx_hal_uart.o [1]
+UART_SetConfig          0x080085a7   0x3da  Code  Lc  stm32l1xx_hal_uart.o [1]
+UART_Transmit_IT        0x08008439    0x7a  Code  Lc  stm32l1xx_hal_uart.o [1]
+UI_Mode                 0x200097a0     0x4  Data  Gb  bluetooth_internal.o [1]
+USART1_IRQHandler       0x08020ceb     0xa  Code  Gb  stm32l1xx_it.o [1]
+UpdateAndExpireTimers   0x08021775    0x6a  Code  Lc  BTPSTMR.o [3]
+UsageFault_Handler      0x08020c63     0x2  Code  Gb  stm32l1xx_it.o [1]
+VS_Enable_Sleep_Mode    0x0800bbf1    0xac  Code  Gb  BTVS.o [1]
+VS_Update_HCILL_Parameters
+                        0x0800b86f   0x382  Code  Gb  BTVS.o [1]
+VS_Update_UART_Baud_Rate
+                        0x0800b7cf    0xa0  Code  Gb  BTVS.o [1]
+VendorCommandsIssued    0x200098e2     0x1  Data  Lc  BTPSVEND.o [1]
+VerifyACLHeader         0x0802079f    0x90  Code  Lc  L2CAP.o [3]
+VerifySharedBufferPointer
+                        0x08012615    0x28  Code  Gb  BSC.o [3]
+WriteAttributeRequestContinuationInformation
+                        0x0801af43    0x60  Code  Lc  SDP.o [3]
+WriteDataElementSequenceHeader
+                        0x0800934d    0x5a  Code  Gb  SDP.o [3]
+_EncodingSb_Mbtowc      0x08015f3b    0x30  Code  Gb  xencoding_sb.o [5]
+_EncodingSb_Wctomb      0x08015f21    0x1a  Code  Gb  xencoding_sb.o [5]
+_GenldFull              0x0800b383   0x24e  Code  Lc  xprintffull.o [5]
+_HCI_Accept_Connection_Request
+                        0x0801d107    0x34  Code  Gb  HCI.o [3]
+_HCI_Authentication_Requested
+                        0x080215b9    0x2c  Code  Gb  HCI.o [3]
+_HCI_Change_Local_Name  0x08007cb1    0x78  Code  Gb  HCI.o [3]
+_HCI_Create_Connection_Cancel
+                        0x0800fea7    0x30  Code  Gb  HCI.o [3]
+_HCI_Delete_Stored_Link_Key
+                        0x08009a51    0x3c  Code  Gb  HCI.o [3]
+_HCI_Disconnect         0x0800c61f    0x2e  Code  Gb  HCI.o [3]
+_HCI_Event_Callback     0x08020b5d    0xf6  Code  Lc  SCO.o [3]
+_HCI_Event_Callback     0x08021f75    0x2e  Code  Lc  GAPLE.o [3]
+_HCI_Flush              0x0801cf19    0x2c  Code  Gb  HCI.o [3]
+_HCI_Host_Number_Of_Completed_Packets
+                        0x0801f44d    0x94  Code  Gb  HCI.o [3]
+_HCI_IO_Capability_Request_Negative_Reply
+                        0x08009cc5    0x34  Code  Gb  HCI.o [3]
+_HCI_IO_Capability_Request_Reply
+                        0x08009cf9    0x50  Code  Gb  HCI.o [3]
+_HCI_LE_Read_Buffer_Size
+                        0x0800c2b3    0x38  Code  Gb  HCI.o [3]
+_HCI_LE_Read_White_List_Size
+                        0x08012663    0x32  Code  Gb  HCI.o [3]
+_HCI_Link_Key_Request_Negative_Reply
+                        0x08009d81    0x30  Code  Gb  HCI.o [3]
+_HCI_Link_Key_Request_Reply
+                        0x08009d49    0x38  Code  Gb  HCI.o [3]
+_HCI_PIN_Code_Request_Negative_Reply
+                        0x08009ded    0x30  Code  Gb  HCI.o [3]
+_HCI_PIN_Code_Request_Reply
+                        0x08009db1    0x3c  Code  Gb  HCI.o [3]
+_HCI_Read_BD_ADDR       0x080070ed    0x38  Code  Gb  HCI.o [3]
+_HCI_Read_Buffer_Size   0x0800c175    0x50  Code  Gb  HCI.o [3]
+_HCI_Read_Class_of_Device
+                        0x080098dd    0x36  Code  Gb  HCI.o [3]
+_HCI_Read_LE_Host_Supported
+                        0x0800c7a1    0x38  Code  Gb  HCI.o [3]
+_HCI_Read_Local_Supported_Commands
+                        0x0800c069    0x38  Code  Gb  HCI.o [3]
+_HCI_Read_Local_Supported_Features
+                        0x0800c13b    0x3a  Code  Gb  HCI.o [3]
+_HCI_Read_Local_Version_Information
+                        0x0800bf81    0x54  Code  Gb  HCI.o [3]
+_HCI_Read_Remote_Extended_Features
+                        0x0801ce45    0x2e  Code  Gb  HCI.o [3]
+_HCI_Read_Scan_Enable   0x08009735    0x32  Code  Gb  HCI.o [3]
+_HCI_Read_Simple_Pairing_Mode
+                        0x0801ce13    0x32  Code  Gb  HCI.o [3]
+_HCI_Reject_Connection_Request
+                        0x0801d0d3    0x34  Code  Gb  HCI.o [3]
+_HCI_Remote_OOB_Data_Request_Negative_Reply
+                        0x08009c85    0x30  Code  Gb  HCI.o [3]
+_HCI_Remote_OOB_Data_Request_Reply
+                        0x08009c09    0x76  Code  Gb  HCI.o [3]
+_HCI_SCO_Callback       0x08021b23    0x48  Code  Lc  SCO.o [3]
+_HCI_Send_Keypress_Notification
+                        0x08009bd5    0x34  Code  Gb  HCI.o [3]
+_HCI_Set_Connection_Encryption
+                        0x0801b94f    0x2e  Code  Gb  HCI.o [3]
+_HCI_Set_Event_Mask     0x0800bfff    0x32  Code  Gb  HCI.o [3]
+_HCI_User_Confirmation_Request_Negative_Reply
+                        0x08009b25    0x30  Code  Gb  HCI.o [3]
+_HCI_User_Confirmation_Request_Reply
+                        0x08009af5    0x30  Code  Gb  HCI.o [3]
+_HCI_User_Passkey_Request_Negative_Reply
+                        0x08009ba5    0x30  Code  Gb  HCI.o [3]
+_HCI_User_Passkey_Request_Reply
+                        0x08009b55    0x50  Code  Gb  HCI.o [3]
+_HCI_Write_Automatic_Flush_Timeout
+                        0x0801a8a5    0x32  Code  Gb  HCI.o [3]
+_HCI_Write_Class_of_Device
+                        0x08009913    0x32  Code  Gb  HCI.o [3]
+_HCI_Write_Current_IAC_LAP
+                        0x08009809    0x3e  Code  Gb  HCI.o [3]
+_HCI_Write_Default_Link_Policy_Settings
+                        0x08007e05    0x2c  Code  Gb  HCI.o [3]
+_HCI_Write_Encryption_Mode
+                        0x0801b923    0x2c  Code  Gb  HCI.o [3]
+_HCI_Write_LE_Host_Supported
+                        0x0800c031    0x38  Code  Gb  HCI.o [3]
+_HCI_Write_Link_Supervision_Timeout
+                        0x0801aab9    0x32  Code  Gb  HCI.o [3]
+_HCI_Write_SCO_Flow_Control_Enable
+                        0x0801254d    0x2c  Code  Gb  HCI.o [3]
+_HCI_Write_Scan_Enable  0x08009767    0x2c  Code  Gb  HCI.o [3]
+_HCI_Write_Simple_Pairing_Mode
+                        0x08009709    0x2c  Code  Gb  HCI.o [3]
+_IsdstStr               0x2000008c     0x4  Data  Gb  setlocale.o [5]
+_L2CA_Config_Request    0x08019d41   0x18a  Code  Gb  L2CAP.o [3]
+_L2CA_Config_Response   0x08019ed1    0x86  Code  Gb  L2CAP.o [3]
+_L2CA_Connect_Response  0x08019c19    0xac  Code  Gb  L2CAP.o [3]
+_L2CA_Data_Write        0x08014465     0xe  Code  Gb  L2CAP.o [3]
+_L2CA_Disconnect_Request
+                        0x080127bf    0x96  Code  Gb  L2CAP.o [3]
+_L2CA_Disconnect_Response
+                        0x08019f7d    0x20  Code  Gb  L2CAP.o [3]
+_L2CA_Enhanced_Data_Write
+                        0x080145a9    0xb6  Code  Gb  L2CAP.o [3]
+_L2CA_Event_Callback    0x08021ad9    0x4a  Code  Lc  RFCOMM.o [3]
+_L2CA_Event_Callback    0x08021fa3    0x2e  Code  Lc  GAPLE.o [3]
+_L2CA_Flush_Channel_Data
+                        0x08016377    0x72  Code  Gb  L2CAP.o [3]
+_L2CA_Register_PSM      0x0800c307    0x56  Code  Gb  L2CAP.o [3]
+_LdtobFull              0x0800af81   0x3fc  Code  Lc  xprintffull.o [5]
+_LitobFull              0x0800ae79   0x106  Code  Lc  xprintffull.o [5]
+_LocaleEncoding         0x08015f0d     0xe  Code  Gb  setlocale.o [5]
+_LocaleReturnString     0x200000ac    0x50  Data  Lc  setlocale.o [5]
+_Locale_Profile         0x20000090    0x1c  Data  Gb  setlocale.o [5]
+_Locale_aeabi_lconv     0x20000050    0x38  Data  Gb  localeconv.o [5]
+_Locale_lconv           0x20000000    0x50  Data  Gb  localeconv.o [5]
+_Mbtowc                 0x080118d1    0x20  Code  Gb  xmbtowc.o [5]
+_PrintfFull             0x0800a4c5   0x61e  Code  Gb  xprintffull.o [5]
+_PutcharsFull           0x0800b5d1    0x2e  Code  Lc  xprintffull.o [5]
+_PutstrFull             0x0800ab67   0x30c  Code  Lc  xprintffull.o [5]
+_RFCOMM_Event_Callback  0x08021ed9    0x36  Code  Lc  SPP.o [3]
+_RFCOMM_Line_Status_Change
+                        0x0801dec3    0x48  Code  Gb  RFCOMM.o [3]
+_RFCOMM_Modem_Status    0x08010215    0x96  Code  Gb  RFCOMM.o [3]
+_RFCOMM_Open_Response   0x0800a1c9    0xa6  Code  Gb  RFCOMM.o [3]
+_RFCOMM_Parameter_Negotiation_Response
+                        0x08020961    0xc8  Code  Gb  RFCOMM.o [3]
+_RFCOMM_Register_Server_Channel
+                        0x080090d9    0x84  Code  Gb  RFCOMM.o [3]
+_RFCOMM_Release_Request
+                        0x080094a5    0xc6  Code  Gb  RFCOMM.o [3]
+_RFCOMM_Remote_Port_Negotiation_Response
+                        0x0800a13f    0x8a  Code  Gb  RFCOMM.o [3]
+_RFCOMM_Send_Credits    0x08009e91     0xe  Code  Gb  RFCOMM.o [3]
+_RFCOMM_Send_Data       0x08009a41    0x10  Code  Gb  RFCOMM.o [3]
+_RFCOMM_Send_Data_With_Credits
+                        0x08009945    0xfc  Code  Gb  RFCOMM.o [3]
+_RFCOMM_Set_System_Parameters
+                        0x0800c4ab    0x48  Code  Gb  RFCOMM.o [3]
+_RFCOMM_Un_Register_Server_Channel
+                        0x08009183    0x2e  Code  Gb  RFCOMM.o [3]
+_SProut                 0x08003183     0xa  Code  Gb  xsprout.o [5]
+_TzoneStr               0x20000088     0x4  Data  Gb  setlocale.o [5]
+_Wctomb                 0x08011a1d    0x1a  Code  Gb  xwctomb.o [5]
+__aeabi_cdcmple         0x08011be9          Code  Gb  DblCmpLe.o [6]
+__aeabi_cdrcmple        0x08011c19          Code  Gb  DblCmpGe.o [6]
+__aeabi_d2iz            0x08011d59          Code  Gb  DblToI32.o [6]
+__aeabi_d2uiz           0x08011d85          Code  Gb  DblToI32.o [6]
+__aeabi_ddiv            0x08012105          Code  Gb  DblDiv.o [6]
+__aeabi_dmul            0x08011f61          Code  Gb  DblMul.o [6]
+__aeabi_dsub            0x08011de1          Code  Gb  DblSub.o [6]
+__aeabi_i2d             0x08011db1          Code  Gb  I32ToDbl.o [6]
+__aeabi_ldiv0           0x08015fad          Code  Gb  I64DivZer.o [7]
+__aeabi_llsl            0x08016f81          Code  Gb  I64Shl.o [7]
+__aeabi_memclr          0x08015e79          Code  Gb  ABImemclr.o [7]
+__aeabi_memclr4         0x0800463d          Code  Gb  ABImemclr4.o [7]
+__aeabi_memset          0x08006899          Code  Gb  ABImemset.o [7]
+__aeabi_ui2d            0x08011dc5          Code  Gb  I32ToDbl.o [6]
+__aeabi_uldivmod        0x08011ab9          Code  Gb  I64DivMod.o [7]
+__as_div_by_zero        0x0800ebad    0x1c  Code  Gb  divbyzerocheck.o [4]
+__as_overflow_add_s4_fail
+                        0x080043a7     0xa  Code  Gb  rangecheck.o [4]
+__as_overflow_div_s4_fail
+                        0x080043c5     0xa  Code  Gb  rangecheck.o [4]
+__as_overflow_mul_s4_fail
+                        0x080043bb     0xa  Code  Gb  rangecheck.o [4]
+__as_overflow_sub_s4_fail
+                        0x080043b1     0xa  Code  Gb  rangecheck.o [4]
+__as_overunderflow_add_s4_fail
+                        0x08015ab1    0x1c  Code  Gb  checked_operators.o [4]
+__as_overunderflow_mul_s4_fail
+                        0x08015ae9    0x36  Code  Gb  checked_operators.o [4]
+__as_overunderflow_sub_s4_fail
+                        0x08015acd    0x1c  Code  Gb  checked_operators.o [4]
+__as_shiftcount_s4_u8_fail
+                        0x08004407     0xa  Code  Gb  rangecheck.o [4]
+__as_shiftcount_u4_s8_fail
+                        0x08004411     0x4  Code  Gb  rangecheck.o [4]
+__as_shiftcount_u4_u8_fail
+                        0x08004401     0x6  Code  Gb  rangecheck.o [4]
+__as_shiftcount_u8_s8_fail
+                        0x08004437     0xc  Code  Gb  rangecheck.o [4]
+__as_underflow_add_s4_fail
+                        0x080043d7     0xa  Code  Gb  rangecheck.o [4]
+__as_underflow_mul_s4_fail
+                        0x080043eb    0x16  Code  Gb  rangecheck.o [4]
+__as_underflow_sub_s4_fail
+                        0x080043e1     0xa  Code  Gb  rangecheck.o [4]
+__cmain                 0x08022105          Code  Gb  cmain.o [7]
+__data_Aldata           0x20009794     0x8  Data  Gb  xxmemxmalloc.o [5]
+__data_GetMemChunk      0x08015f81    0x2c  Code  Gb  xgetmemchunk.o [5]
+__exit                  0x08020ee5    0x14  Code  Gb  exit.o [8]
+__iar_Dnorm             0x08011ba7    0x42  Code  Gb  xdnorm.o [6]
+__iar_Dscale            0x08011c49   0x110  Code  Gb  xdscale.o [6]
+__iar_Locale_lconv_init
+                        0x0801235d    0x3a  Code  Gb  localeconv.o [5]
+__iar_Mbcurmax          0x08011961     0xa  Code  Gb  xmbcurmax.o [5]
+__iar_Memchr            0x08011909          Code  Gb  memchr.o [7]
+__iar_Memset            0x08006899          Code  Gb  ABImemset.o [7]
+__iar_Memset4_word      0x08009e1d          Code  Gb  ABImemset48.o [7]
+__iar_Memset8_word      0x08009e1d          Code  Gb  ABImemset48.o [7]
+__iar_Memset_word       0x080068a1          Code  Gb  ABImemset.o [7]
+__iar_ReportCheckFailed
+                        0x08009a8d     0xa  Code  Gb  rtc_report.o [8]
+__iar_Strchr            0x080118f1          Code  Gb  strchr.o [7]
+__iar_d2uiz             0x08011d91          Code  Gb  DblToI32.o [6]
+__iar_dadd              0x08015fb1          Code  Gb  DblAdd.o [6]
+__iar_data_init3        0x08022021    0x28  Code  Gb  data_init.o [7]
+__iar_dlib_perthread_access
+                        0x08016085     0x2  Code  Gb  xtls.o [5]
+__iar_dsub              0x08011df5          Code  Gb  DblSub.o [6]
+__iar_dsubStart         0x08011e07          Code  Gb  DblSub.o [6]
+__iar_packbits_init3    0x08020e2f    0xae  Code  Gb  packbits_init.o [7]
+__iar_program_start     0x08022461          Code  Gb  cstartup_M.o [7]
+__iar_strcmp            0x08015e81          Code  Gb  strcmp_unaligned.o [7]
+__iar_ui2d              0x08011dc9          Code  Gb  I32ToDbl.o [6]
+__iar_unaligned___aeabi_memcpy
+                        0x08004451          Code  Gb  ABImemcpy_unaligned.o [7]
+__iar_unaligned___aeabi_memcpy4
+                        0x08004471          Code  Gb  ABImemcpy_unaligned.o [7]
+__iar_unaligned___aeabi_memcpy8
+                        0x08004471          Code  Gb  ABImemcpy_unaligned.o [7]
+__iar_unaligned___aeabi_memmove
+                        0x08006821          Code  Gb  ABImemmove_unaligned.o [7]
+__iar_unaligned___aeabi_memmove4
+                        0x08006821          Code  Gb  ABImemmove_unaligned.o [7]
+__iar_unaligned___aeabi_memmove8
+                        0x08006821          Code  Gb  ABImemmove_unaligned.o [7]
+__iar_unaligned_memcmp  0x08006901          Code  Gb  memcmp_unaligned.o [7]
+__iar_unaligned_strcmp  0x08015e81          Code  Gb  strcmp_unaligned.o [7]
+__iar_unaligned_strcpy  0x08006965          Code  Gb  strcpy_unaligned.o [7]
+__iar_zero_init3        0x08021d01    0x40  Code  Gb  zero_init3.o [7]
+__low_level_init        0x0802211f     0x4  Code  Gb  low_level_init.o [5]
+__vector_table          0x08000000          Data  Gb  startup_stm32l162xd.o [1]
+_call_main              0x08022111          Code  Gb  cmain.o [7]
+_exit                   0x08022129          Code  Gb  cexit.o [7]
+_main                   0x0802211b          Code  Gb  cmain.o [7]
+abort                   0x08020edd     0x6  Code  Gb  abort.o [5]
+afe                     0x20009690    0x28  Data  Gb  freertos.o [1]
+afe_calibrate           0x08010755    0xc0  Code  Gb  afe.o [1]
+afe_format_data         0x080104a7   0x28a  Code  Gb  afe.o [1]
+afe_hal_init            0x0801471d    0x28  Code  Gb  afe_hal.o [1]
+afe_hal_read_register   0x0801476f    0x3c  Code  Gb  afe_hal.o [1]
+afe_hal_write_command   0x080147ab    0x12  Code  Gb  afe_hal.o [1]
+afe_hal_write_register  0x08014745    0x2a  Code  Gb  afe_hal.o [1]
+afe_init                0x0801032d   0x158  Code  Gb  afe.o [1]
+afe_set_gain            0x080108a3    0xe0  Code  Gb  afe.o [1]
+afe_start_read          0x08010485    0x22  Code  Gb  afe.o [1]
+afe_test_signal_on      0x08010815    0x8e  Code  Gb  afe.o [1]
+all_pass_diff_coef      0x08021ff8    0x28  Data  Gb  dsp.o [1]
+behaviour_goodbye       0x08017549    0xc6  Code  Gb  state_goodbye.o [1]
+behaviour_h2h_auth      0x08017bc1     0x6  Code  Gb  state_h2h_auth.o [1]
+behaviour_h2h_connected
+                        0x08017861    0x2a  Code  Gb  state_h2h_connected.o [1]
+behaviour_h2h_keygen    0x080179b1    0x12  Code  Gb  state_h2h_keygen.o [1]
+behaviour_h2h_wait      0x08017649    0x12  Code  Gb  state_h2h_wait.o [1]
+behaviour_h2h_waitkey   0x08017b09    0x6e  Code  Gb  state_h2h_waitkey.o [1]
+behaviour_running       0x08017477     0xa  Code  Gb  state_running.o [1]
+behaviour_welcome       0x08016fa5    0x86  Code  Gb  state_welcome.o [1]
+bluetooth_init          0x080002bf    0xac  Code  Gb  bluetooth_internal.o [1]
+bpm_preprocessing       0x08015a55    0x10  Code  Gb  dsp.o [1]
+bt_recieveTaskHandle    0x200097d8     0x4  Data  Gb  HCITRANS.o [1]
+bt_rxTaskHandle         0x20009844     0x4  Data  Gb  tasks_bt.o [1]
+bt_txTaskHandle         0x20009840     0x4  Data  Gb  tasks_bt.o [1]
+buzzer                  0x20009784     0x8  Data  Gb  freertos.o [1]
+buzzer_init             0x0800cbe1     0x6  Code  Gb  buzzer.o [1]
+buzzer_play             0x0800cbe7    0x64  Code  Gb  buzzer.o [1]
+buzzer_stop             0x0800cc4b    0x16  Code  Gb  buzzer.o [1]
+crctable                0x08020a5c   0x100  Data  Lc  RFCOMM.o [3]
+dc_blocker              0x080152d1    0xba  Code  Gb  dsp.o [1]
+default_button_long     0x080174b7     0x2  Code  Lc  state.o [1]
+default_button_short    0x080174b5     0x2  Code  Lc  state.o [1]
+default_h2h_error       0x080174b3     0x2  Code  Lc  state.o [1]
+default_h2h_ok          0x080174b1     0x2  Code  Lc  state.o [1]
+default_h2h_pass_ready  0x080174af     0x2  Code  Lc  state.o [1]
+default_h2h_start_connect
+                        0x080174ad     0x2  Code  Lc  state.o [1]
+default_implementation  0x080174b9    0x1a  Code  Gb  state.o [1]
+diferentiator_3000      0x08015707   0x328  Code  Gb  dsp.o [1]
+div                     0x080123c9     0xe  Code  Gb  div.o [5]
+eTaskConfirmSleepModeStatus
+                        0x08005471    0x3a  Code  Gb  tasks.o [1]
+ecg_afeTaskHandle       0x2000988c     0x4  Data  Gb  tasks_ecg.o [1]
+ecg_bpmDetTaskHandle    0x20009894     0x4  Data  Gb  tasks_ecg.o [1]
+ecg_filterTaskHandle    0x20009890     0x4  Data  Gb  tasks_ecg.o [1]
+ecg_keyGenTaskHandle    0x20009898     0x4  Data  Gb  tasks_ecg.o [1]
+ecg_validationTaskHandle
+                        0x2000989c     0x4  Data  Gb  tasks_ecg.o [1]
+entry_to_goodbye        0x0801760f    0x1a  Code  Gb  state_goodbye.o [1]
+entry_to_h2h_auth       0x08017bc7    0x20  Code  Gb  state_h2h_auth.o [1]
+entry_to_h2h_connected  0x0801788b    0x20  Code  Gb  state_h2h_connected.o [1]
+entry_to_h2h_keygen     0x080179c3    0x20  Code  Gb  state_h2h_keygen.o [1]
+entry_to_h2h_wait       0x0801765b    0x20  Code  Gb  state_h2h_wait.o [1]
+entry_to_h2h_waitkey    0x08017b77    0x20  Code  Gb  state_h2h_waitkey.o [1]
+entry_to_running        0x08017481    0x14  Code  Gb  state_running.o [1]
+entry_to_welcome        0x0801702b    0x1a  Code  Gb  state_welcome.o [1]
+erase_key               0x08015bb1    0x12  Code  Gb  authentication.o [1]
+exit                    0x08022123     0x4  Code  Gb  exit.o [5]
+free                    0x08011a39    0x7a  Code  Gb  xxmemxfree.o [5]
+fsm                     0x20009524    0x38  Data  Gb  tasks_fsm.o [1]
+fsm_button_long         0x08015eff     0xc  Code  Gb  fsm_client.o [1]
+fsm_button_short        0x08015ef3     0xc  Code  Gb  fsm_client.o [1]
+fsm_client_init         0x08015ec3     0xc  Code  Gb  fsm_client.o [1]
+fsm_h2h_ok              0x08015ee7     0xc  Code  Gb  fsm_client.o [1]
+fsm_h2h_pass_ready      0x08015edb     0xc  Code  Gb  fsm_client.o [1]
+fsm_h2h_start_connect   0x08015ecf     0xc  Code  Gb  fsm_client.o [1]
+fsm_managerTaskHandle   0x200098a8     0x4  Data  Gb  tasks_fsm.o [1]
+fsm_no_event            0x08015f0b     0x2  Code  Gb  fsm_client.o [1]
+gauge                   0x200091f8    0x64  Data  Gb  freertos.o [1]
+gauge_format_data       0x08010a91    0xac  Code  Gb  gauge.o [1]
+gauge_hal_init          0x08015117     0x4  Code  Gb  gauge_hal.o [1]
+gauge_hal_ram_update    0x080151cb   0x104  Code  Gb  gauge_hal.o [1]
+gauge_hal_read_reg16    0x08015193    0x38  Code  Gb  gauge_hal.o [1]
+gauge_hal_read_reg8     0x08015169    0x2a  Code  Gb  gauge_hal.o [1]
+gauge_hal_write_reg16   0x0801513d    0x2c  Code  Gb  gauge_hal.o [1]
+gauge_hal_write_reg8    0x0801511b    0x22  Code  Gb  gauge_hal.o [1]
+gauge_init              0x08010985    0xcc  Code  Gb  gauge.o [1]
+gauge_operation_config  0x20000176     0x2  Data  Gb  gauge.o [1]
+gauge_param_design_capacity
+                        0x2000016c     0x2  Data  Gb  gauge.o [1]
+gauge_param_design_energy
+                        0x2000016e     0x2  Data  Gb  gauge.o [1]
+gauge_param_reserve_capacity
+                        0x20000172     0x2  Data  Gb  gauge.o [1]
+gauge_param_taper_rate  0x20000174     0x2  Data  Gb  gauge.o [1]
+gauge_param_terminate_voltage
+                        0x20000170     0x2  Data  Gb  gauge.o [1]
+gauge_start_read        0x08010a69    0x28  Code  Gb  gauge.o [1]
+h2h_auth_to_wait        0x08017bb5     0xc  Code  Lc  state_h2h_auth.o [1]
+h2h_connect_to_keygen   0x08017855     0xc  Code  Lc  state_h2h_connected.o [1]
+h2h_keygen_to_waitkey   0x080179a5     0xc  Code  Lc  state_h2h_keygen.o [1]
+h2h_wait_to_start_connect
+                        0x0801763d     0xc  Code  Lc  state_h2h_wait.o [1]
+h2h_waitkey_to_aut      0x08017afd     0xc  Code  Lc  state_h2h_waitkey.o [1]
+h2h_waitkey_to_wait     0x08017af1     0xc  Code  Lc  state_h2h_waitkey.o [1]
+hdma_i2c1_rx            0x2000947c    0x38  Data  Gb  i2c.o [1]
+hdma_i2c1_tx            0x20009444    0x38  Data  Gb  i2c.o [1]
+hdma_memtomem_dma2_channel1
+                        0x2000940c    0x38  Data  Gb  dma.o [1]
+hdma_spi1_rx            0x200094ec    0x38  Data  Gb  spi.o [1]
+hdma_spi1_tx            0x200094b4    0x38  Data  Gb  spi.o [1]
+hdma_usart1_rx          0x20009604    0x38  Data  Gb  usart.o [1]
+hdma_usart1_tx          0x200095cc    0x38  Data  Gb  usart.o [1]
+hi2c1                   0x200093d0    0x3c  Data  Gb  i2c.o [1]
+hrtc                    0x200096b8    0x20  Data  Gb  rtc.o [1]
+hspi1                   0x2000925c    0x58  Data  Gb  spi.o [1]
+hspi2                   0x200092b4    0x58  Data  Gb  spi.o [1]
+hsram1                  0x2000930c    0x44  Data  Gb  fsmc.o [1]
+htim3                   0x2000955c    0x38  Data  Gb  tim.o [1]
+htim4                   0x20009594    0x38  Data  Gb  tim.o [1]
+huart1                  0x20009390    0x40  Data  Gb  usart.o [1]
+inHandlerMode           0x080033df    0x12  Code  Lc  cmsis_os.o [1]
+init_key                0x08015b21    0x14  Code  Gb  authentication.o [1]
+input_buttonTaskHandle  0x200098b4     0x4  Data  Gb  tasks_input.o [1]
+leads                   0x200096f0    0x18  Data  Gb  tasks_ecg.o [1]
+localeconv              0x08012397    0x16  Code  Gb  localeconv.o [5]
+log_P_x                 0x08021c7c    0x44  Data  Lc  authentication.o [1]
+log_Q_x1                0x08021c38    0x44  Data  Lc  authentication.o [1]
+log_Q_x2                0x08021bf4    0x44  Data  Lc  authentication.o [1]
+log_Q_x3                0x08021bb0    0x44  Data  Lc  authentication.o [1]
+log_Q_x4                0x08021b6c    0x44  Data  Lc  authentication.o [1]
+low_pass_coef_151hz     0x080215e4    0x90  Data  Gb  dsp.o [1]
+low_pass_filterino_151Hz
+                        0x0801538b   0x364  Code  Gb  dsp.o [1]
+main                    0x08008b31    0x44  Code  Gb  main.o [1]
+makeFreeRtosPriority    0x080033cd    0x12  Code  Lc  cmsis_os.o [1]
+malloc                  0x0801196d    0xac  Code  Gb  xxmemxmalloc.o [5]
+memchr                  0x08011909          Code  Gb  memchr.o [7]
+mutex_ecg_leadsHandle   0x20009848     0x4  Data  Gb  tasks_ecg.o [1]
+osDelay                 0x08003435    0x1c  Code  Gb  cmsis_os.o [1]
+osKernelStart           0x080033f1     0xa  Code  Gb  cmsis_os.o [1]
+osMailCreate            0x080037b9    0x84  Code  Gb  cmsis_os.o [1]
+osMailGet               0x08003891    0xac  Code  Gb  cmsis_os.o [1]
+osMailPut               0x0800383d    0x54  Code  Gb  cmsis_os.o [1]
+osMessageCreate         0x08003699    0x12  Code  Gb  cmsis_os.o [1]
+osMessageGet            0x08003709    0xb0  Code  Gb  cmsis_os.o [1]
+osMessagePut            0x080036ab    0x5e  Code  Gb  cmsis_os.o [1]
+osMutexCreate           0x08003451     0xc  Code  Gb  cmsis_os.o [1]
+osMutexRelease          0x080034db    0x4c  Code  Gb  cmsis_os.o [1]
+osMutexWait             0x0800345d    0x7e  Code  Gb  cmsis_os.o [1]
+osPoolCreate            0x08003625    0x74  Code  Gb  cmsis_os.o [1]
+osSemaphoreCreate       0x08003527    0x34  Code  Gb  cmsis_os.o [1]
+osSemaphoreRelease      0x080035d9    0x4c  Code  Gb  cmsis_os.o [1]
+osSemaphoreWait         0x0800355b    0x7e  Code  Gb  cmsis_os.o [1]
+osSystickHandler        0x0800393d    0x10  Code  Gb  cmsis_os.o [1]
+osThreadCreate          0x080033fb    0x3a  Code  Gb  cmsis_os.o [1]
+pcInterruptPriorityRegisters
+                        0x08022520     0x4  Data  Lc  port.o [1]
+periph_batteryTaskHandle
+                        0x200098cc     0x4  Data  Gb  tasks_periph.o [1]
+periph_buzzerTaskHandle
+                        0x200098c8     0x4  Data  Gb  tasks_periph.o [1]
+periph_rtcTaskHandle    0x200098d0     0x4  Data  Gb  tasks_periph.o [1]
+prvAddCurrentTaskToDelayedList
+                        0x08005655    0x48  Code  Lc  tasks.o [1]
+prvAllocateTCBAndStack  0x080056b1    0x5a  Code  Lc  tasks.o [1]
+prvCheckTasksWaitingTermination
+                        0x080055e5    0x66  Code  Lc  tasks.o [1]
+prvCopyDataFromQueue    0x0800639b    0x30  Code  Lc  queue.o [1]
+prvCopyDataToQueue      0x08006303    0x98  Code  Lc  queue.o [1]
+prvDeleteTCB            0x0800570b    0x12  Code  Lc  tasks.o [1]
+prvGetExpectedIdleTime  0x08004c87    0x30  Code  Lc  tasks.o [1]
+prvHeapInit             0x08006735    0x6e  Code  Lc  heap_4.o [1]
+prvIdleTask             0x0800541f    0x4e  Code  Lc  tasks.o [1]
+prvInitialiseTCBVariables
+                        0x080054b9    0x6c  Code  Lc  tasks.o [1]
+prvInitialiseTaskLists  0x08005525    0xb4  Code  Lc  tasks.o [1]
+prvInsertBlockIntoFreeList
+                        0x080067a3    0x62  Code  Lc  heap_4.o [1]
+prvIsQueueEmpty         0x080064a1    0x20  Code  Lc  queue.o [1]
+prvIsQueueFull          0x080064c1    0x22  Code  Lc  queue.o [1]
+prvResetNextTaskUnblockTime
+                        0x0800571d    0x2e  Code  Lc  tasks.o [1]
+prvTaskExitError        0x08008cc9    0x1a  Code  Lc  port.o [1]
+prvUnlockQueue          0x080063cb    0xd6  Code  Lc  queue.o [1]
+pvPortMalloc            0x080065d1    0xfa  Code  Gb  heap_4.o [1]
+pvTaskIncrementMutexHeldCount
+                        0x08005aed    0x1e  Code  Gb  tasks.o [1]
+pxCurrentTCB            0x20009800     0x4  Data  Gb  tasks.o [1]
+pxDelayedTaskList       0x20009804     0x4  Data  Lc  tasks.o [1]
+pxEnd                   0x200097dc     0x4  Data  Lc  heap_4.o [1]
+pxOverflowDelayedTaskList
+                        0x20009808     0x4  Data  Lc  tasks.o [1]
+pxPortInitialiseStack   0x08008cad    0x1c  Code  Gb  port.o [1]
+pxReadyTasksLists       0x2000916c    0x8c  Data  Lc  tasks.o [1]
+queue_bt_packet_recievedHandle
+                        0x20009838     0x4  Data  Gb  tasks_bt.o [1]
+queue_bt_packet_sendHandle
+                        0x2000983c     0x4  Data  Gb  tasks_bt.o [1]
+queue_ecg_afe_ch_1Handle
+                        0x20009858     0x4  Data  Gb  tasks_ecg.o [1]
+queue_ecg_afe_ch_2Handle
+                        0x2000985c     0x4  Data  Gb  tasks_ecg.o [1]
+queue_ecg_bpmHandle     0x2000987c     0x4  Data  Gb  tasks_ecg.o [1]
+queue_ecg_bpm_screenHandle
+                        0x20009880     0x4  Data  Gb  tasks_ecg.o [1]
+queue_ecg_keyHandle     0x20009884     0x4  Data  Gb  tasks_ecg.o [1]
+queue_ecg_keybtHandle   0x20009888     0x4  Data  Gb  tasks_ecg.o [1]
+queue_ecg_lead_IHandle  0x20009864     0x4  Data  Gb  tasks_ecg.o [1]
+queue_ecg_lead_IIHandle
+                        0x20009868     0x4  Data  Gb  tasks_ecg.o [1]
+queue_ecg_lead_IIIHandle
+                        0x2000986c     0x4  Data  Gb  tasks_ecg.o [1]
+queue_ecg_lead_aVFHandle
+                        0x20009878     0x4  Data  Gb  tasks_ecg.o [1]
+queue_ecg_lead_aVLHandle
+                        0x20009874     0x4  Data  Gb  tasks_ecg.o [1]
+queue_ecg_lead_aVRHandle
+                        0x20009870     0x4  Data  Gb  tasks_ecg.o [1]
+queue_ecg_preprocessedHandle
+                        0x20009860     0x4  Data  Gb  tasks_ecg.o [1]
+queue_fsm_eventsHandle  0x200098a4     0x4  Data  Gb  tasks_fsm.o [1]
+queue_periph_buzzerHandle
+                        0x200098c4     0x4  Data  Gb  tasks_periph.o [1]
+rtc_fail4               0x08004387    0x16  Code  Lc  rangecheck.o [4]
+rtc_fail4               0x08015a9b    0x16  Code  Lc  checked_operators.o [4]
+rtc_fail8               0x08004351    0x36  Code  Lc  rangecheck.o [4]
+rtc_fail8               0x08015a65    0x36  Code  Lc  checked_operators.o [4]
+running_action_button_short
+                        0x080173dd    0x8e  Code  Lc  state_running.o [1]
+running_to_goodbye      0x0801746b     0xc  Code  Lc  state_running.o [1]
+sem_bt_data_receiveHandle
+                        0x200097d4     0x4  Data  Gb  HCITRANS.o [1]
+sem_ecg_afe_dma_rxHandle
+                        0x20009850     0x4  Data  Gb  tasks_ecg.o [1]
+sem_ecg_afe_drdyHandle  0x2000984c     0x4  Data  Gb  tasks_ecg.o [1]
+sem_ecg_keygenHandle    0x20009854     0x4  Data  Gb  tasks_ecg.o [1]
+sem_input_button_long_pressHandle
+                        0x200098b0     0x4  Data  Gb  tasks_input.o [1]
+sem_input_button_short_pressHandle
+                        0x200098ac     0x4  Data  Gb  tasks_input.o [1]
+sem_periph_batteryHandle
+                        0x200098b8     0x4  Data  Gb  tasks_periph.o [1]
+sem_periph_gauge_dma_rxHandle
+                        0x200098bc     0x4  Data  Gb  tasks_periph.o [1]
+sem_periph_rtcHandle    0x200098c0     0x4  Data  Gb  tasks_periph.o [1]
+show_filter             0x080156ef    0x18  Code  Gb  dsp.o [1]
+sizerino                0x200098a0     0x4  Data  Gb  tasks_ecg.o [1]
+sprintf                 0x08015e45    0x34  Code  Gb  sprintf.o [5]
+strchr                  0x080118f1          Code  Gb  strchr.o [7]
+strlen                  0x080069a9          Code  Gb  strlen.o [7]
+system_init             0x0800a451    0x24  Code  Gb  freertos.o [1]
+tasks_bt_init           0x08011435    0x40  Code  Gb  tasks_bt.o [1]
+tasks_bt_start          0x08011475    0x34  Code  Gb  tasks_bt.o [1]
+tasks_ecg_init          0x08010b3d   0x1bc  Code  Gb  tasks_ecg.o [1]
+tasks_ecg_start         0x08010cf9    0x8a  Code  Gb  tasks_ecg.o [1]
+tasks_fsm_init          0x08011855    0x20  Code  Gb  tasks_fsm.o [1]
+tasks_fsm_start         0x08011875    0x1e  Code  Gb  tasks_fsm.o [1]
+tasks_input_init        0x080115bd    0x2a  Code  Gb  tasks_input.o [1]
+tasks_input_start       0x080115e7    0x1e  Code  Gb  tasks_input.o [1]
+tasks_periph_init       0x080116d1    0x5a  Code  Gb  tasks_periph.o [1]
+tasks_periph_start      0x0801172b    0x4a  Code  Gb  tasks_periph.o [1]
+ucHeap                  0x20000178  0x88b8  Data  Lc  heap_4.o [1]
+ucMaxSysCallPriority    0x200098e3     0x1  Data  Lc  port.o [1]
+ulMaxPRIGROUPValue      0x200097f8     0x4  Data  Lc  port.o [1]
+ulPortSetInterruptMask  0x0800a343          Code  Gb  portasm.o [1]
+ulStoppedTimerCompensation
+                        0x200097f4     0x4  Data  Lc  port.o [1]
+ulTimerCountsForOneTick
+                        0x200097ec     0x4  Data  Lc  port.o [1]
+uwTick                  0x200097fc     0x4  Data  Gb  stm32l1xx_hal.o [1]
+uxCriticalNesting       0x20000158     0x4  Data  Lc  port.o [1]
+uxCurrentNumberOfTasks  0x20009810     0x4  Data  Lc  tasks.o [1]
+uxListRemove            0x0800a40f    0x28  Code  Gb  list.o [1]
+uxPendedTicks           0x20009820     0x4  Data  Lc  tasks.o [1]
+uxSchedulerSuspended    0x20009834     0x4  Data  Lc  tasks.o [1]
+uxTaskNumber            0x2000982c     0x4  Data  Lc  tasks.o [1]
+uxTasksDeleted          0x2000980c     0x4  Data  Lc  tasks.o [1]
+uxTopReadyPriority      0x20009818     0x4  Data  Lc  tasks.o [1]
+vApplicationStackOverflowHook
+                        0x0800a43d    0x14  Code  Gb  freertos.o [1]
+vListInitialise         0x0800a399    0x1e  Code  Gb  list.o [1]
+vListInitialiseItem     0x0800a3b7     0x6  Code  Gb  list.o [1]
+vListInsert             0x0800a3d5    0x3a  Code  Gb  list.o [1]
+vListInsertEnd          0x0800a3bd    0x18  Code  Gb  list.o [1]
+vPortClearInterruptMask
+                        0x0800a351          Code  Gb  portasm.o [1]
+vPortEnterCritical      0x08008d7d    0x30  Code  Gb  port.o [1]
+vPortExitCritical       0x08008dad    0x2a  Code  Gb  port.o [1]
+vPortFree               0x080066cb    0x64  Code  Gb  heap_4.o [1]
+vPortSetupTimerInterrupt
+                        0x08008f39    0x6a  Code  Wk  port.o [1]
+vPortStartFirstTask     0x0800a377          Code  Gb  portasm.o [1]
+vPortSuppressTicksAndSleep
+                        0x08008df5   0x144  Code  Wk  port.o [1]
+vPortValidateInterruptPriority
+                        0x08008fa5    0x3c  Code  Gb  port.o [1]
+vPortYield              0x08008d6b    0x12  Code  Gb  port.o [1]
+vQueueDelete            0x080062e5    0x1e  Code  Gb  queue.o [1]
+vQueueUnregisterQueue   0x080064e3    0xe4  Code  Gb  queue.o [1]
+vTaskDelay              0x08004ba9    0x78  Code  Gb  tasks.o [1]
+vTaskDelete             0x08004a85   0x124  Code  Gb  tasks.o [1]
+vTaskMissedYield        0x08005415     0x8  Code  Gb  tasks.o [1]
+vTaskPlaceOnEventList   0x08005201    0x84  Code  Gb  tasks.o [1]
+vTaskPriorityInherit    0x08005785   0x1ea  Code  Gb  tasks.o [1]
+vTaskSetTimeOutState    0x08005385    0x1e  Code  Gb  tasks.o [1]
+vTaskStartScheduler     0x08004c21    0x56  Code  Gb  tasks.o [1]
+vTaskStepTick           0x08004e21    0x2c  Code  Gb  tasks.o [1]
+vTaskSuspendAll         0x08004c77    0x10  Code  Gb  tasks.o [1]
+vTaskSwitchContext      0x08005091   0x16a  Code  Gb  tasks.o [1]
+validate                0x08015bc3   0x266  Code  Gb  authentication.o [1]
+vsprintf                0x080069e1    0x2c  Code  Gb  vsprintf.o [5]
+wakeup_check            0x08008b75    0x52  Code  Gb  main.o [1]
+write_key               0x08015b35    0x7c  Code  Gb  authentication.o [1]
+xBlockAllocatedBit      0x200097e8     0x4  Data  Lc  heap_4.o [1]
+xDelayedTaskList1       0x20009708    0x14  Data  Lc  tasks.o [1]
+xDelayedTaskList2       0x2000971c    0x14  Data  Lc  tasks.o [1]
+xFreeBytesRemaining     0x200097e0     0x4  Data  Lc  heap_4.o [1]
+xHeapStructSize         0x0802251c     0x4  Data  Lc  heap_4.o [1]
+xMaximumPossibleSuppressedTicks
+                        0x200097f0     0x4  Data  Lc  port.o [1]
+xMinimumEverFreeBytesRemaining
+                        0x200097e4     0x4  Data  Lc  heap_4.o [1]
+xNextTaskUnblockTime    0x20009830     0x4  Data  Lc  tasks.o [1]
+xNumOfOverflows         0x20009828     0x4  Data  Lc  tasks.o [1]
+xPendingReadyList       0x20009730    0x14  Data  Lc  tasks.o [1]
+xPortGetMinimumEverFreeHeapSize
+                        0x0800672f     0x6  Code  Gb  heap_4.o [1]
+xPortStartScheduler     0x08008ce3    0x88  Code  Gb  port.o [1]
+xPortSysTickHandler     0x08008dd7    0x1e  Code  Gb  port.o [1]
+xQueueCreateCountingSemaphore
+                        0x08005d13    0x3a  Code  Gb  queue.o [1]
+xQueueCreateMutex       0x08005c33    0x5c  Code  Gb  queue.o [1]
+xQueueGenericCreate     0x08005bc9    0x6a  Code  Gb  queue.o [1]
+xQueueGenericReceive    0x08006089   0x184  Code  Gb  queue.o [1]
+xQueueGenericReset      0x08005b51    0x78  Code  Gb  queue.o [1]
+xQueueGenericSend       0x08005d4d   0x160  Code  Gb  queue.o [1]
+xQueueGenericSendFromISR
+                        0x08005ead    0xf8  Code  Gb  queue.o [1]
+xQueueGiveFromISR       0x08005fa5    0xe4  Code  Gb  queue.o [1]
+xQueueGiveMutexRecursive
+                        0x08005c8f    0x40  Code  Gb  queue.o [1]
+xQueueReceiveFromISR    0x0800620d    0xd8  Code  Gb  queue.o [1]
+xQueueRegistry          0x20009350    0x40  Data  Gb  queue.o [1]
+xQueueTakeMutexRecursive
+                        0x08005ccf    0x44  Code  Gb  queue.o [1]
+xSchedulerRunning       0x2000981c     0x4  Data  Lc  tasks.o [1]
+xStart                  0x2000978c     0x8  Data  Lc  heap_4.o [1]
+xSuspendedTaskList      0x20009758    0x14  Data  Lc  tasks.o [1]
+xTaskCheckForTimeOut    0x080053a3    0x72  Code  Gb  tasks.o [1]
+xTaskGenericCreate      0x08004865   0x220  Code  Gb  tasks.o [1]
+xTaskGetCurrentTaskHandle
+                        0x0800574b     0xa  Code  Gb  tasks.o [1]
+xTaskGetSchedulerState  0x08005755    0x26  Code  Gb  tasks.o [1]
+xTaskIncrementTick      0x08004e5d   0x234  Code  Gb  tasks.o [1]
+xTaskPriorityDisinherit
+                        0x0800596f   0x17e  Code  Gb  tasks.o [1]
+xTaskRemoveFromEventList
+                        0x08005285    0xee  Code  Gb  tasks.o [1]
+xTaskResumeAll          0x08004cb7   0x148  Code  Gb  tasks.o [1]
+xTasksWaitingTermination
+                        0x20009744    0x14  Data  Lc  tasks.o [1]
+xTickCount              0x20009814     0x4  Data  Lc  tasks.o [1]
+xYieldPending           0x20009824     0x4  Data  Lc  tasks.o [1]
+
+
+[1] = C:\Users\Administrator\Documents\GitHub\tiic-2015\code\Persimmon\H2H Pacemaker\EWARM\H2H\Obj
+[2] = command line
+[3] = Bluetopia_16_M3.a
+[4] = as7l.a
+[5] = dl7M_tlf.a
+[6] = m7M_tl.a
+[7] = rt7M_tl.a
+[8] = shb_l.a
+
+  132 465 bytes of readonly  code memory
+    8 366 bytes of readonly  data memory
+   40 676 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

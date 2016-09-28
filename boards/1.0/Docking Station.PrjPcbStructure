@@ -1,0 +1,3 @@
+Record=TopLevelDocument|FileName=Docking Station.SchDoc
+Record=SheetSymbol|Record=SheetSymbol|SourceDocument=Docking Station.SchDoc|Designator=U_Battery Charger|SchDesignator=U_Battery Charger|FileName=Battery Charger.SchDoc|SymbolType=Normal|RawFileName=Battery Charger.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|Record=SheetSymbol|SourceDocument=Docking Station.SchDoc|Designator=U_Power Supply|SchDesignator=U_Power Supply|FileName=Power Supply.SchDoc|SymbolType=Normal|RawFileName=Power Supply.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 19:14:14 On 15/04/2016
+
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [H2H Power Supply.PrjPCB]
+   Generated File[Bill of Materials-H2H Power Supply.xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 19:14:26 On 15/04/2016

@@ -1,0 +1,33 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~Docking Station.PrjPcb|ReportField=ProjectFullPath~C:\Users\slopez\workspace\github\tiic-2015\Docking Station.PrjPcb|ReportField=Title~Bill of Materials For Project [Docking Station.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~45|ReportField=ReportTime~19:10:10|ReportField=ReportDate~23/07/2015|ReportField=ReportDateTime~23/07/2015 19:10:10|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~23/07/2015|ReportField=CurrentTime~18:59:01|ReportField=Date~|ReportField=DocumentFullPathAndName~C:\Users\slopez\workspace\github\tiic-2015\Docking Station.SchDoc|ReportField=DocumentName~Docking Station.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~03/06/2015|ReportField=Organization~|ReportField=ProjectName~Docking Station.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~Docking Station.PrjPcb|ReportField=DataSourceFullPath~C:\Users\slopez\workspace\github\tiic-2015\Docking Station.PrjPcb
+6.8u|Polarized Capacitor|C1, C2|CRADIAL-5mm-16mm|Pol Capacitor|2
+100p|Capacitor|C3|C1206|Capacitor|1
+4.7u|Polarized Capacitor|C4|CAPAE5543X54N|Pol Capacitor|1
+0.1u|Capacitor|C5, C8, C10, C11|C1206|Capacitor|4
+2.2n|Capacitor|C6|C1206|Capacitor|1
+1.2m|Polarized Capacitor|C7|CRADIAL-5mm-20mm|Pol Capacitor|1
+1u|Capacitor|C9, C12|C1206|Capacitor|2
+MB6S-E3/45|Diode, Bridge Rectifier|D1|SOP250P670X290-4N|MB6S-E3/45|1
+SM6T150A|Diode, Transient Voltage Suppresor, 150V, 600W|D2|SMB|SM6T150A|1
+MRA4005T3G|Diode, Standard, 1A|D3|SMA|MRA4005T3G|1
+1N4148W-7-F|Diode, Switch, 300mA, 100V|D4|SOD123|1N4148W-7-F|1
+B340LA-13-F|Diode, Schottky, 40V, 3A|D5|SMA|B340LA-13-F|1
+ON|LED|D6|LED3015M|LED|1
+CHG|LED|D7|LED3015M|LED|1
+4.7|Resistor, Fuse|FR1|RAXIAL-10mm-0.8mm|Fuse Resistor|1
+UCC28910|700V Flyback Switcher with Constant-Voltage Constant-Current and Primary-side Control|IC1|SOIC127P600X175-7N|UCC28910|1
+BQ24090|Battery Charger, Single Cell Li-Ion/LiPo, 1A|IC2|TSSOP50P490X110_HS-11N|BQ24090|1
+Inlet, IEC|Inlet, IEC - Plug|J1|Inlet, IEC - Plug|Inlet, IEC - Plug|1
+Header 3|Header, 3-Pin|JP1|HDR1X3|Header 3|1
+1m|Inductor|L1, L2|INDUCTOR-5MM|Inductor|2
+2N7002|Transistor, MOSFET, N-Channel, 60V, 300mA|Q1|SOT65P210X110-3N|2N7002|1
+6.8k|Resistor|R1, R2|R1206|Resistor|2
+2K|Resistor|R3, R5, R12|R1206|Resistor|3
+100K|Resistor|R4, R7, R16, R17|R1206|Resistor|4
+33|Resistor|R6|R1206|Resistor|1
+31.6K|Resistor|R8|R1206|Resistor|1
+180|Resistor|R9|R1206|Resistor|1
+15K|Resistor|R10|R1206|Resistor|1
+1.2K|Resistor|R11|R1206|Resistor|1
+10K|Resistor|R13|R1206|Resistor|1
+1.5K|Resistor|R14, R15|R1206|Resistor|2
+WE7508110151|Transformer, Flyback|T1|WE7508110151|WE7508110151|1

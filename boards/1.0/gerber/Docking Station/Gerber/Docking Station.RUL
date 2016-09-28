@@ -1,0 +1,8 @@
+DRC Rules Export File for PCB: C:\Users\slopez\workspace\github\tiic-2015\Docking Station.PcbDoc
+RuleKind=Clearance|RuleName=ClearanceBattCharger|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=ClearancePriSide|Scope=Board|Minimum=19.69
+RuleKind=Clearance|RuleName=ClearancePolygonPriSide|Scope=Board|Minimum=19.69
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=8.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

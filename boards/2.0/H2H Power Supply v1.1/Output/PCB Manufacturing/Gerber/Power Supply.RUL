@@ -1,0 +1,7 @@
+DRC Rules Export File for PCB: C:\Users\slopez\workspace\github\tiic-2015\boards\2.0\H2H Power Supply v1.1\PCB\Power Supply.PcbDoc
+RuleKind=Clearance|RuleName=ClearancePriSide|Scope=Board|Minimum=19.69
+RuleKind=Clearance|RuleName=ClearancePolygonPriSide|Scope=Board|Minimum=19.69
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=9.84
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=9.84
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
